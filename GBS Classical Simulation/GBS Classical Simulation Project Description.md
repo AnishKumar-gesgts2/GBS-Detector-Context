@@ -131,6 +131,8 @@ The next work is:
 4. Compare at declared accuracy thresholds and matched measured time/memory, retaining failures and unsupported cases.
 5. Extend to experimental subsystems and published validation tests only after the practical sampler passes; revise the paper claim to match the evidence.
 
+**Reach task — develop and benchmark an original sampler.** After the primary independent reproduction and stress test of Goodman et al.'s positive-P method, survey the strongest current GBS samplers and identify a specific, testable limitation. If the evidence supports a promising approach, design and implement a new or substantially improved classical sampler and compare it with Goodman et al. and other relevant published methods on the same characterized optical model, detector outputs, sample counts, accuracy criteria, and complete time and memory costs. Use held-out configurations and report unfavorable results. A measured improvement could strengthen a challenge to a particular experimental quantum-advantage claim, but this exploratory task is not a promised algorithmic result or part of the current reproduction's success criteria; agreement on selected statistics alone would not establish full-distribution equivalence.
+
 The first decision may change the final title, algorithm, or target system. The stable objective is to improve the accuracy–cost tradeoff of classical simulation through measured, selective use of information.
 
 ## Sources
