@@ -1,20 +1,22 @@
-# Evaluating and Improving Correlation-Based Classical Simulations of Gaussian Boson Sampling in Quantum Photonics
+# Evaluating Classical Simulation and Validation of Gaussian Boson Sampling
 
 **Status (October 2, 2026):** First selective-correction study completed on 144 synthetic 6-, 8-, and 10-mode instances, including 108 held-out cases. A residual-based selection rule reduced mean full-distribution TVD by 37.2% relative to pairwise maximum-entropy fitting, but was less accurate than uniform third-order fitting in every held-out case. The architecture still enumerates all bit strings; scalable sampling and experimental benchmarking remain open. See [[First Research Draft]] for the full result, measured costs, failures, and publication assessment.
 
 **Active research direction (October 3, 2026):** The grant-facing question is now a direct, independently reproducible test of the published positive-P phase-space sampler on the 8,176-mode Jiuzhang 4.0 L1024 configuration it explicitly left for future work. The question, literature gap, fixed evaluation metrics, matched resource protocol, preliminary evidence boundary, and stop/go gates are in [[Jiuzhang 4 Phase-Space Challenge Research Specification]]. The specification is a research plan; this Jiuzhang-scale reproduction has not yet been run.
 
+**Resource-aware path (October 11, 2026):** Without a grant, begin with a small-system audit of that published sampler, using exact threshold-click distributions to test where its approximations and validation statistics are reliable. Reproducing a published larger benchmark is the next gate; Jiuzhang 4.0 is a contingent scale-up, not a requirement for the small-system study to produce a useful result. No new positive-P reproduction or audit result is claimed here.
+
 **Skeptical audit update:** Independent Torontonian calculations confirmed the reference probabilities, but a stronger omitted exact baseline strictly outperformed the selected approximation on error, preprocessing time, and traced memory in 102 of 108 cases. The current enumerated implementation is therefore a **no-go as a computational improvement** on this grid. The 37.2% error reduction remains an information-allocation finding, not evidence of a cheaper practical simulator. [[Skeptical Audit and Stronger Benchmarks]] supersedes the first draft's performance interpretation and records stronger controls, repeated random trials, and matched timing measurements.
 
 **Research area:** quantum information science, quantum photonics, classical simulation, and statistical validation of sampling experiments.
 
-**One-sentence objective:** Determine which information about a Gaussian boson sampling output distribution is worth computing under a limited classical budget, and use that answer to improve the accuracy–cost tradeoff of classical simulation.
+**One-sentence objective:** Independently test the accuracy and full computing cost of classical GBS sampling methods, beginning with Goodman et al.'s positive-P sampler, and determine when accessible validation statistics do or do not reflect sampling fidelity.
 
 This is the full project description. [[Correlation-Based Classical Simulation of GBS]] contains the shorter research plan and initial evidence. [[First Research Draft]] records the completed first selective study. [[Quantum Research]] is the vault index.
 
 ## Grant-facing summary
 
-Classical simulation is central to assessing the computational claims of Gaussian boson sampling experiments, but accuracy becomes difficult to verify as the output space grows. Existing approximate methods use tractable summaries of a photonic system, including low-order detector correlations or compressed state representations. This project asks how the information chosen for simulation affects the accuracy–cost tradeoff. A first held-out study found that selecting one quarter of triple dependencies retained 74.1% of the aggregate TVD improvement obtained by adding all triples, with lower measured preprocessing time and traced allocation. This result is bounded to exact small-system fitting, which still requires enumeration of the output space. The next stage will test whether selection can improve a practical sampler under matched accuracy and resource limits. Scaling to experimental benchmarks remains evidence-dependent.
+Goodman et al. argue that their approximate positive-P sampler should extend to Jiuzhang 4.0, but they did not test that experiment. This project will independently examine the method's fidelity, validation scores, and end-to-end resource cost. A no-grant first stage will compare its threshold-click samples with exact distributions on tractable optical systems, including regimes where published-style diagnostics may miss errors. A faithful reproduction of a reported larger benchmark is the gate to any Jiuzhang 4.0 extension, which depends on calibrated inputs and sufficient compute. The completed selective-correlation study supplies small-system experience but does not establish the positive-P sampler's performance or an experimental-scale result.
 
 ## 1. The system and the computational task
 
@@ -32,7 +34,9 @@ Classical simulation is central to assessing the computational claims of Gaussia
 
 **What is already known.** The cited authors discuss truncation and its limitations. The mere statement that “low-order correlations do not determine the entire distribution” is therefore background, not this project's discovery. Jiuzhang 4.0 also tested and rejected one simple low-order greedy sampler using higher-order statistics [5]. Any new method must address that stronger comparison.
 
-## 3. The specific gap this project will investigate
+Sections 3–7 retain the original selective-correction question, pilot, and proposed evaluation as a research record and possible later extension. The active near-term sequence is in Section 9 and [[Jiuzhang 4 Phase-Space Challenge Research Specification]].
+
+## 3. Original selective-correction question
 
 **Technical description.** Existing approximation methods create an unresolved *allocation problem*: which correlations, conditional dependencies, or state features should be calculated when computing all of them is too expensive? A uniform cutoff includes every term through order $K$ and excludes every term above it. Yet terms of the same order need not contribute equally to the accuracy of a particular sampler or observable. The project will test whether a small, selected set of additional dependencies improves the full sampling distribution more per unit of computational cost than simply raising a uniform cutoff.
 
@@ -50,7 +54,7 @@ The improvement $\Delta_S$ must be weighed against the extra preprocessing time,
 
 **Why ordinary partial derivatives are not the whole answer.** Differentiating accuracy with respect to physical settings such as squeezing or photon loss answers a different question: how sensitive is the *experiment or model* to those settings? Differentiating with respect to continuous weights inside a simulator can help tune those weights. But adding a new three- or four-detector dependency is a discrete design choice. Controlled add/remove tests and cost-matched comparisons are the clearest initial tools. Physical-parameter sensitivity can later help identify regimes where the simulator is fragile, but it should not be confused with selecting simulator features.
 
-## 4. Proposed method: budgeted correlation selection
+## 4. Original proposed method: budgeted correlation selection
 
 **Technical description.** The working algorithmic hypothesis is a *selective correction* to a valid, normalized baseline sampler. One possible implementation is:
 
@@ -101,39 +105,38 @@ The reproducible files are [prototype code](work/gbs_low_order_information_probe
 
 **Boundary.** This is a storage estimate for one explicit dense representation. It is not a lower bound on all classical GBS simulation. Compression, sparse or on-demand calculations, other algorithms, and changed target accuracy can alter the cost. It also does not show that selected fifth-order terms will be sufficient.
 
-## 7. How the proposed study will be evaluated
+## 7. Original selective-correction evaluation plan
 
-**Technical description.** The first experimental phase is computational and should use predeclared families of exact small GBS instances. Vary mode count, source count, squeezing, transmission, and possibly circuit structure one factor at a time where feasible. Use separate instances to develop the selection rule and to evaluate it. For every held-out case, compare the proposed method against at least (a) its uncorrected baseline and (b) a uniform higher-order method at comparable cost. Publish unsuccessful and inconclusive cases as well as successes.
+**Technical description.** The original plan called for predeclared families of exact small GBS instances. It would vary mode count, source count, squeezing, transmission, and possibly circuit structure one factor at a time where feasible. Separate instances would develop and evaluate the selection rule. For every held-out case, the proposed method would be compared against at least (a) its uncorrected baseline and (b) a uniform higher-order method at comparable cost, retaining unsuccessful and inconclusive cases.
 
 The primary small-system endpoint is full TVD to the exact characterized distribution. Secondary endpoints are click-count distribution error; marginal and connected-correlation errors by order; performance within fixed-click sectors; preprocessing time; peak memory; and per-sample generation time. If actual experimental data become available, compare samplers and hardware on the *same* declared statistical tests, sample sizes, conditioning rules, and optical calibration. A favorable low-order score alone is insufficient for a claim of full sampling accuracy.
 
 The main success criterion is a **Pareto improvement**: across held-out physical GBS instances, the new method obtains lower distribution error than a named baseline for equal or lower measured cost, or the same error at lower cost. A larger-scale quantum-advantage challenge would require an implemented sampler that remains competitive on the relevant experiment's task and validation tests. A negative outcome is also interpretable: the selected corrections may fail, fail to transfer, or cost as much as a uniform cutoff.
 
-**In plain language.** We will judge the method on examples it was not tuned to, using both accuracy and computer resources. The project succeeds scientifically if it gives a clear, reproducible answer about when targeted corrections help—even if that answer is “they do not help in this regime.”
+**In plain language.** This earlier plan would judge a selective-correction method on examples it was not tuned to, using both accuracy and computer resources. Its scientific value would be a clear answer about when targeted corrections help, including a reproducible negative result.
 
 ## 8. Research significance and possible scale
 
-**Technical description.** The near-term output is a controlled map of when accessible GBS validation statistics predict full-distribution accuracy and when they do not. An algorithmic output would be a cost-aware selection and correction strategy that improves classical photonic sampling. Because the underlying problem is how to allocate computation among observable dependencies, the method could eventually inform other structured quantum-sampling simulations, but transfer beyond GBS would require separate tests. A direct BlueQubit Track 2 claim would require a competitive classical algorithm against a concrete experimental benchmark; the present prototype is a feasibility probe for that route.
+**Technical description.** The near-term output is a controlled map of when the published positive-P sampler's threshold-click distribution agrees with exact small-system references and when its accessible validation statistics detect or miss errors. This tests the sampler's projection and correction steps without requiring an experimental-scale run. A subsequent published-benchmark reproduction would check implementation fidelity before any Jiuzhang 4.0 claim. An original sampler remains an optional extension, evaluated only against matched accuracy and resource baselines. The completed selective-correlation prototype is prior evidence about information allocation, not evidence that the positive-P method has been reproduced.
 
-**In plain language.** This can begin as a manageable science-fair study and grow into an algorithm paper if the correction truly works. Its broad potential comes from making simulation more selective: spend computer time where it changes the answer most. The size of any eventual claim will be determined by the evidence, not set in advance.
+**In plain language.** The first useful question is whether the classical method gives the right answers in small cases where the complete answer can be checked. That study can be performed with modest local resources and can identify a concrete reliability boundary even if the largest experiment remains out of reach. A paper or a quantum-advantage challenge would still require a novel, reproducible finding and claims matched to the tests actually completed.
 
 ## 9. Next decisions and near-term work
 
-The first draft has completed the initial bounded version of these steps. Jiuzhang 2.0 is the eventual threshold-detector target; the first published comparison is the stationary model from Villalonga et al.'s printed TAP equations, enumerated at small scale rather than reproducing their Gibbs runtime. Pair-ranked and residual-ranked triple selection were compared with random selection at the same feature/query budgets, uniform third-order fitting, and uncorrected models. The locked grid contains 36 development and 108 held-out instances; measured runtime, isolated traced memory, and all unfavorable cases are retained in [[First Research Draft]].
+The earlier selective-correction study compared pair-ranked and residual-ranked triple selection with random selection, uniform third-order fitting, and uncorrected models on 36 development and 108 held-out synthetic instances. Its measured runtime, traced memory, and unfavorable cases are retained in [[First Research Draft]]. It did not reproduce Goodman et al.'s method or use a calibrated Jiuzhang model.
 
 The selective method reduced mean TVD from 0.10575 to 0.06641. Uniform third-order fitting reached 0.05269. Selection therefore establishes an intermediate accuracy–cost tradeoff, not a strict improvement over both baseline endpoints or a better large-system published sampler. The initial implementation cannot scale because it enumerates $2^M$ outcomes.
 
-The next work is:
+The resource-aware next work is:
 
-1. Complete the novelty/code audit and reproduce a strong published sampler, with calibrated experimental data identified separately from synthetic cases.
-2. Replace enumeration with a practical normalized fitting and sampling architecture, checking sampling reliability and including selection overhead.
-3. Freeze a second suite spanning new circuit structures and noise models, with multiple feature budgets and independent training/evaluation.
-4. Compare at declared accuracy thresholds and matched measured time/memory, retaining failures and unsupported cases.
-5. Extend to experimental subsystems and published validation tests only after the practical sampler passes; revise the paper claim to match the evidence.
+1. Audit the public code, method description, and required inputs. Implement or run the published positive-P threshold sampler faithfully enough to reproduce its projection and whitening–coloring steps; record missing details rather than treating an inferred choice as published method.
+2. On tractable 6-, 8-, and 10-mode instances, compare generated click records with independent exact threshold distributions. Vary squeezing, loss, and circuit structure using frozen development and held-out cases. Measure full-distribution TVD where feasible, published-style count and correlation scores, sampling uncertainty, and the effects of individual approximation steps. This is the no-grant core.
+3. If the small-system implementation checks pass, reproduce at least one reported Jiuzhang 2 or 3 benchmark with its stated optical model, output format, validation definitions, and sample count. Reduced-shot runs are pilots, not full reproductions. Record setup, sampling, and peak memory separately and in an end-to-end total.
+4. Attempt Jiuzhang 4.0 only if the published-benchmark gate passes, the calibrated inputs are available, and a pilot shows that the required sample count fits a declared resource budget. If a gate fails, report the measured boundary rather than substituting an easier target without disclosure.
 
 **Reach task — develop and benchmark an original sampler.** After the primary independent reproduction and stress test of Goodman et al.'s positive-P method, survey the strongest current GBS samplers and identify a specific, testable limitation. If the evidence supports a promising approach, design and implement a new or substantially improved classical sampler and compare it with Goodman et al. and other relevant published methods on the same characterized optical model, detector outputs, sample counts, accuracy criteria, and complete time and memory costs. Use held-out configurations and report unfavorable results. A measured improvement could strengthen a challenge to a particular experimental quantum-advantage claim, but this exploratory task is not a promised algorithmic result or part of the current reproduction's success criteria; agreement on selected statistics alone would not establish full-distribution equivalence.
 
-The first decision may change the final title, algorithm, or target system. The stable objective is to improve the accuracy–cost tradeoff of classical simulation through measured, selective use of information.
+The first decision may change the final title or target system. The stable objective is an evidence-backed account of what the classical method reproduces, what it misses, and what resources it requires.
 
 ## Sources
 
