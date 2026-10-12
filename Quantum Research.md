@@ -1,27 +1,28 @@
 # Quantum Research
 
-This Obsidian vault contains separate projects in quantum information science and quantum photonics. The GBS project studies classical sampling and validation. The Hypergraph project studies photonic error correction. Their results and claim boundaries are independent.
+This vault contains separate projects in quantum information and quantum photonics. Each project's results and claims stand on its own evidence.
 
-## Active research
+## Classical GBS algorithm development
 
-- [[BlueQubit Track 2 Submission Status|BlueQubit Track 2 application milestone]] — readiness, remaining submission work, and deadline verification.
-- [[BlueQubit Track 2 Grant Form Responses|BlueQubit Track 2 grant form responses]] — draft abstract, related work, resource requests, and application-form link.
-- [[Jiuzhang 4 Phase-Space Challenge Research Specification|Jiuzhang 4.0 phase-space challenge — active Track 2 specification]] — research-grade question, preregistered comparison, resource accounting, feasibility gates, and honest preliminary evidence.
-- [[GBS Classical Simulation Project Description|Adaptive correlation-based simulation of Gaussian boson sampling]] — project description, plain-language explanations, prototype, validation plan, and sources. Files are in `GBS Classical Simulation/`.
-- [[GBS Algorithm Opportunities and Validation|GBS algorithm opportunities and validation]] — twelve ranked development directions, prior-work overlap, local mechanism tests, failures, and proposal gates.
-- [[GBS Algorithm Review Synthesis|GBS algorithm review synthesis and current priorities]] — four assessments checked against primary sources, conditional-cumulant diagnostics, and the next feasibility decision.
-- [[GBS Mechanism Selection After Feasibility Review|GBS mechanism selection after feasibility review]] — supplied-code correctness audit, information-theory connection, positive bounded-context sampler, and current research decision.
-- [[GBS Mechanism Smoke Benchmark|GBS mechanism smoke benchmark and measured decisions]] — 429 main comparisons, original Dodd CPU baseline, Goodman equation and batch ports, exact small-system accuracy, timings, memory, and candidate go/stop decisions.
-- [[GBS Detector Context Novelty Audit|GBS detector-context novelty audit]] — close Bayesian-network and quantum-sampling predecessors, existing GBS overlap, and the remaining contribution requirements.
-- [[GBS External Novelty Review Synthesis|GBS external novelty reviews and corrected development target]] — agreement across supplied assessments, checked predecessors, unsupported loss/positivity claims, and the next bounded comparator study.
-- [[Correlation-Based Classical Simulation of GBS|GBS research plan and evidence]] — shorter technical plan and preliminary results.
-- [[First Research Draft|GBS first selective-correction study]] — completed 144-instance benchmark, held-out results, computing costs, failures, reproducibility, and publication pathway.
-- [[Skeptical Audit and Stronger Benchmarks|GBS skepticism audit and revised conclusion]] — independent probability verification and stronger controls; current enumerated implementation fails the practical comparison against exact calculation.
-- [[Fusion Hypergraph Decoder Test Plan|Fusion-Hypergraph Decoder]] — photonic quantum error-correction study in `Hypergraph/`.
+Develop a classical threshold-GBS sampler with a better accuracy–cost tradeoff. The smoke algorithm compiles exact local probabilities into a bounded-parent detector model. Challenging a specific experimental quantum-advantage claim is a conditional longer-term objective.
 
-## Prior concepts
+- [[GBS Classical Simulation/Project Description|Project description]]
+- [[GBS Classical Simulation/Proposal|Research proposal]]
+- [[GBS Classical Simulation/Code Description|Code description and setup]]
+- [[GBS Classical Simulation/Results|Measured smoke results and interpretation]]
+- [[GBS Classical Simulation/Sources|Talk, papers, and source repositories]]
+- [[GBS Classical Simulation/Novelty|Novelty and prior-work boundaries]]
 
-- [[Hybrid MCMC Correlated Random-Walk Decoder|Hybrid MCMC Correlated Random-Walk Decoder]] — retained earlier proposal in `Prior Decoder Concepts/HybridMCMC-CRW/`.
+Simulation code is in `GBS Classical Simulation/src/`; measurements are in `GBS Classical Simulation/results/smoke_v1/`.
+
+## Photonic error correction
+
+- [[Fusion Hypergraph Decoder Test Plan|Fusion-Hypergraph Decoder]] — research study in `Hypergraph/`.
+- [[Photonic Decoder Evaluations|Photonic decoder evaluations]]
+
+## Prior decoder concepts
+
+- [[Hybrid MCMC Correlated Random-Walk Decoder|Hybrid MCMC Correlated Random-Walk Decoder]] — earlier proposal in `Prior Decoder Concepts/HybridMCMC-CRW/`.
 
 ## Repository guide
 

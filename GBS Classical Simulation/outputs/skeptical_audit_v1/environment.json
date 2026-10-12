@@ -1,9 +1,0 @@
-{
-  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
-  "executable": "C:\\Users\\notso\\Documents\\Codex\\2026-10-02\\can-x20\\.audit-venv\\Scripts\\python.exe",
-  "numpy": "2.3.3",
-  "scipy": "1.16.2",
-  "thewalrus": "0.22.0",
-  "numba": "0.67.0",
-  "threadpoolctl": "3.6.0"
-}

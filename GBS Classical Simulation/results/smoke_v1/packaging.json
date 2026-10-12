@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "purpose": "Repository organization and documentation; no new competitive measurements.",
+  "measurement_source_commit": "1b8231645ff38fabc9767fbfd4c22e8021c352da",
+  "measurement_manifest_sha256_before_move": "100ea79dfdf114fe9a7025466ffdc097a76c19fbacb85b33269067f72c5b3a77",
+  "path_mapping": {
+    "work/smoke_benchmark/": "src/",
+    "outputs/smoke_comparison_v1/": "results/smoke_v1/",
+    "work/gbs_algorithm_screen.py shared utilities": "src/gaussian.py",
+    "work/gbs_bounded_context_probe.py shared utilities": "src/context_tables.py",
+    "work/gbs_review_mechanism_probe.py shared utilities": "src/correlations.py"
+  },
+  "extracted_function_sha256_lf_unchanged": {
+    "gaussian.py": {
+      "isometry": "ebb403935aa92e4b4c4bf762489bf05af0d4bdd63a49a470f3003fe55e93acc3",
+      "symplectic": "9fdafc286e418aefa74d82492147cb31bf2dc3e6a77e900b38eacee47a7aac86",
+      "distribution": "174865f416a083823231e433429a19ee8268009094e9273fbc681860d528926d",
+      "tor_reference": "65574293586f85784be76c1c148896f1c5d55d3153e18984e451169725044131",
+      "tvd": "5ee972e39bae96f2fca68b6e5e43e357097c764d9f5c94c4299f85bc90e28cc8",
+      "physical_min": "40d95c8480770eaebf26cb4b23ec57086444b94e5bde557c715841ea0dad9d04"
+    },
+    "context_tables.py": {
+      "subset_distribution": "a1e161ce6cd8c2111cd337f7b3e9ee1f8061628a97fad4f5f391d4f18a0f08da",
+      "pair_information": "2af4849e7adff8da93a5b40b327a82233df16067bd17ec1c7fa017e2f023b07b",
+      "prepare": "b116c7e4daaccb117b93e6695afa124afcd199fd4eea3c5fa1989b0ca61ac76a",
+      "generate": "99a97d544083a95bb3daff7d7b43c3ee35dba73e1ca67ae08d47c929dcf1ead9",
+      "induced_distribution": "3363debb04094641acbecf9fa4dc9bfe42f7a2e263934f27e9979f6398a6e009",
+      "marginal": "cdafb5263e6273644f9043262c5011856a4dc7ba31a5b5992872e896f70f847c",
+      "entropy": "5b4bd1811461283a8e9a93ca567a872295166401f0f9dde39a3f6bd3d3084e22",
+      "omitted_information": "32abbb5572cb55e304f8fee78812a7a7c6c24bb47c37e4497e5cbbb0700f9269"
+    },
+    "correlations.py": {
+      "walsh": "f9eed5916a11583f5c9873c2c653fbe36570ae748c17ff9b1521451a07755631",
+      "cumulants": "05754e54f4af7f58a7a4bbd9b9e92800e0feb0620b89b050b5ac16ca04f82463"
+    }
+  },
+  "behavior_change": "None intended. Imports and output locations changed; historical drivers removed.",
+  "original_metadata": "Saved experiment metadata describes the original measurement environment. Current packaging is described here.",
+  "runner_configuration": "GBS_BENCHMARK_OUTPUT overrides benchmark artifacts without changing methods or saved observations.",
+  "current_manifest": "results/manifest.json; excludes personal drafts, generated samples, caches, and itself."
+}

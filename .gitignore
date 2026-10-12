@@ -4,3 +4,7 @@
 # Local environments and generated detector records.
 .venv/
 /GBS Classical Simulation/samples/
+/GBS Classical Simulation/results/local_runs/
+
+# Local grant drafts are not published.
+Answers to grant questions.md

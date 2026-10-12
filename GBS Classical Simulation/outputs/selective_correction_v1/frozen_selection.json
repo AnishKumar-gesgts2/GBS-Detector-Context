@@ -1,9 +1,0 @@
-{
-  "chosen_method": "residual_selected",
-  "development_mean_tvd": {
-    "pair_selected": 0.0698482029082456,
-    "residual_selected": 0.0655176186086683
-  },
-  "frozen_before_heldout": true,
-  "protocol_sha256": "e608ed15857c65fa210357cfae3b3c9b22c6cdd0b345eb0c32d5f815c91715cc"
-}

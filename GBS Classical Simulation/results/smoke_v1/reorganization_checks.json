@@ -1,0 +1,11 @@
+{
+  "scope": "Reorganization correctness, not a new competitive benchmark.",
+  "golden_context_fixtures": 39,
+  "maximum_saved_tvd_difference": 0.0,
+  "unchanged_ast_function_or_class_definitions": 41,
+  "preserved_measurement_files": 53,
+  "public_and_local_document_links": "passed",
+  "minimal_dependency_cli_fixture_tvd": 0.0032628895089896054,
+  "aggregate_recomputed_from_saved_data": "identical JSON",
+  "original_author_baseline_checks": "passed in separate output directory"
+}
