@@ -1,0 +1,42 @@
+[
+  {
+    "method": "dodd5",
+    "baseline_rss": 123695104,
+    "peak_process_rss": 125022208,
+    "increase": 1327104,
+    "persistent_array_bytes": 0,
+    "scope": "isolated Python worker including model dependencies/native cache loading; not standalone C++ executable memory"
+  },
+  {
+    "method": "goodman_centered",
+    "baseline_rss": 123445248,
+    "peak_process_rss": 171749376,
+    "increase": 48304128,
+    "persistent_array_bytes": 20000,
+    "scope": "isolated Python worker including model dependencies/native cache loading; not standalone C++ executable memory"
+  },
+  {
+    "method": "context6",
+    "baseline_rss": 124071936,
+    "peak_process_rss": 159379456,
+    "increase": 35307520,
+    "persistent_array_bytes": 5680,
+    "scope": "isolated Python worker including model dependencies/native cache loading; not standalone C++ executable memory"
+  },
+  {
+    "method": "source2",
+    "baseline_rss": 123404288,
+    "peak_process_rss": 242098176,
+    "increase": 118693888,
+    "persistent_array_bytes": 3552,
+    "scope": "isolated Python worker including model dependencies/native cache loading; not standalone C++ executable memory"
+  },
+  {
+    "method": "blocks2",
+    "baseline_rss": 123416576,
+    "peak_process_rss": 214458368,
+    "increase": 91041792,
+    "persistent_array_bytes": 6000,
+    "scope": "isolated Python worker including model dependencies/native cache loading; not standalone C++ executable memory"
+  }
+]

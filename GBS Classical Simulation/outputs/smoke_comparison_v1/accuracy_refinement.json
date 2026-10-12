@@ -1,0 +1,3223 @@
+[
+  {
+    "seed": 2026182671,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0009757197954047203,
+    "accuracy": {
+      "full_tvd": 0.06648834434382939,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.002030883830347284,
+          "max_abs_click": 0.003194601699156474,
+          "slope_through_origin_parity": 1.002691063306388,
+          "pearson": 0.98380058406181
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0015497134534104586,
+          "max_abs_click": 0.002685270546935292,
+          "slope_through_origin_parity": 0.9405711790116347,
+          "pearson": 0.9907886082338693
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.001379359358690515,
+          "max_abs_click": 0.003650813866845716,
+          "slope_through_origin_parity": -0.45112070617872374,
+          "pearson": -0.7152132271301539
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.0002658090812154127,
+          "max_abs_click": 0.0010252887747138131,
+          "slope_through_origin_parity": 0.046118000270384964,
+          "pearson": 0.5288133108115359
+        },
+        {
+          "order": 5,
+          "rmse_click": 4.502630875416633e-05,
+          "max_abs_click": 0.0001667301146171373,
+          "slope_through_origin_parity": -0.06292564213985247,
+          "pearson": -0.37403627154562186
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.0433073603884631,
+        "pearson_discrepancy_per_shot": 0.010345191281548833
+      },
+      "two_group_clicks": {
+        "tvd": 0.044366338716869666,
+        "pearson_discrepancy_per_shot": 0.011297823678454711
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.23808339546181512,
+          "candidate_mass": 0.2183953080690127,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.2368452362696194,
+          "candidate_mass": 0.27697799191075545,
+          "conditional_tvd": 0.02897942950104653,
+          "goodman_log_cross_entropy": 2.0817621802651067,
+          "target_entropy": 2.0738263774287633,
+          "dodd_linear_overlap_ratio": 0.99148358272381
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2496401418978682,
+          "candidate_mass": 0.23931994437888793,
+          "conditional_tvd": 0.06939808267416792,
+          "goodman_log_cross_entropy": 3.2923757618675005,
+          "target_entropy": 3.2154707985438313,
+          "dodd_linear_overlap_ratio": 0.9343720767454328
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.1625881981164813,
+          "candidate_mass": 0.15339833029609773,
+          "conditional_tvd": 0.04082722023096705,
+          "goodman_log_cross_entropy": 3.943545411215922,
+          "target_entropy": 3.9416809392886694,
+          "dodd_linear_overlap_ratio": 1.0029668350023322
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.0791663305216111,
+          "candidate_mass": 0.07505712286531419,
+          "conditional_tvd": 0.08788619527123866,
+          "goodman_log_cross_entropy": 4.177554827991284,
+          "target_entropy": 4.172864068037354,
+          "dodd_linear_overlap_ratio": 0.9930403167952481
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.026676620605054657,
+          "candidate_mass": 0.027852563147422946,
+          "conditional_tvd": 0.08513188897987524,
+          "goodman_log_cross_entropy": 3.9642669320422743,
+          "target_entropy": 3.977244553046791,
+          "dodd_linear_overlap_ratio": 1.0109996593821082
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.006089586132263014,
+          "candidate_mass": 0.007530964650987446,
+          "conditional_tvd": 0.06418116018418096,
+          "goodman_log_cross_entropy": 3.2863592556666767,
+          "target_entropy": 3.297554766080919,
+          "dodd_linear_overlap_ratio": 1.0105193388661575
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.0008569577505417869,
+          "candidate_mass": 0.0013472457242170287,
+          "conditional_tvd": 0.03988094488414229,
+          "goodman_log_cross_entropy": 2.0492999861241152,
+          "target_entropy": 2.063453674658361,
+          "dodd_linear_overlap_ratio": 1.0157212024927411
+        },
+        {
+          "clicks": 8,
+          "target_mass": 5.3533244745440633e-05,
+          "candidate_mass": 0.00012052895730452388,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026182671,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0009028829797754479,
+    "accuracy": {
+      "full_tvd": 0.07425299587604312,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0020525262089845357,
+          "max_abs_click": 0.003164558915782101,
+          "slope_through_origin_parity": 1.0024663331242731,
+          "pearson": 0.983263984376415
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.002737938689171067,
+          "max_abs_click": 0.005030185911864618,
+          "slope_through_origin_parity": 0.8369616749993062,
+          "pearson": 0.989731039548828
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0012078115100756124,
+          "max_abs_click": 0.0032768368760738367,
+          "slope_through_origin_parity": -0.2619784282456783,
+          "pearson": -0.6776899964930856
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.0002656101458046931,
+          "max_abs_click": 0.001021940552058809,
+          "slope_through_origin_parity": 0.04395670044288875,
+          "pearson": 0.5816457137376012
+        },
+        {
+          "order": 5,
+          "rmse_click": 4.265897857318435e-05,
+          "max_abs_click": 0.00015978261735810238,
+          "slope_through_origin_parity": -0.0087568297840362,
+          "pearson": -0.10903677055889881
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.04664749309523607,
+        "pearson_discrepancy_per_shot": 0.014278596012553811
+      },
+      "two_group_clicks": {
+        "tvd": 0.0485846281438413,
+        "pearson_discrepancy_per_shot": 0.015268913288130157
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.23808339546181512,
+          "candidate_mass": 0.2061157375031386,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.2368452362696194,
+          "candidate_mass": 0.28334487825031596,
+          "conditional_tvd": 0.03208718747462004,
+          "goodman_log_cross_entropy": 2.0825358851552966,
+          "target_entropy": 2.0738263774287633,
+          "dodd_linear_overlap_ratio": 0.990702550108123
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2496401418978682,
+          "candidate_mass": 0.2490131090787779,
+          "conditional_tvd": 0.07178887813542804,
+          "goodman_log_cross_entropy": 3.2956584028261187,
+          "target_entropy": 3.2154707985438313,
+          "dodd_linear_overlap_ratio": 0.931272640959377
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.1625881981164813,
+          "candidate_mass": 0.1565030300505716,
+          "conditional_tvd": 0.04009700786190909,
+          "goodman_log_cross_entropy": 3.944772487189545,
+          "target_entropy": 3.9416809392886694,
+          "dodd_linear_overlap_ratio": 1.0018838786085633
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.0791663305216111,
+          "candidate_mass": 0.07284736620535412,
+          "conditional_tvd": 0.08773398011630962,
+          "goodman_log_cross_entropy": 4.17765393458984,
+          "target_entropy": 4.172864068037354,
+          "dodd_linear_overlap_ratio": 0.99285433810139
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.026676620605054657,
+          "candidate_mass": 0.025027950669752164,
+          "conditional_tvd": 0.08684823364846742,
+          "goodman_log_cross_entropy": 3.9639242996366653,
+          "target_entropy": 3.977244553046791,
+          "dodd_linear_overlap_ratio": 1.01149425329742
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.006089586132263014,
+          "candidate_mass": 0.006109795041951004,
+          "conditional_tvd": 0.07008531304353101,
+          "goodman_log_cross_entropy": 3.286267521667192,
+          "target_entropy": 3.297554766080919,
+          "dodd_linear_overlap_ratio": 1.0107282103376278
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.0008569577505417869,
+          "candidate_mass": 0.0009638452177339666,
+          "conditional_tvd": 0.04288199410949286,
+          "goodman_log_cross_entropy": 2.049340456181889,
+          "target_entropy": 2.063453674658361,
+          "dodd_linear_overlap_ratio": 1.0160982717521856
+        },
+        {
+          "clicks": 8,
+          "target_mass": 5.3533244745440633e-05,
+          "candidate_mass": 7.428798240484803e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026182672,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0011011182657273304,
+    "accuracy": {
+      "full_tvd": 0.05467727217638423,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.002497105038050637,
+          "max_abs_click": 0.0040310705804605385,
+          "slope_through_origin_parity": 0.9933715672435626,
+          "pearson": 0.9964787883202767
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.00037104153919549545,
+          "max_abs_click": 0.0009370265888924145,
+          "slope_through_origin_parity": 0.990066473642536,
+          "pearson": 0.9989557997312255
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0011924876802763412,
+          "max_abs_click": 0.0033454808458071063,
+          "slope_through_origin_parity": -0.5243109794529084,
+          "pearson": -0.7972395814787183
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00016577202305318494,
+          "max_abs_click": 0.00047473458247760184,
+          "slope_through_origin_parity": 0.10243689360050662,
+          "pearson": 0.7264583824305298
+        },
+        {
+          "order": 5,
+          "rmse_click": 3.024565641265021e-05,
+          "max_abs_click": 8.515959506572458e-05,
+          "slope_through_origin_parity": -0.08916817038306525,
+          "pearson": -0.4253620311340465
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.038008607812415565,
+        "pearson_discrepancy_per_shot": 0.008283395323909723
+      },
+      "two_group_clicks": {
+        "tvd": 0.03823165525548677,
+        "pearson_discrepancy_per_shot": 0.00869423591083582
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.23808339546181517,
+          "candidate_mass": 0.2158967733457085,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.24908941992793138,
+          "candidate_mass": 0.2828950068269694,
+          "conditional_tvd": 0.03130974702377559,
+          "goodman_log_cross_entropy": 2.0810735883446676,
+          "target_entropy": 2.0733850329042363,
+          "dodd_linear_overlap_ratio": 0.992341118549555
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.24866022053106213,
+          "candidate_mass": 0.24146626453295628,
+          "conditional_tvd": 0.04547942962170018,
+          "goodman_log_cross_entropy": 3.301284294121193,
+          "target_entropy": 3.2652899960704675,
+          "dodd_linear_overlap_ratio": 0.9674337343488416
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.15928319508600153,
+          "candidate_mass": 0.15221247744488736,
+          "conditional_tvd": 0.028075462491162495,
+          "goodman_log_cross_entropy": 3.961649941117244,
+          "target_entropy": 3.9682897821888057,
+          "dodd_linear_overlap_ratio": 1.0088588427087406
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.0745177266055379,
+          "candidate_mass": 0.0729604145484491,
+          "conditional_tvd": 0.07884458389614993,
+          "goodman_log_cross_entropy": 4.187528697672421,
+          "target_entropy": 4.194573251587846,
+          "dodd_linear_overlap_ratio": 1.005151731114762
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.0243254888112292,
+          "candidate_mass": 0.026390848862181918,
+          "conditional_tvd": 0.07471060554717737,
+          "goodman_log_cross_entropy": 3.9672594171685915,
+          "target_entropy": 3.9861220166441775,
+          "dodd_linear_overlap_ratio": 1.0176478932072457
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.005303442348989829,
+          "candidate_mass": 0.006901674646776293,
+          "conditional_tvd": 0.07394473767571413,
+          "goodman_log_cross_entropy": 3.2837272830757005,
+          "target_entropy": 3.3043329514954745,
+          "dodd_linear_overlap_ratio": 1.0195226379739046
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.0006961748744462315,
+          "candidate_mass": 0.001176768699559033,
+          "conditional_tvd": 0.06257287337820858,
+          "goodman_log_cross_entropy": 2.0465731735963804,
+          "target_entropy": 2.0658815468184963,
+          "dodd_linear_overlap_ratio": 1.0188502895511389
+        },
+        {
+          "clicks": 8,
+          "target_mass": 4.093635298663134e-05,
+          "candidate_mass": 9.977109251233304e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026182672,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0010229258931668149,
+    "accuracy": {
+      "full_tvd": 0.062247873711071294,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0024008183861999976,
+          "max_abs_click": 0.0037587370194287484,
+          "slope_through_origin_parity": 0.9936599765146698,
+          "pearson": 0.9964700380519382
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0022463467376658067,
+          "max_abs_click": 0.003212398454380816,
+          "slope_through_origin_parity": 0.8479443812777776,
+          "pearson": 0.9973468280929473
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0010132742076509494,
+          "max_abs_click": 0.002951478801118495,
+          "slope_through_origin_parity": -0.2827762978980281,
+          "pearson": -0.7429671922649356
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00016623624956049897,
+          "max_abs_click": 0.0004813598652770989,
+          "slope_through_origin_parity": 0.0962071510200031,
+          "pearson": 0.7518489573935782
+        },
+        {
+          "order": 5,
+          "rmse_click": 2.7971255208022237e-05,
+          "max_abs_click": 7.930534297505027e-05,
+          "slope_through_origin_parity": -0.009683542712358271,
+          "pearson": -0.1541354920995352
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.04400912770027167,
+        "pearson_discrepancy_per_shot": 0.012136298508463497
+      },
+      "two_group_clicks": {
+        "tvd": 0.0452862421256808,
+        "pearson_discrepancy_per_shot": 0.01256306722326384
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.23808339546181517,
+          "candidate_mass": 0.2032448829321993,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.24908941992793138,
+          "candidate_mass": 0.28961841425983514,
+          "conditional_tvd": 0.03689446460648826,
+          "goodman_log_cross_entropy": 2.082520596931605,
+          "target_entropy": 2.0733850329042363,
+          "dodd_linear_overlap_ratio": 0.9909155380324777
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.24866022053106213,
+          "candidate_mass": 0.2518744669493251,
+          "conditional_tvd": 0.04765544689852263,
+          "goodman_log_cross_entropy": 3.3033855430318715,
+          "target_entropy": 3.2652899960704675,
+          "dodd_linear_overlap_ratio": 0.9654622524922256
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.15928319508600153,
+          "candidate_mass": 0.15526567228391094,
+          "conditional_tvd": 0.027934508137997846,
+          "goodman_log_cross_entropy": 3.9633937327468893,
+          "target_entropy": 3.9682897821888057,
+          "dodd_linear_overlap_ratio": 1.0072885127300661
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.0745177266055379,
+          "candidate_mass": 0.07035540696452326,
+          "conditional_tvd": 0.07829297436397714,
+          "goodman_log_cross_entropy": 4.189098825700613,
+          "target_entropy": 4.194573251587846,
+          "dodd_linear_overlap_ratio": 1.0038761871975885
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.0243254888112292,
+          "candidate_mass": 0.023334716083678632,
+          "conditional_tvd": 0.0743376797848758,
+          "goodman_log_cross_entropy": 3.9693552835650356,
+          "target_entropy": 3.9861220166441775,
+          "dodd_linear_overlap_ratio": 1.0158041937741997
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.005303442348989829,
+          "candidate_mass": 0.005441739717085871,
+          "conditional_tvd": 0.07272821590034124,
+          "goodman_log_cross_entropy": 3.2862190926694046,
+          "target_entropy": 3.3043329514954745,
+          "dodd_linear_overlap_ratio": 1.0171893946471482
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.0006961748744462315,
+          "candidate_mass": 0.0008066970740112434,
+          "conditional_tvd": 0.05628144182743529,
+          "goodman_log_cross_entropy": 2.0485112230153097,
+          "target_entropy": 2.0658815468184963,
+          "dodd_linear_overlap_ratio": 1.0169419168944942
+        },
+        {
+          "clicks": 8,
+          "target_mass": 4.093635298663134e-05,
+          "candidate_mass": 5.800373543044314e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183472,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0011620850558497777,
+    "accuracy": {
+      "full_tvd": 0.024804256760378895,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0013888917946970824,
+          "max_abs_click": 0.0027316488499233293,
+          "slope_through_origin_parity": 1.0018391820384,
+          "pearson": 0.9817613176919981
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0003654552090309403,
+          "max_abs_click": 0.0007756029932185771,
+          "slope_through_origin_parity": 0.9951206517993519,
+          "pearson": 0.9989877514294524
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0006913188973287763,
+          "max_abs_click": 0.002200816673642917,
+          "slope_through_origin_parity": 0.046823702225441764,
+          "pearson": -0.26616899351497014
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00012419098639373155,
+          "max_abs_click": 0.00047060812072602636,
+          "slope_through_origin_parity": 0.2681126155074162,
+          "pearson": 0.93649290408378
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.9812472297537555e-05,
+          "max_abs_click": 4.28207541044365e-05,
+          "slope_through_origin_parity": 0.14205105332860593,
+          "pearson": 0.723528448966113
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.01519697892235286,
+        "pearson_discrepancy_per_shot": 0.0013766991450172566
+      },
+      "two_group_clicks": {
+        "tvd": 0.015241429203873355,
+        "pearson_discrepancy_per_shot": 0.0014178338685506293
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.11850993728455962,
+          "candidate_mass": 0.11143635273211153,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.21031418016340947,
+          "candidate_mass": 0.2213951058753262,
+          "conditional_tvd": 0.011950930362310958,
+          "goodman_log_cross_entropy": 2.0793533586625075,
+          "target_entropy": 2.0780032487273914,
+          "dodd_linear_overlap_ratio": 0.9986597194811326
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.25532760593252685,
+          "candidate_mass": 0.25802868648546295,
+          "conditional_tvd": 0.022697566629447743,
+          "goodman_log_cross_entropy": 3.313068851427941,
+          "target_entropy": 3.300694773513296,
+          "dodd_linear_overlap_ratio": 0.9881505986444941
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.21411377023768435,
+          "candidate_mass": 0.21008011557723089,
+          "conditional_tvd": 0.01694076468354265,
+          "goodman_log_cross_entropy": 3.9937631902383326,
+          "target_entropy": 3.994266960605114,
+          "dodd_linear_overlap_ratio": 1.0011227460026844
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.12866784841029977,
+          "candidate_mass": 0.12496645825989056,
+          "conditional_tvd": 0.028861514836185827,
+          "goodman_log_cross_entropy": 4.215746818758768,
+          "target_entropy": 4.220981665960842,
+          "dodd_linear_overlap_ratio": 1.0050423836214213
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.054586637521639836,
+          "candidate_mass": 0.05419828796259784,
+          "conditional_tvd": 0.03174573733284212,
+          "goodman_log_cross_entropy": 3.9986288475618608,
+          "target_entropy": 4.005597494598079,
+          "dodd_linear_overlap_ratio": 1.0067095683960954
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.015575183948419002,
+          "candidate_mass": 0.01645208492916343,
+          "conditional_tvd": 0.027946657441659622,
+          "goodman_log_cross_entropy": 3.31473460378452,
+          "target_entropy": 3.321201886952733,
+          "dodd_linear_overlap_ratio": 1.0062834059516412
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.002693296952044455,
+          "candidate_mass": 0.0031530128702320984,
+          "conditional_tvd": 0.020912263082898,
+          "goodman_log_cross_entropy": 2.0725509325978773,
+          "target_entropy": 2.075541609311223,
+          "dodd_linear_overlap_ratio": 1.0029594816830818
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.00021153954941673103,
+          "candidate_mass": 0.00028989530798465143,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183472,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0011487001633905636,
+    "accuracy": {
+      "full_tvd": 0.02543959030259156,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.001390176221691605,
+          "max_abs_click": 0.0027300906669994462,
+          "slope_through_origin_parity": 1.0018193100088608,
+          "pearson": 0.981687788956448
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0006468320623684109,
+          "max_abs_click": 0.0010586840900273786,
+          "slope_through_origin_parity": 0.9662574783001806,
+          "pearson": 0.9989870652934147
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0006750404654338362,
+          "max_abs_click": 0.0021568501970569195,
+          "slope_through_origin_parity": 0.07019274378790347,
+          "pearson": -0.2402801749006219
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00012358946477488873,
+          "max_abs_click": 0.0004671831810230272,
+          "slope_through_origin_parity": 0.26688903014948,
+          "pearson": 0.9410714740723853
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.9749709948407486e-05,
+          "max_abs_click": 4.282189159233486e-05,
+          "slope_through_origin_parity": 0.14451450351451606,
+          "pearson": 0.7384234092643436
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.01638865753643188,
+        "pearson_discrepancy_per_shot": 0.0015573931946052755
+      },
+      "two_group_clicks": {
+        "tvd": 0.016388657536431858,
+        "pearson_discrepancy_per_shot": 0.0016060558029329917
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.11850993728455962,
+          "candidate_mass": 0.10968072534815743,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.21031418016340947,
+          "candidate_mass": 0.22150008986807918,
+          "conditional_tvd": 0.013123983171261719,
+          "goodman_log_cross_entropy": 2.0794444558223724,
+          "target_entropy": 2.0780032487273914,
+          "dodd_linear_overlap_ratio": 0.9985697611368097
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.25532760593252685,
+          "candidate_mass": 0.2597284308567388,
+          "conditional_tvd": 0.023298254512962944,
+          "goodman_log_cross_entropy": 3.3133707880181285,
+          "target_entropy": 3.300694773513296,
+          "dodd_linear_overlap_ratio": 0.9878690674630005
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.21411377023768435,
+          "candidate_mass": 0.211315556592286,
+          "conditional_tvd": 0.01676729940732561,
+          "goodman_log_cross_entropy": 3.9939804672230697,
+          "target_entropy": 3.994266960605114,
+          "dodd_linear_overlap_ratio": 1.0009126137685727
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.12866784841029977,
+          "candidate_mass": 0.12491994346620038,
+          "conditional_tvd": 0.0285658472316167,
+          "goodman_log_cross_entropy": 4.215889982522837,
+          "target_entropy": 4.220981665960842,
+          "dodd_linear_overlap_ratio": 1.0049148139342723
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.054586637521639836,
+          "candidate_mass": 0.05357331051110793,
+          "conditional_tvd": 0.03180151145591349,
+          "goodman_log_cross_entropy": 3.998810057713067,
+          "target_entropy": 4.005597494598079,
+          "dodd_linear_overlap_ratio": 1.0065641936877219
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.015575183948419002,
+          "candidate_mass": 0.01600613973519003,
+          "conditional_tvd": 0.028270380413263924,
+          "goodman_log_cross_entropy": 3.315025403191501,
+          "target_entropy": 3.321201886952733,
+          "dodd_linear_overlap_ratio": 1.0060280477098542
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.002693296952044455,
+          "candidate_mass": 0.0030060715442442876,
+          "conditional_tvd": 0.019397439031430957,
+          "goodman_log_cross_entropy": 2.0728621412033723,
+          "target_entropy": 2.075541609311223,
+          "dodd_linear_overlap_ratio": 1.0026607058676758
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.00021153954941673103,
+          "candidate_mass": 0.00026973207799609175,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183671,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0029864713671167342,
+    "accuracy": {
+      "full_tvd": 0.04287084864262992,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.002154232778575854,
+          "max_abs_click": 0.003985010597416627,
+          "slope_through_origin_parity": 1.003615458525627,
+          "pearson": 0.9944847232834809
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0006149565176996483,
+          "max_abs_click": 0.0014564389127876554,
+          "slope_through_origin_parity": 0.9811628559482684,
+          "pearson": 0.9989144315098912
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0015510807875559207,
+          "max_abs_click": 0.004859973464336277,
+          "slope_through_origin_parity": 0.18352628393626097,
+          "pearson": 0.6033385437762994
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00032994510019640006,
+          "max_abs_click": 0.0015445689791941442,
+          "slope_through_origin_parity": 0.15041315775592615,
+          "pearson": 0.7876155744559237
+        },
+        {
+          "order": 5,
+          "rmse_click": 6.914599198267779e-05,
+          "max_abs_click": 0.00021888514935967948,
+          "slope_through_origin_parity": 0.1469250681721991,
+          "pearson": 0.9022780441548646
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.020167015196752493,
+        "pearson_discrepancy_per_shot": 0.0036161142800081995
+      },
+      "two_group_clicks": {
+        "tvd": 0.022794701219265266,
+        "pearson_discrepancy_per_shot": 0.00456831428153564
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.05821563057264563,
+          "candidate_mass": 0.04819636009417613,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.11688151822880127,
+          "candidate_mass": 0.1276900478840597,
+          "conditional_tvd": 0.04121730814950633,
+          "goodman_log_cross_entropy": 2.0816815306969216,
+          "target_entropy": 2.0677159025047276,
+          "dodd_linear_overlap_ratio": 0.9864972281464046
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.19542809489063012,
+          "candidate_mass": 0.20235528365211033,
+          "conditional_tvd": 0.0479413114757495,
+          "goodman_log_cross_entropy": 3.3157450167206917,
+          "target_entropy": 3.275143617455527,
+          "dodd_linear_overlap_ratio": 0.9632973939177659
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22998133729679981,
+          "candidate_mass": 0.22977429081539413,
+          "conditional_tvd": 0.03158214800361951,
+          "goodman_log_cross_entropy": 3.9817204805925157,
+          "target_entropy": 3.9680624926901977,
+          "dodd_linear_overlap_ratio": 0.9889433010420214
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20067247718914125,
+          "candidate_mass": 0.19490711798886506,
+          "conditional_tvd": 0.035697669129569495,
+          "goodman_log_cross_entropy": 4.196559135326761,
+          "target_entropy": 4.198899406645825,
+          "dodd_linear_overlap_ratio": 1.0024131494774846
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.12724050989477442,
+          "candidate_mass": 0.12306517085817333,
+          "conditional_tvd": 0.03843562631968085,
+          "goodman_log_cross_entropy": 3.9772982278868856,
+          "target_entropy": 3.9845228034533866,
+          "dodd_linear_overlap_ratio": 1.0064637977705824
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.05521341017941167,
+          "candidate_mass": 0.05551997392829586,
+          "conditional_tvd": 0.04193282588378551,
+          "goodman_log_cross_entropy": 3.2955861734495677,
+          "target_entropy": 3.3027812264712613,
+          "dodd_linear_overlap_ratio": 1.0058472796965436
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.014607370124812238,
+          "candidate_mass": 0.016180955845886694,
+          "conditional_tvd": 0.032436149090518764,
+          "goodman_log_cross_entropy": 2.0549903057996985,
+          "target_entropy": 2.061281209310978,
+          "dodd_linear_overlap_ratio": 1.0058505253858345
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.0017596516229835546,
+          "candidate_mass": 0.002310798933038815,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183671,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0029752747232125974,
+    "accuracy": {
+      "full_tvd": 0.043006216732061946,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0021607332389085325,
+          "max_abs_click": 0.004033396801239847,
+          "slope_through_origin_parity": 1.0039314960746337,
+          "pearson": 0.9944850768133487
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0008363947594085566,
+          "max_abs_click": 0.0019482861553896322,
+          "slope_through_origin_parity": 0.9641353966086452,
+          "pearson": 0.9989806684841052
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0015480111399014417,
+          "max_abs_click": 0.004848093727715618,
+          "slope_through_origin_parity": 0.18567637478255203,
+          "pearson": 0.6038253964202308
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.0003284969666876004,
+          "max_abs_click": 0.001546170727166844,
+          "slope_through_origin_parity": 0.15263940726318392,
+          "pearson": 0.7868025508939464
+        },
+        {
+          "order": 5,
+          "rmse_click": 6.906592127131849e-05,
+          "max_abs_click": 0.00021778544464091931,
+          "slope_through_origin_parity": 0.14630848273133423,
+          "pearson": 0.907334694794213
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.020448486528444693,
+        "pearson_discrepancy_per_shot": 0.0037137639084127917
+      },
+      "two_group_clicks": {
+        "tvd": 0.022301134254042627,
+        "pearson_discrepancy_per_shot": 0.004685782199598815
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.05821563057264563,
+          "candidate_mass": 0.04751303420474262,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.11688151822880127,
+          "candidate_mass": 0.1272593913340594,
+          "conditional_tvd": 0.04376835308872693,
+          "goodman_log_cross_entropy": 2.082627634101055,
+          "target_entropy": 2.0677159025047276,
+          "dodd_linear_overlap_ratio": 0.9856144491011851
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.19542809489063012,
+          "candidate_mass": 0.20289737818508333,
+          "conditional_tvd": 0.047813514195822165,
+          "goodman_log_cross_entropy": 3.316090659943082,
+          "target_entropy": 3.275143617455527,
+          "dodd_linear_overlap_ratio": 0.9631854369127134
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22998133729679981,
+          "candidate_mass": 0.23079758678371515,
+          "conditional_tvd": 0.03169633595680101,
+          "goodman_log_cross_entropy": 3.9820637082814274,
+          "target_entropy": 3.9680624926901977,
+          "dodd_linear_overlap_ratio": 0.9886188522636489
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20067247718914125,
+          "candidate_mass": 0.1954599811059309,
+          "conditional_tvd": 0.03560472377003144,
+          "goodman_log_cross_entropy": 4.197123400058203,
+          "target_entropy": 4.198899406645825,
+          "dodd_linear_overlap_ratio": 1.0019515403515344
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.12724050989477442,
+          "candidate_mass": 0.12286544851495732,
+          "conditional_tvd": 0.03829614217565232,
+          "goodman_log_cross_entropy": 3.978238548934307,
+          "target_entropy": 3.9845228034533866,
+          "dodd_linear_overlap_ratio": 1.00570484909839
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.05521341017941167,
+          "candidate_mass": 0.0550550774818974,
+          "conditional_tvd": 0.040947517849563866,
+          "goodman_log_cross_entropy": 3.296745614173018,
+          "target_entropy": 3.3027812264712613,
+          "dodd_linear_overlap_ratio": 1.004850669930697
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.014607370124812238,
+          "candidate_mass": 0.015905675044097463,
+          "conditional_tvd": 0.029979983259111907,
+          "goodman_log_cross_entropy": 2.0558900444206314,
+          "target_entropy": 2.061281209310978,
+          "dodd_linear_overlap_ratio": 1.0050994301499807
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.0017596516229835546,
+          "candidate_mass": 0.002246427345516444,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183672,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0015752836551343468,
+    "accuracy": {
+      "full_tvd": 0.0528590955007509,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0014862778903006405,
+          "max_abs_click": 0.002657707951198976,
+          "slope_through_origin_parity": 0.9958885500021645,
+          "pearson": 0.9842771453374772
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.00043758968482177963,
+          "max_abs_click": 0.0014407445919432105,
+          "slope_through_origin_parity": 1.0067802315778558,
+          "pearson": 0.999504764512112
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.001976598764365509,
+          "max_abs_click": 0.005860353835385012,
+          "slope_through_origin_parity": 0.20008970670439993,
+          "pearson": 0.5214473771081674
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00036898447680966954,
+          "max_abs_click": 0.0013789896851149346,
+          "slope_through_origin_parity": 0.12519641860197442,
+          "pearson": 0.7543009026151749
+        },
+        {
+          "order": 5,
+          "rmse_click": 8.985844622642641e-05,
+          "max_abs_click": 0.00028010970595348,
+          "slope_through_origin_parity": 0.1868378037155403,
+          "pearson": 0.8612252036345799
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.02553594406200489,
+        "pearson_discrepancy_per_shot": 0.005689142999116855
+      },
+      "two_group_clicks": {
+        "tvd": 0.02643275235780601,
+        "pearson_discrepancy_per_shot": 0.0058932218964052666
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.05821563057264566,
+          "candidate_mass": 0.04676622748500556,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.10509453789142652,
+          "candidate_mass": 0.11805493064554726,
+          "conditional_tvd": 0.016040940092623523,
+          "goodman_log_cross_entropy": 2.0796604505769793,
+          "target_entropy": 2.0774415015691203,
+          "dodd_linear_overlap_ratio": 0.9977223902585776
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.18313232051494893,
+          "candidate_mass": 0.19043143919822933,
+          "conditional_tvd": 0.06224871942157877,
+          "goodman_log_cross_entropy": 3.300865348136324,
+          "target_entropy": 3.2386253829647456,
+          "dodd_linear_overlap_ratio": 0.94228252989065
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22553936949782288,
+          "candidate_mass": 0.2246809450050532,
+          "conditional_tvd": 0.03241019777883556,
+          "goodman_log_cross_entropy": 3.9651631095874413,
+          "target_entropy": 3.9432577941378737,
+          "dodd_linear_overlap_ratio": 0.9802214569706504
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20785566349872642,
+          "candidate_mass": 0.19978845058001518,
+          "conditional_tvd": 0.047621502039496943,
+          "goodman_log_cross_entropy": 4.192433147477036,
+          "target_entropy": 4.196058420141576,
+          "dodd_linear_overlap_ratio": 1.0032359188092015
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.13823161586138982,
+          "candidate_mass": 0.13307071229850595,
+          "conditional_tvd": 0.05250982960997115,
+          "goodman_log_cross_entropy": 3.9875679014919703,
+          "target_entropy": 4.000031984449436,
+          "dodd_linear_overlap_ratio": 1.0122251902698771
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.06259875229771199,
+          "candidate_mass": 0.06387661508440708,
+          "conditional_tvd": 0.04955379766483064,
+          "goodman_log_cross_entropy": 3.313151019910595,
+          "target_entropy": 3.321192705754011,
+          "dodd_linear_overlap_ratio": 1.0080349937399316
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.017169833044913374,
+          "candidate_mass": 0.02012356298040422,
+          "conditional_tvd": 0.01383000787058939,
+          "goodman_log_cross_entropy": 2.073421627735988,
+          "target_entropy": 2.074788099687993,
+          "dodd_linear_overlap_ratio": 1.0013475516564423
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.00216227682041438,
+          "candidate_mass": 0.0032071167228321985,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026183672,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.001573482367319563,
+    "accuracy": {
+      "full_tvd": 0.05276747558630939,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.001490179733246844,
+          "max_abs_click": 0.0026581932175811646,
+          "slope_through_origin_parity": 0.9959689827433468,
+          "pearson": 0.9841326908380611
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.00047776611651135316,
+          "max_abs_click": 0.0009222127642849569,
+          "slope_through_origin_parity": 0.9881852536820984,
+          "pearson": 0.9995375263148095
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0019710351664683056,
+          "max_abs_click": 0.005846231818576699,
+          "slope_through_origin_parity": 0.20226281811097474,
+          "pearson": 0.5363659931094685
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.0003655018229375882,
+          "max_abs_click": 0.0013702393303569739,
+          "slope_through_origin_parity": 0.1310839939568216,
+          "pearson": 0.7623376598407766
+        },
+        {
+          "order": 5,
+          "rmse_click": 9.007898413433114e-05,
+          "max_abs_click": 0.00028256432181223074,
+          "slope_through_origin_parity": 0.18203212949645728,
+          "pearson": 0.8664411667064761
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.024774832233903653,
+        "pearson_discrepancy_per_shot": 0.0056398229751815285
+      },
+      "two_group_clicks": {
+        "tvd": 0.026053334119723867,
+        "pearson_discrepancy_per_shot": 0.005848607640155727
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.05821563057264566,
+          "candidate_mass": 0.04579835687845855,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.10509453789142652,
+          "candidate_mass": 0.11746052598944227,
+          "conditional_tvd": 0.01661371316251284,
+          "goodman_log_cross_entropy": 2.0798087545950636,
+          "target_entropy": 2.0774415015691203,
+          "dodd_linear_overlap_ratio": 0.9975738429996762
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.18313232051494893,
+          "candidate_mass": 0.1909948820190249,
+          "conditional_tvd": 0.06278405891196084,
+          "goodman_log_cross_entropy": 3.3015530718210058,
+          "target_entropy": 3.2386253829647456,
+          "dodd_linear_overlap_ratio": 0.9416728365581606
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22553936949782288,
+          "candidate_mass": 0.2260306850162534,
+          "conditional_tvd": 0.03277141671219219,
+          "goodman_log_cross_entropy": 3.9657054412710906,
+          "target_entropy": 3.9432577941378737,
+          "dodd_linear_overlap_ratio": 0.9797173073321326
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20785566349872642,
+          "candidate_mass": 0.20073649129144366,
+          "conditional_tvd": 0.047551157944610636,
+          "goodman_log_cross_entropy": 4.192792841422261,
+          "target_entropy": 4.196058420141576,
+          "dodd_linear_overlap_ratio": 1.002877444880841
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.13823161586138982,
+          "candidate_mass": 0.13299322952895612,
+          "conditional_tvd": 0.052078238689840295,
+          "goodman_log_cross_entropy": 3.9877882608149835,
+          "target_entropy": 4.000031984449436,
+          "dodd_linear_overlap_ratio": 1.0120111760147645
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.06259875229771199,
+          "candidate_mass": 0.06324828573003809,
+          "conditional_tvd": 0.04917389548364825,
+          "goodman_log_cross_entropy": 3.3133421965355088,
+          "target_entropy": 3.321192705754011,
+          "dodd_linear_overlap_ratio": 1.007852312910937
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.017169833044913374,
+          "candidate_mass": 0.019660191115078107,
+          "conditional_tvd": 0.013788038514942771,
+          "goodman_log_cross_entropy": 2.0735860187110147,
+          "target_entropy": 2.074788099687993,
+          "dodd_linear_overlap_ratio": 1.0011874352645083
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.00216227682041438,
+          "candidate_mass": 0.003077352431304915,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203471,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0015756585069920468,
+    "accuracy": {
+      "full_tvd": 0.02386284168859302,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0024044882782234466,
+          "max_abs_click": 0.0055861245542893345,
+          "slope_through_origin_parity": 1.0089810063656457,
+          "pearson": 0.9824722667042393
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0004411556632439273,
+          "max_abs_click": 0.0010124025863069777,
+          "slope_through_origin_parity": 1.0191304320756305,
+          "pearson": 0.9982631477090661
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.00048169525732646876,
+          "max_abs_click": 0.0014152932532902635,
+          "slope_through_origin_parity": 0.04622868353713758,
+          "pearson": -0.1199985818631871
+        },
+        {
+          "order": 4,
+          "rmse_click": 8.085717398900334e-05,
+          "max_abs_click": 0.00035704594515834813,
+          "slope_through_origin_parity": 0.26948418135684116,
+          "pearson": 0.9013611354317608
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.2923945325210414e-05,
+          "max_abs_click": 5.791022685211369e-05,
+          "slope_through_origin_parity": 0.1645529476428865,
+          "pearson": 0.6683431040965453
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.014400890110974637,
+        "pearson_discrepancy_per_shot": 0.0011498122879310079
+      },
+      "two_group_clicks": {
+        "tvd": 0.014511798344693693,
+        "pearson_discrepancy_per_shot": 0.0012358937295056203
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.06953339913670177,
+          "candidate_mass": 0.06650866518028783,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.1526863807739639,
+          "candidate_mass": 0.16073079359743464,
+          "conditional_tvd": 0.014070063671084904,
+          "goodman_log_cross_entropy": 2.3027265965753005,
+          "target_entropy": 2.301123576825261,
+          "dodd_linear_overlap_ratio": 0.9983953454146082
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.21949451798634856,
+          "candidate_mass": 0.22451136034208102,
+          "conditional_tvd": 0.02166053569715883,
+          "goodman_log_cross_entropy": 3.7887539401372985,
+          "target_entropy": 3.775393830526934,
+          "dodd_linear_overlap_ratio": 0.9860714676100852
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22445293697599136,
+          "candidate_mass": 0.2224170330973793,
+          "conditional_tvd": 0.013676687801553459,
+          "goodman_log_cross_entropy": 4.754560824993377,
+          "target_entropy": 4.751016751159002,
+          "dodd_linear_overlap_ratio": 0.9973475844159156
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.17250460335796403,
+          "candidate_mass": 0.16687835657410072,
+          "conditional_tvd": 0.022003868190739715,
+          "goodman_log_cross_entropy": 5.307095294083286,
+          "target_entropy": 5.309026426875869,
+          "dodd_linear_overlap_ratio": 1.0020462536918777
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.10020196549918342,
+          "candidate_mass": 0.0968147591853713,
+          "conditional_tvd": 0.0284884139392972,
+          "goodman_log_cross_entropy": 5.4889065675259925,
+          "target_entropy": 5.4959574174709385,
+          "dodd_linear_overlap_ratio": 1.0069672596901127
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.043659237299687015,
+          "candidate_mass": 0.04333243812141393,
+          "conditional_tvd": 0.03191524275312108,
+          "goodman_log_cross_entropy": 5.311663851455675,
+          "target_entropy": 5.321381478312803,
+          "dodd_linear_overlap_ratio": 1.0093840397096685
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.013925574300925142,
+          "candidate_mass": 0.01464149468861222,
+          "conditional_tvd": 0.03324223133431707,
+          "goodman_log_cross_entropy": 4.761186182327545,
+          "target_entropy": 4.770425515758921,
+          "dodd_linear_overlap_ratio": 1.0091946679615098
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.003087075884194254,
+          "candidate_mass": 0.0035601311058865302,
+          "conditional_tvd": 0.026622273862024898,
+          "goodman_log_cross_entropy": 3.790980670349182,
+          "target_entropy": 3.7977149388547438,
+          "dodd_linear_overlap_ratio": 1.0067834916013758
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0004265991044919565,
+          "candidate_mass": 0.0005616772076326649,
+          "conditional_tvd": 0.020477953265508463,
+          "goodman_log_cross_entropy": 2.296857999958158,
+          "target_entropy": 2.2998085076781702,
+          "dodd_linear_overlap_ratio": 1.0029929059559741
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.770968054861822e-05,
+          "candidate_mass": 4.3290899799889506e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203471,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0015523237299525472,
+    "accuracy": {
+      "full_tvd": 0.024597538797383106,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.002387222478095913,
+          "max_abs_click": 0.0055727390238933805,
+          "slope_through_origin_parity": 1.0088481360682477,
+          "pearson": 0.9823094397345028
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.000467948974957639,
+          "max_abs_click": 0.0011380820194280827,
+          "slope_through_origin_parity": 0.9782321940604178,
+          "pearson": 0.9985874485396368
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0004640204734208208,
+          "max_abs_click": 0.0013714260093257383,
+          "slope_through_origin_parity": 0.0822455830662621,
+          "pearson": -0.05796125872815858
+        },
+        {
+          "order": 4,
+          "rmse_click": 8.042909179303156e-05,
+          "max_abs_click": 0.00035460345034086984,
+          "slope_through_origin_parity": 0.26853391528569476,
+          "pearson": 0.9113412119059305
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.289633733321006e-05,
+          "max_abs_click": 5.740494336130102e-05,
+          "slope_through_origin_parity": 0.16490728076076325,
+          "pearson": 0.6910379237046843
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.01450882040792744,
+        "pearson_discrepancy_per_shot": 0.0012302166323950856
+      },
+      "two_group_clicks": {
+        "tvd": 0.014975402940673855,
+        "pearson_discrepancy_per_shot": 0.0013201607968446692
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.06953339913670177,
+          "candidate_mass": 0.06443498541570876,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.1526863807739639,
+          "candidate_mass": 0.1598115181126407,
+          "conditional_tvd": 0.015197383410159991,
+          "goodman_log_cross_entropy": 2.3028740978241227,
+          "target_entropy": 2.301123576825261,
+          "dodd_linear_overlap_ratio": 0.9982482696377658
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.21949451798634856,
+          "candidate_mass": 0.22609606291833345,
+          "conditional_tvd": 0.022406842884901447,
+          "goodman_log_cross_entropy": 3.789260506271275,
+          "target_entropy": 3.775393830526934,
+          "dodd_linear_overlap_ratio": 0.9855447532420294
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22445293697599136,
+          "candidate_mass": 0.22480990575640725,
+          "conditional_tvd": 0.013700238036297298,
+          "goodman_log_cross_entropy": 4.754919238514052,
+          "target_entropy": 4.751016751159002,
+          "dodd_linear_overlap_ratio": 0.9970020423766431
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.17250460335796403,
+          "candidate_mass": 0.16802715164737597,
+          "conditional_tvd": 0.021899656488761323,
+          "goodman_log_cross_entropy": 5.3073316171349845,
+          "target_entropy": 5.309026426875869,
+          "dodd_linear_overlap_ratio": 1.0018150780121227
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.10020196549918342,
+          "candidate_mass": 0.09646424529177017,
+          "conditional_tvd": 0.028123034550398808,
+          "goodman_log_cross_entropy": 5.489068302784911,
+          "target_entropy": 5.4959574174709385,
+          "dodd_linear_overlap_ratio": 1.0068063449063485
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.043659237299687015,
+          "candidate_mass": 0.04246400253075383,
+          "conditional_tvd": 0.03097157159719768,
+          "goodman_log_cross_entropy": 5.311801641250762,
+          "target_entropy": 5.321381478312803,
+          "dodd_linear_overlap_ratio": 1.0092552688500422
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.013925574300925142,
+          "candidate_mass": 0.014030542678931593,
+          "conditional_tvd": 0.03232714129073712,
+          "goodman_log_cross_entropy": 4.7613347490798965,
+          "target_entropy": 4.770425515758921,
+          "dodd_linear_overlap_ratio": 1.0090629120441488
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.003087075884194254,
+          "candidate_mass": 0.0033177367415928504,
+          "conditional_tvd": 0.02547738994639231,
+          "goodman_log_cross_entropy": 3.7911363813551686,
+          "target_entropy": 3.7977149388547438,
+          "dodd_linear_overlap_ratio": 1.0066495404436953
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0004265991044919565,
+          "candidate_mass": 0.0005062936614882373,
+          "conditional_tvd": 0.018760551063501302,
+          "goodman_log_cross_entropy": 2.296984689272289,
+          "target_entropy": 2.2998085076781702,
+          "dodd_linear_overlap_ratio": 1.0028753926093321
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.770968054861822e-05,
+          "candidate_mass": 3.755524499717082e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203472,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0019597868731563595,
+    "accuracy": {
+      "full_tvd": 0.021821550041481952,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0013419675682634783,
+          "max_abs_click": 0.002305757415727583,
+          "slope_through_origin_parity": 1.0003167937660464,
+          "pearson": 0.9963893029944412
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0003563380794790009,
+          "max_abs_click": 0.0009191316008345107,
+          "slope_through_origin_parity": 1.0057362227991158,
+          "pearson": 0.9979260034697947
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0004290454687897092,
+          "max_abs_click": 0.0014533402589615389,
+          "slope_through_origin_parity": 0.11742121689154214,
+          "pearson": 0.2035593237276774
+        },
+        {
+          "order": 4,
+          "rmse_click": 7.735814107976107e-05,
+          "max_abs_click": 0.0002918778482166283,
+          "slope_through_origin_parity": 0.29022063882937793,
+          "pearson": 0.9319484512994156
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.2015763983075849e-05,
+          "max_abs_click": 5.046687727250083e-05,
+          "slope_through_origin_parity": 0.17867400098832337,
+          "pearson": 0.7529747658774167
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.0114351861043093,
+        "pearson_discrepancy_per_shot": 0.000925908825533255
+      },
+      "two_group_clicks": {
+        "tvd": 0.011481056199436929,
+        "pearson_discrepancy_per_shot": 0.0009513481578252589
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.06953339913670177,
+          "candidate_mass": 0.0643235679166046,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.15561153457959975,
+          "candidate_mass": 0.16075087567834376,
+          "conditional_tvd": 0.017522234128897328,
+          "goodman_log_cross_entropy": 2.3025447503862626,
+          "target_entropy": 2.299448898107934,
+          "dodd_linear_overlap_ratio": 0.9968302144062807
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2219521637541568,
+          "candidate_mass": 0.22670046811180225,
+          "conditional_tvd": 0.016416487864920747,
+          "goodman_log_cross_entropy": 3.7981626367705603,
+          "target_entropy": 3.791350383551037,
+          "dodd_linear_overlap_ratio": 0.9932153912125952
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22551651446694904,
+          "candidate_mass": 0.22482429541445043,
+          "conditional_tvd": 0.012723670936954609,
+          "goodman_log_cross_entropy": 4.768192433152109,
+          "target_entropy": 4.76587290573295,
+          "dodd_linear_overlap_ratio": 0.9979914426702542
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.1712737539232815,
+          "candidate_mass": 0.1676879189176242,
+          "conditional_tvd": 0.021187979254550827,
+          "goodman_log_cross_entropy": 5.319991701605021,
+          "target_entropy": 5.3206680618679485,
+          "dodd_linear_overlap_ratio": 1.0005086247388937
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.09801328885319749,
+          "candidate_mass": 0.09606598802714136,
+          "conditional_tvd": 0.02686685415185781,
+          "goodman_log_cross_entropy": 5.497507175890276,
+          "target_entropy": 5.5016951308285655,
+          "dodd_linear_overlap_ratio": 1.0038764631667954
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.041893996631368446,
+          "candidate_mass": 0.04212464422227363,
+          "conditional_tvd": 0.03097710510719209,
+          "goodman_log_cross_entropy": 5.313717056144087,
+          "target_entropy": 5.321252447389498,
+          "dodd_linear_overlap_ratio": 1.0070923935059921
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.01302213454448492,
+          "candidate_mass": 0.013799713592078561,
+          "conditional_tvd": 0.03307465691205877,
+          "goodman_log_cross_entropy": 4.755941298791217,
+          "target_entropy": 4.766263786073756,
+          "dodd_linear_overlap_ratio": 1.010065229664244
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.002790379879608243,
+          "candidate_mass": 0.0032099743943350715,
+          "conditional_tvd": 0.030924531384055466,
+          "goodman_log_cross_entropy": 3.7808594784283556,
+          "target_entropy": 3.7915543405401926,
+          "dodd_linear_overlap_ratio": 1.0108122796416203
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0003699324348848121,
+          "candidate_mass": 0.00047786280489527246,
+          "conditional_tvd": 0.028369574837206014,
+          "goodman_log_cross_entropy": 2.2873776227736604,
+          "target_entropy": 2.294954037965754,
+          "dodd_linear_overlap_ratio": 1.0078600660644397
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.2901795767221733e-05,
+          "candidate_mass": 3.469092045094801e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203472,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0019392756950673367,
+    "accuracy": {
+      "full_tvd": 0.022672551243430136,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0013424990539799004,
+          "max_abs_click": 0.0023143662653085095,
+          "slope_through_origin_parity": 1.0003539830037005,
+          "pearson": 0.9963798512131752
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0005999182470751758,
+          "max_abs_click": 0.0015718159336972001,
+          "slope_through_origin_parity": 0.9618130567402038,
+          "pearson": 0.9971777711953449
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.00041552139318880554,
+          "max_abs_click": 0.0014199588612650287,
+          "slope_through_origin_parity": 0.1455416531479752,
+          "pearson": 0.2580311776509806
+        },
+        {
+          "order": 4,
+          "rmse_click": 7.715504940368888e-05,
+          "max_abs_click": 0.0002882706289855574,
+          "slope_through_origin_parity": 0.2880773807347821,
+          "pearson": 0.9388528594360565
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.1997134214845633e-05,
+          "max_abs_click": 5.0475831053145266e-05,
+          "slope_through_origin_parity": 0.1788201507834735,
+          "pearson": 0.7690529877154967
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.012320400506119622,
+        "pearson_discrepancy_per_shot": 0.0011113287857408031
+      },
+      "two_group_clicks": {
+        "tvd": 0.012476848698810475,
+        "pearson_discrepancy_per_shot": 0.0011380481785524725
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.06953339913670177,
+          "candidate_mass": 0.06268524875811445,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.15561153457959975,
+          "candidate_mass": 0.15996536512734258,
+          "conditional_tvd": 0.01976792650218337,
+          "goodman_log_cross_entropy": 2.3028957353166337,
+          "target_entropy": 2.299448898107934,
+          "dodd_linear_overlap_ratio": 0.9964718661288495
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2219521637541568,
+          "candidate_mass": 0.22802967481303243,
+          "conditional_tvd": 0.01718881495820178,
+          "goodman_log_cross_entropy": 3.798310332388269,
+          "target_entropy": 3.791350383551037,
+          "dodd_linear_overlap_ratio": 0.9930936759665556
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.22551651446694904,
+          "candidate_mass": 0.22682565953907646,
+          "conditional_tvd": 0.012887312512508449,
+          "goodman_log_cross_entropy": 4.768347836816354,
+          "target_entropy": 4.76587290573295,
+          "dodd_linear_overlap_ratio": 0.9978396680277576
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.1712737539232815,
+          "candidate_mass": 0.16860906990395183,
+          "conditional_tvd": 0.021089121663070445,
+          "goodman_log_cross_entropy": 5.3203061616528355,
+          "target_entropy": 5.3206680618679485,
+          "dodd_linear_overlap_ratio": 1.0002121943658266
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.09801328885319749,
+          "candidate_mass": 0.09572202816565797,
+          "conditional_tvd": 0.02642481249643791,
+          "goodman_log_cross_entropy": 5.498060570355842,
+          "target_entropy": 5.5016951308285655,
+          "dodd_linear_overlap_ratio": 1.003364961243863
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.041893996631368446,
+          "candidate_mass": 0.04137769121070532,
+          "conditional_tvd": 0.030282634537418966,
+          "goodman_log_cross_entropy": 5.314527504998657,
+          "target_entropy": 5.321252447389498,
+          "dodd_linear_overlap_ratio": 1.0063364709131155
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.01302213454448492,
+          "candidate_mass": 0.013297051130632924,
+          "conditional_tvd": 0.031699046718015614,
+          "goodman_log_cross_entropy": 4.756951102097366,
+          "target_entropy": 4.766263786073756,
+          "dodd_linear_overlap_ratio": 1.0090962536449999
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.002790379879608243,
+          "candidate_mass": 0.0030202657522966007,
+          "conditional_tvd": 0.02891615520701571,
+          "goodman_log_cross_entropy": 3.7818960670277986,
+          "target_entropy": 3.7915543405401926,
+          "dodd_linear_overlap_ratio": 1.009786026858015
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0003699324348848121,
+          "candidate_mass": 0.00043720194605574776,
+          "conditional_tvd": 0.025599664124239613,
+          "goodman_log_cross_entropy": 2.2881155425808304,
+          "target_entropy": 2.294954037965754,
+          "dodd_linear_overlap_ratio": 1.007111006577988
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.2901795767221733e-05,
+          "candidate_mass": 3.074365313366683e-05,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203671,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.004087024415820684,
+    "accuracy": {
+      "full_tvd": 0.03370710885247599,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.002449647434293039,
+          "max_abs_click": 0.00398206868879275,
+          "slope_through_origin_parity": 0.9862544163776451,
+          "pearson": 0.9939062326591497
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0006133352281597311,
+          "max_abs_click": 0.0016946996772711186,
+          "slope_through_origin_parity": 0.9980130086711178,
+          "pearson": 0.9986424006273168
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0007800159685811761,
+          "max_abs_click": 0.002670436261315451,
+          "slope_through_origin_parity": 0.16130500849837437,
+          "pearson": 0.5344048170152299
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00016795518997164731,
+          "max_abs_click": 0.0009841861275169496,
+          "slope_through_origin_parity": 0.1995796074678317,
+          "pearson": 0.82137671450566
+        },
+        {
+          "order": 5,
+          "rmse_click": 2.6119570752455567e-05,
+          "max_abs_click": 0.00013241328020834883,
+          "slope_through_origin_parity": 0.12060489656953544,
+          "pearson": 0.6169005878382121
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.010837496423293506,
+        "pearson_discrepancy_per_shot": 0.001617085921459773
+      },
+      "two_group_clicks": {
+        "tvd": 0.011764432353191676,
+        "pearson_discrepancy_per_shot": 0.001960319774407718
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.028595619357604497,
+          "candidate_mass": 0.023137083809821622,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.07562251182192223,
+          "candidate_mass": 0.07719998195978793,
+          "conditional_tvd": 0.02590959789351318,
+          "goodman_log_cross_entropy": 2.3027742666549242,
+          "target_entropy": 2.296074384005297,
+          "dodd_linear_overlap_ratio": 0.9933280774207963
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.14447735488158436,
+          "candidate_mass": 0.14754763509685048,
+          "conditional_tvd": 0.04663101899083337,
+          "goodman_log_cross_entropy": 3.775219747407245,
+          "target_entropy": 3.735017114863459,
+          "dodd_linear_overlap_ratio": 0.9565014200591965
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.197229683431216,
+          "candidate_mass": 0.1999041611739122,
+          "conditional_tvd": 0.02389578884692982,
+          "goodman_log_cross_entropy": 4.725573107119255,
+          "target_entropy": 4.71003163319979,
+          "dodd_linear_overlap_ratio": 0.9866465629304594
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.2081672310895296,
+          "candidate_mass": 0.2066531315801784,
+          "conditional_tvd": 0.028103224861122926,
+          "goodman_log_cross_entropy": 5.269366687105781,
+          "target_entropy": 5.264560715670612,
+          "dodd_linear_overlap_ratio": 0.995191590549664
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.1697729695152514,
+          "candidate_mass": 0.16688798647008152,
+          "conditional_tvd": 0.030691307461767504,
+          "goodman_log_cross_entropy": 5.446411305663677,
+          "target_entropy": 5.4520869991889604,
+          "dodd_linear_overlap_ratio": 1.0053535579039132
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.10619723576537146,
+          "candidate_mass": 0.105217357444382,
+          "conditional_tvd": 0.03094198602685191,
+          "goodman_log_cross_entropy": 5.2698629482465265,
+          "target_entropy": 5.281790980937669,
+          "dodd_linear_overlap_ratio": 1.01086657050338
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.049662491096152096,
+          "candidate_mass": 0.050823207328532294,
+          "conditional_tvd": 0.031992134657377776,
+          "goodman_log_cross_entropy": 4.725168685167457,
+          "target_entropy": 4.73889120606833,
+          "dodd_linear_overlap_ratio": 1.0129538372763827
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.016466856686016898,
+          "candidate_mass": 0.017954250707921327,
+          "conditional_tvd": 0.032533586683980854,
+          "goodman_log_cross_entropy": 3.765670597863377,
+          "target_entropy": 3.7758694620250384,
+          "dodd_linear_overlap_ratio": 1.009217241762565
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0034606723804184863,
+          "candidate_mass": 0.004185464693814608,
+          "conditional_tvd": 0.027369150412362882,
+          "goodman_log_cross_entropy": 2.283156259268228,
+          "target_entropy": 2.2880300368025583,
+          "dodd_linear_overlap_ratio": 1.0045956340545068
+        },
+        {
+          "clicks": 10,
+          "target_mass": 0.0003473739749330143,
+          "candidate_mass": 0.0004897397347176173,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203671,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.00404250412240306,
+    "accuracy": {
+      "full_tvd": 0.03398657692323549,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0024245315648915335,
+          "max_abs_click": 0.003979388763557579,
+          "slope_through_origin_parity": 0.9865154326747287,
+          "pearson": 0.9938499948346893
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.000940840615205836,
+          "max_abs_click": 0.001821670218546817,
+          "slope_through_origin_parity": 0.9681218382054615,
+          "pearson": 0.9985858138823065
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0007652420059944332,
+          "max_abs_click": 0.002646436898011163,
+          "slope_through_origin_parity": 0.17672715571780034,
+          "pearson": 0.5735072379476042
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00016593858881987735,
+          "max_abs_click": 0.0009729125544922846,
+          "slope_through_origin_parity": 0.20592037255160323,
+          "pearson": 0.8418689347696042
+        },
+        {
+          "order": 5,
+          "rmse_click": 2.6101521203147444e-05,
+          "max_abs_click": 0.00013238671320664697,
+          "slope_through_origin_parity": 0.11870220620622936,
+          "pearson": 0.6251887359880183
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.009589468794911252,
+        "pearson_discrepancy_per_shot": 0.0017790721060009329
+      },
+      "two_group_clicks": {
+        "tvd": 0.012090535177082602,
+        "pearson_discrepancy_per_shot": 0.0021434171004339336
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.028595619357604497,
+          "candidate_mass": 0.022104487595077285,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.07562251182192223,
+          "candidate_mass": 0.07577366516202626,
+          "conditional_tvd": 0.028774441450640197,
+          "goodman_log_cross_entropy": 2.303603746441756,
+          "target_entropy": 2.296074384005297,
+          "dodd_linear_overlap_ratio": 0.9925504750366242
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.14447735488158436,
+          "candidate_mass": 0.14737983164921836,
+          "conditional_tvd": 0.047132365323867484,
+          "goodman_log_cross_entropy": 3.776134097439523,
+          "target_entropy": 3.735017114863459,
+          "dodd_linear_overlap_ratio": 0.9555228497102622
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.197229683431216,
+          "candidate_mass": 0.20160071031549137,
+          "conditional_tvd": 0.02433504223290877,
+          "goodman_log_cross_entropy": 4.726417703798679,
+          "target_entropy": 4.71003163319979,
+          "dodd_linear_overlap_ratio": 0.9857666337787006
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.2081672310895296,
+          "candidate_mass": 0.20892005984095754,
+          "conditional_tvd": 0.028143983052997604,
+          "goodman_log_cross_entropy": 5.270271286690529,
+          "target_entropy": 5.264560715670612,
+          "dodd_linear_overlap_ratio": 0.9943419719235839
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.1697729695152514,
+          "candidate_mass": 0.16802793743013342,
+          "conditional_tvd": 0.03046171810088001,
+          "goodman_log_cross_entropy": 5.447447426613657,
+          "target_entropy": 5.4520869991889604,
+          "dodd_linear_overlap_ratio": 1.004458322277576
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.10619723576537146,
+          "candidate_mass": 0.10484393081810534,
+          "conditional_tvd": 0.030370535102089462,
+          "goodman_log_cross_entropy": 5.271058342048348,
+          "target_entropy": 5.281790980937669,
+          "dodd_linear_overlap_ratio": 1.0098982156709444
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.049662491096152096,
+          "candidate_mass": 0.049812773176132044,
+          "conditional_tvd": 0.03058590058372844,
+          "goodman_log_cross_entropy": 4.726488337530927,
+          "target_entropy": 4.73889120606833,
+          "dodd_linear_overlap_ratio": 1.0119045995010267
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.016466856686016898,
+          "candidate_mass": 0.017202198466982004,
+          "conditional_tvd": 0.03128882170442758,
+          "goodman_log_cross_entropy": 3.7669204914131345,
+          "target_entropy": 3.7758694620250384,
+          "dodd_linear_overlap_ratio": 1.0082080089797314
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.0034606723804184863,
+          "candidate_mass": 0.0038948911559076407,
+          "conditional_tvd": 0.025065049537823306,
+          "goodman_log_cross_entropy": 2.284037702342697,
+          "target_entropy": 2.2880300368025583,
+          "dodd_linear_overlap_ratio": 1.003833571719661
+        },
+        {
+          "clicks": 10,
+          "target_mass": 0.0003473739749330143,
+          "candidate_mass": 0.00043951438996872594,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203672,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0034798726155024304,
+    "accuracy": {
+      "full_tvd": 0.04684227762748083,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0018840876889978367,
+          "max_abs_click": 0.003465795514473846,
+          "slope_through_origin_parity": 1.0005474250476298,
+          "pearson": 0.992843401834157
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0005902303244815939,
+          "max_abs_click": 0.0016679340693739678,
+          "slope_through_origin_parity": 1.0131432180356235,
+          "pearson": 0.9983674911638393
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0011019584002860917,
+          "max_abs_click": 0.00423516255853478,
+          "slope_through_origin_parity": 0.22803841961004281,
+          "pearson": 0.6880364345144281
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.0002574904517441166,
+          "max_abs_click": 0.0012078961742016312,
+          "slope_through_origin_parity": 0.1578934197421006,
+          "pearson": 0.8355707066538779
+        },
+        {
+          "order": 5,
+          "rmse_click": 4.31574322324842e-05,
+          "max_abs_click": 0.00018602569379413118,
+          "slope_through_origin_parity": 0.16512234452761093,
+          "pearson": 0.8119061689531355
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.019138275381729002,
+        "pearson_discrepancy_per_shot": 0.003085890288135515
+      },
+      "two_group_clicks": {
+        "tvd": 0.02452258978066634,
+        "pearson_discrepancy_per_shot": 0.00465360513939727
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.02859561935760455,
+          "candidate_mass": 0.02225762946252916,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.06717613306509952,
+          "candidate_mass": 0.07114247154292731,
+          "conditional_tvd": 0.029975932730725914,
+          "goodman_log_cross_entropy": 2.3042533942296224,
+          "target_entropy": 2.295685173377803,
+          "dodd_linear_overlap_ratio": 0.9910963243249594
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.129397155942357,
+          "candidate_mass": 0.135972164667244,
+          "conditional_tvd": 0.0534944713367888,
+          "goodman_log_cross_entropy": 3.790205691312318,
+          "target_entropy": 3.743058218718818,
+          "dodd_linear_overlap_ratio": 0.953230926845836
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.18535308569293635,
+          "candidate_mass": 0.18973217467027273,
+          "conditional_tvd": 0.03546754170423337,
+          "goodman_log_cross_entropy": 4.746272004434494,
+          "target_entropy": 4.718645620150844,
+          "dodd_linear_overlap_ratio": 0.9751126831613226
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20789306403693952,
+          "candidate_mass": 0.20487284459705013,
+          "conditional_tvd": 0.0462376785556861,
+          "goodman_log_cross_entropy": 5.297621896475842,
+          "target_entropy": 5.281878584386899,
+          "dodd_linear_overlap_ratio": 0.9855074179854526
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.18036003283671084,
+          "candidate_mass": 0.17400214417870952,
+          "conditional_tvd": 0.042223974588485716,
+          "goodman_log_cross_entropy": 5.4779377991379885,
+          "target_entropy": 5.47851887592106,
+          "dodd_linear_overlap_ratio": 1.0004423505070743
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.11907867322213418,
+          "candidate_mass": 0.11565649583337131,
+          "conditional_tvd": 0.0436272404222284,
+          "goodman_log_cross_entropy": 5.300757539096617,
+          "target_entropy": 5.311381540782913,
+          "dodd_linear_overlap_ratio": 1.0101111616261307
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.057945535065631035,
+          "candidate_mass": 0.05876528345261651,
+          "conditional_tvd": 0.043521201829500616,
+          "goodman_log_cross_entropy": 4.750882488448648,
+          "target_entropy": 4.763789407349444,
+          "dodd_linear_overlap_ratio": 1.01252420126931
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.01964714399641933,
+          "candidate_mass": 0.0217147566309118,
+          "conditional_tvd": 0.03950871697644918,
+          "goodman_log_cross_entropy": 3.781957598812525,
+          "target_entropy": 3.79243686440363,
+          "dodd_linear_overlap_ratio": 1.0104767861292532
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.004142269195336952,
+          "candidate_mass": 0.005255659778929946,
+          "conditional_tvd": 0.020898144967924366,
+          "goodman_log_cross_entropy": 2.290485977405449,
+          "target_entropy": 2.2957602708356113,
+          "dodd_linear_overlap_ratio": 1.005486814233628
+        },
+        {
+          "clicks": 10,
+          "target_mass": 0.0004112875888306784,
+          "candidate_mass": 0.0006283751854376275,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026203672,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0034559966136605293,
+    "accuracy": {
+      "full_tvd": 0.046713662904403236,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0018853612300857286,
+          "max_abs_click": 0.0034486975087697075,
+          "slope_through_origin_parity": 1.0007398071961011,
+          "pearson": 0.992839564602583
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0005880413023677119,
+          "max_abs_click": 0.0017717721951914529,
+          "slope_through_origin_parity": 0.986914781973,
+          "pearson": 0.9984046754066718
+        },
+        {
+          "order": 3,
+          "rmse_click": 0.0010974178057952914,
+          "max_abs_click": 0.004226882499480681,
+          "slope_through_origin_parity": 0.23109562753035895,
+          "pearson": 0.7019703345896813
+        },
+        {
+          "order": 4,
+          "rmse_click": 0.00025568748400872773,
+          "max_abs_click": 0.0011984316917167102,
+          "slope_through_origin_parity": 0.16221851023062767,
+          "pearson": 0.8458394654970599
+        },
+        {
+          "order": 5,
+          "rmse_click": 4.31609341797016e-05,
+          "max_abs_click": 0.00018524098155414122,
+          "slope_through_origin_parity": 0.16218900705173311,
+          "pearson": 0.8213872443458581
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.017486236974533394,
+        "pearson_discrepancy_per_shot": 0.003011984987169502
+      },
+      "two_group_clicks": {
+        "tvd": 0.023899572417660993,
+        "pearson_discrepancy_per_shot": 0.004592646135744452
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.02859561935760455,
+          "candidate_mass": 0.021512910728006554,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.06717613306509952,
+          "candidate_mass": 0.07016601860216687,
+          "conditional_tvd": 0.03148388860446879,
+          "goodman_log_cross_entropy": 2.3046130438896055,
+          "target_entropy": 2.295685173377803,
+          "dodd_linear_overlap_ratio": 0.9907291532541466
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.129397155942357,
+          "candidate_mass": 0.1358078687270923,
+          "conditional_tvd": 0.05422128841751426,
+          "goodman_log_cross_entropy": 3.7907727793221575,
+          "target_entropy": 3.743058218718818,
+          "dodd_linear_overlap_ratio": 0.9527634422585134
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.18535308569293635,
+          "candidate_mass": 0.19081814515141954,
+          "conditional_tvd": 0.03599160453029196,
+          "goodman_log_cross_entropy": 4.746785462689514,
+          "target_entropy": 4.718645620150844,
+          "dodd_linear_overlap_ratio": 0.9746512694453777
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.20789306403693952,
+          "candidate_mass": 0.2064745161664425,
+          "conditional_tvd": 0.04633933223246282,
+          "goodman_log_cross_entropy": 5.298053510814086,
+          "target_entropy": 5.281878584386899,
+          "dodd_linear_overlap_ratio": 0.9851139318670313
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.18036003283671084,
+          "candidate_mass": 0.17494601316185934,
+          "conditional_tvd": 0.04203675434157507,
+          "goodman_log_cross_entropy": 5.478316989305153,
+          "target_entropy": 5.47851887592106,
+          "dodd_linear_overlap_ratio": 1.0000917118057
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.11907867322213418,
+          "candidate_mass": 0.11550771242254732,
+          "conditional_tvd": 0.043319480183199914,
+          "goodman_log_cross_entropy": 5.301132151336124,
+          "target_entropy": 5.311381540782913,
+          "dodd_linear_overlap_ratio": 1.0097657663201438
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.057945535065631035,
+          "candidate_mass": 0.05804774892768502,
+          "conditional_tvd": 0.04311445102785337,
+          "goodman_log_cross_entropy": 4.751279536674711,
+          "target_entropy": 4.763789407349444,
+          "dodd_linear_overlap_ratio": 1.0121493742899808
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.01964714399641933,
+          "candidate_mass": 0.021122709032397484,
+          "conditional_tvd": 0.03884534842689056,
+          "goodman_log_cross_entropy": 3.7823370932865665,
+          "target_entropy": 3.79243686440363,
+          "dodd_linear_overlap_ratio": 1.0101074690878946
+        },
+        {
+          "clicks": 9,
+          "target_mass": 0.004142269195336952,
+          "candidate_mass": 0.005011609669706786,
+          "conditional_tvd": 0.01931164032597027,
+          "goodman_log_cross_entropy": 2.290730605638112,
+          "target_entropy": 2.2957602708356113,
+          "dodd_linear_overlap_ratio": 1.0052416412254692
+        },
+        {
+          "clicks": 10,
+          "target_mass": 0.0004112875888306784,
+          "candidate_mass": 0.0005847474106764228,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026702571,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.0057487547246463135,
+    "accuracy": {
+      "full_tvd": 0.01789164420031887,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.004136809957929354,
+          "max_abs_click": 0.006529773030067909,
+          "slope_through_origin_parity": 0.9891922327873695,
+          "pearson": null
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0005766820627899702,
+          "max_abs_click": 0.0013719802054070196,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 3,
+          "rmse_click": 2.9908615118058464e-05,
+          "max_abs_click": 8.274308353743709e-05,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 4,
+          "rmse_click": 9.483486743987572e-06,
+          "max_abs_click": 2.9073413197468548e-05,
+          "slope_through_origin_parity": null,
+          "pearson": -0.18330052586774115
+        },
+        {
+          "order": 5,
+          "rmse_click": 2.5531045836944962e-06,
+          "max_abs_click": 7.4674692150823035e-06,
+          "slope_through_origin_parity": null,
+          "pearson": 0.04129230840258552
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.01375582020464217,
+        "pearson_discrepancy_per_shot": 0.0012271976965833016
+      },
+      "two_group_clicks": {
+        "tvd": 0.01475479058983591,
+        "pearson_discrepancy_per_shot": 0.0014535688725000689
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.20850342264622165,
+          "candidate_mass": 0.20072909758064506,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.3539100032270751,
+          "candidate_mass": 0.3479285093790761,
+          "conditional_tvd": 0.009485553729219082,
+          "goodman_log_cross_entropy": 2.302585092994046,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2703242467559812,
+          "candidate_mass": 0.2734258829818775,
+          "conditional_tvd": 0.014852976351670913,
+          "goodman_log_cross_entropy": 3.806662489770319,
+          "target_entropy": 3.8066624897703187,
+          "dodd_linear_overlap_ratio": 0.9999999999999999
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.12235828563717666,
+          "candidate_mass": 0.12835084912004738,
+          "conditional_tvd": 0.021350935089936046,
+          "goodman_log_cross_entropy": 4.787491742782047,
+          "target_entropy": 4.787491742782047,
+          "dodd_linear_overlap_ratio": 0.9999999999999996
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.03634553632324894,
+          "candidate_mass": 0.03973949600182895,
+          "conditional_tvd": 0.027778947269056962,
+          "goodman_log_cross_entropy": 5.347107530717453,
+          "target_entropy": 5.347107530717469,
+          "dodd_linear_overlap_ratio": 1.0000000000000155
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.007403072073036587,
+          "candidate_mass": 0.008458241271043922,
+          "conditional_tvd": 0.0405243050021286,
+          "goodman_log_cross_entropy": 5.529429087511651,
+          "target_entropy": 5.529429087511423,
+          "dodd_linear_overlap_ratio": 0.9999999999997714
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.0010471535780781083,
+          "candidate_mass": 0.0012329104005920286,
+          "conditional_tvd": 0.0667904792064651,
+          "goodman_log_cross_entropy": 5.347107530715354,
+          "target_entropy": 5.347107530717468,
+          "dodd_linear_overlap_ratio": 1.0000000000021143
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.00010156684980300312,
+          "candidate_mass": 0.00012539436219511898,
+          "conditional_tvd": 0.12131611700150334,
+          "goodman_log_cross_entropy": 4.787491742797609,
+          "target_entropy": 4.787491742782047,
+          "dodd_linear_overlap_ratio": 0.9999999999844368
+        },
+        {
+          "clicks": 8,
+          "target_mass": 6.464916158382961e-06,
+          "candidate_mass": 9.18962184481705e-06,
+          "conditional_tvd": 0.22287329305243542,
+          "goodman_log_cross_entropy": 3.8066624896035215,
+          "target_entropy": 3.806662489770319,
+          "dodd_linear_overlap_ratio": 1.000000000166798
+        },
+        {
+          "clicks": 9,
+          "target_mass": 2.4385408048388513e-07,
+          "candidate_mass": 4.264327758616188e-07,
+          "conditional_tvd": 0.2961212988939537,
+          "goodman_log_cross_entropy": 2.3025850978524405,
+          "target_entropy": 2.302585092994045,
+          "dodd_linear_overlap_ratio": 0.9999999951416056
+        },
+        {
+          "clicks": 10,
+          "target_mass": 4.139139947456627e-09,
+          "candidate_mass": 2.848073374628087e-09,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026702571,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.005145031784155301,
+    "accuracy": {
+      "full_tvd": 0.03774997806923596,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.003803760634635093,
+          "max_abs_click": 0.006189044412550582,
+          "slope_through_origin_parity": 0.9902750325715045,
+          "pearson": null
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0016534332014261496,
+          "max_abs_click": 0.002685892435844356,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 3,
+          "rmse_click": 4.537328497008029e-05,
+          "max_abs_click": 0.000105365871498099,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 4,
+          "rmse_click": 7.300230476323758e-06,
+          "max_abs_click": 2.0373177373120277e-05,
+          "slope_through_origin_parity": null,
+          "pearson": -0.16414124470828698
+        },
+        {
+          "order": 5,
+          "rmse_click": 1.7091686791088608e-06,
+          "max_abs_click": 4.889850965289662e-06,
+          "slope_through_origin_parity": null,
+          "pearson": 0.09995133516914687
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.0359746811347025,
+        "pearson_discrepancy_per_shot": 0.008036969142155046
+      },
+      "two_group_clicks": {
+        "tvd": 0.03597468113470246,
+        "pearson_discrepancy_per_shot": 0.008243784426877251
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.20850342264622165,
+          "candidate_mass": 0.18003168391791696,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.3539100032270751,
+          "candidate_mass": 0.36185647961460615,
+          "conditional_tvd": 0.008803160957861787,
+          "goodman_log_cross_entropy": 2.302585092994046,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 1.0000000000000002
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.2703242467559812,
+          "candidate_mass": 0.2939052988318953,
+          "conditional_tvd": 0.014770185667403124,
+          "goodman_log_cross_entropy": 3.80666248977032,
+          "target_entropy": 3.8066624897703187,
+          "dodd_linear_overlap_ratio": 1.0000000000000002
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.12235828563717666,
+          "candidate_mass": 0.126805438308434,
+          "conditional_tvd": 0.021221009747389826,
+          "goodman_log_cross_entropy": 4.787491742782047,
+          "target_entropy": 4.787491742782047,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.03634553632324894,
+          "candidate_mass": 0.03200713087517662,
+          "conditional_tvd": 0.027322855383640536,
+          "goodman_log_cross_entropy": 5.347107530717459,
+          "target_entropy": 5.347107530717469,
+          "dodd_linear_overlap_ratio": 1.0000000000000107
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.007403072073036587,
+          "candidate_mass": 0.004911671624632586,
+          "conditional_tvd": 0.04078575647277819,
+          "goodman_log_cross_entropy": 5.5294290875116,
+          "target_entropy": 5.529429087511423,
+          "dodd_linear_overlap_ratio": 0.9999999999998227
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.0010471535780781083,
+          "candidate_mass": 0.00045545538081131673,
+          "conditional_tvd": 0.08202339675776033,
+          "goodman_log_cross_entropy": 5.347107530716018,
+          "target_entropy": 5.347107530717468,
+          "dodd_linear_overlap_ratio": 1.0000000000014495
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.00010156684980300312,
+          "candidate_mass": 2.590536055859053e-05,
+          "conditional_tvd": 0.15995112802614536,
+          "goodman_log_cross_entropy": 4.787491742787611,
+          "target_entropy": 4.787491742782047,
+          "dodd_linear_overlap_ratio": 0.9999999999944337
+        },
+        {
+          "clicks": 8,
+          "target_mass": 6.464916158382961e-06,
+          "candidate_mass": 9.20282408994132e-07,
+          "conditional_tvd": 0.309487571093823,
+          "goodman_log_cross_entropy": 3.806662489700493,
+          "target_entropy": 3.806662489770319,
+          "dodd_linear_overlap_ratio": 1.0000000000698273
+        },
+        {
+          "clicks": 9,
+          "target_mass": 2.4385408048388513e-07,
+          "candidate_mass": 1.5789390049131248e-08,
+          "conditional_tvd": 0.40449799275102244,
+          "goodman_log_cross_entropy": 2.302585094187027,
+          "target_entropy": 2.302585092994045,
+          "dodd_linear_overlap_ratio": 0.9999999988070181
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026703571,
+    "method": "goodman_centered",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.01036714625100877,
+    "accuracy": {
+      "full_tvd": 0.01706667830809416,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0030459171376191856,
+          "max_abs_click": 0.004967787732076956,
+          "slope_through_origin_parity": 0.9974280634473022,
+          "pearson": null
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0010377637269589942,
+          "max_abs_click": 0.0025333429624248907,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 3,
+          "rmse_click": 6.902080317617359e-05,
+          "max_abs_click": 0.00023495037311261485,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 4,
+          "rmse_click": 2.6479962913518572e-05,
+          "max_abs_click": 7.383955677136731e-05,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 5,
+          "rmse_click": 9.718614105908492e-06,
+          "max_abs_click": 3.1152461361058084e-05,
+          "slope_through_origin_parity": null,
+          "pearson": 0.038456122637912316
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.0030716779312049947,
+        "pearson_discrepancy_per_shot": 0.00010244299137085179
+      },
+      "two_group_clicks": {
+        "tvd": 0.005725541564543379,
+        "pearson_discrepancy_per_shot": 0.0002109401712366193
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.04214128246450909,
+          "candidate_mass": 0.042815308141538694,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.1569987476649001,
+          "candidate_mass": 0.15706717919496943,
+          "conditional_tvd": 0.010432193925941032,
+          "goodman_log_cross_entropy": 2.3025850929940455,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 1.0000000000000002
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.26320682231485465,
+          "candidate_mass": 0.2614449679038298,
+          "conditional_tvd": 0.015365423067550522,
+          "goodman_log_cross_entropy": 3.80666248977032,
+          "target_entropy": 3.806662489770321,
+          "dodd_linear_overlap_ratio": 0.9999999999999999
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.2614895359206133,
+          "candidate_mass": 0.26017971240043314,
+          "conditional_tvd": 0.01713741705086215,
+          "goodman_log_cross_entropy": 4.787491742782045,
+          "target_entropy": 4.787491742782045,
+          "dodd_linear_overlap_ratio": 1.0000000000000002
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.17048289163430008,
+          "candidate_mass": 0.17059494909647072,
+          "conditional_tvd": 0.020498091508403884,
+          "goodman_log_cross_entropy": 5.347107530717469,
+          "target_entropy": 5.347107530717468,
+          "dodd_linear_overlap_ratio": 1.0000000000000002
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.07621676110331796,
+          "candidate_mass": 0.07724523214871688,
+          "conditional_tvd": 0.02426458041431729,
+          "goodman_log_cross_entropy": 5.5294290875114225,
+          "target_entropy": 5.529429087511423,
+          "dodd_linear_overlap_ratio": 1.0000000000000004
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.023662339604025737,
+          "candidate_mass": 0.02442474548742202,
+          "conditional_tvd": 0.02963822075423799,
+          "goodman_log_cross_entropy": 5.347107530717471,
+          "target_entropy": 5.3471075307174685,
+          "dodd_linear_overlap_ratio": 0.9999999999999978
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.005037418983287245,
+          "candidate_mass": 0.0053623079519056534,
+          "conditional_tvd": 0.037858689758043705,
+          "goodman_log_cross_entropy": 4.787491742782053,
+          "target_entropy": 4.787491742782046,
+          "dodd_linear_overlap_ratio": 0.9999999999999938
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.0007037651907715534,
+          "candidate_mass": 0.0007928164114440863,
+          "conditional_tvd": 0.059614421818822635,
+          "goodman_log_cross_entropy": 3.806662489770064,
+          "target_entropy": 3.80666248977032,
+          "dodd_linear_overlap_ratio": 1.0000000000002573
+        },
+        {
+          "clicks": 9,
+          "target_mass": 5.826445769764599e-05,
+          "candidate_mass": 6.997757925274692e-05,
+          "conditional_tvd": 0.05028976793332052,
+          "goodman_log_cross_entropy": 2.3025850929948675,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 0.9999999999991784
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.1706617225822344e-06,
+          "candidate_mass": 2.803684016713227e-06,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2026703571,
+    "method": "goodman_literal",
+    "points_each": 131072,
+    "replicate_distribution_tvd": 0.009707819255864902,
+    "accuracy": {
+      "full_tvd": 0.03235668666419016,
+      "cumulants": [
+        {
+          "order": 1,
+          "rmse_click": 0.0030373066562596187,
+          "max_abs_click": 0.004886454018160041,
+          "slope_through_origin_parity": 0.9982035120228253,
+          "pearson": null
+        },
+        {
+          "order": 2,
+          "rmse_click": 0.0023874371518259095,
+          "max_abs_click": 0.004412715597410029,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 3,
+          "rmse_click": 7.215328037682099e-05,
+          "max_abs_click": 0.00023757389724036494,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 4,
+          "rmse_click": 2.3336401808367816e-05,
+          "max_abs_click": 6.732605872535264e-05,
+          "slope_through_origin_parity": null,
+          "pearson": null
+        },
+        {
+          "order": 5,
+          "rmse_click": 8.393812870570563e-06,
+          "max_abs_click": 2.8168367267670776e-05,
+          "slope_through_origin_parity": null,
+          "pearson": 0.011700519532216219
+        }
+      ],
+      "total_clicks": {
+        "tvd": 0.028774832985396806,
+        "pearson_discrepancy_per_shot": 0.005482063757691196
+      },
+      "two_group_clicks": {
+        "tvd": 0.028774832985397077,
+        "pearson_discrepancy_per_shot": 0.0055908119352770505
+      },
+      "sectors": [
+        {
+          "clicks": 0,
+          "target_mass": 0.04214128246450909,
+          "candidate_mass": 0.03429931005620472,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 1,
+          "target_mass": 0.1569987476649001,
+          "candidate_mass": 0.1481050970289517,
+          "conditional_tvd": 0.012838503921245747,
+          "goodman_log_cross_entropy": 2.3025850929940455,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 2,
+          "target_mass": 0.26320682231485465,
+          "candidate_mass": 0.27127302303483275,
+          "conditional_tvd": 0.01626383163018464,
+          "goodman_log_cross_entropy": 3.8066624897703187,
+          "target_entropy": 3.806662489770321,
+          "dodd_linear_overlap_ratio": 0.9999999999999993
+        },
+        {
+          "clicks": 3,
+          "target_mass": 0.2614895359206133,
+          "candidate_mass": 0.27764918030666813,
+          "conditional_tvd": 0.016954245985153337,
+          "goodman_log_cross_entropy": 4.787491742782046,
+          "target_entropy": 4.787491742782045,
+          "dodd_linear_overlap_ratio": 1.0
+        },
+        {
+          "clicks": 4,
+          "target_mass": 0.17048289163430008,
+          "candidate_mass": 0.1750318795136646,
+          "conditional_tvd": 0.019440927226251938,
+          "goodman_log_cross_entropy": 5.347107530717469,
+          "target_entropy": 5.347107530717468,
+          "dodd_linear_overlap_ratio": 0.9999999999999998
+        },
+        {
+          "clicks": 5,
+          "target_mass": 0.07621676110331796,
+          "candidate_mass": 0.0711709148270778,
+          "conditional_tvd": 0.022882946397912756,
+          "goodman_log_cross_entropy": 5.529429087511423,
+          "target_entropy": 5.529429087511423,
+          "dodd_linear_overlap_ratio": 1.0000000000000009
+        },
+        {
+          "clicks": 6,
+          "target_mass": 0.023662339604025737,
+          "candidate_mass": 0.018856228985488152,
+          "conditional_tvd": 0.028172071318383368,
+          "goodman_log_cross_entropy": 5.347107530717473,
+          "target_entropy": 5.3471075307174685,
+          "dodd_linear_overlap_ratio": 0.9999999999999946
+        },
+        {
+          "clicks": 7,
+          "target_mass": 0.005037418983287245,
+          "candidate_mass": 0.003240447641883424,
+          "conditional_tvd": 0.038359728498151544,
+          "goodman_log_cross_entropy": 4.787491742782038,
+          "target_entropy": 4.787491742782046,
+          "dodd_linear_overlap_ratio": 1.0000000000000069
+        },
+        {
+          "clicks": 8,
+          "target_mass": 0.0007037651907715534,
+          "candidate_mass": 0.0003522975623998501,
+          "conditional_tvd": 0.06789477151746043,
+          "goodman_log_cross_entropy": 3.806662489770029,
+          "target_entropy": 3.80666248977032,
+          "dodd_linear_overlap_ratio": 1.00000000000029
+        },
+        {
+          "clicks": 9,
+          "target_mass": 5.826445769764599e-05,
+          "candidate_mass": 2.1106454313129896e-05,
+          "conditional_tvd": 0.06984789357888554,
+          "goodman_log_cross_entropy": 2.3025850929940153,
+          "target_entropy": 2.3025850929940455,
+          "dodd_linear_overlap_ratio": 1.0000000000000309
+        },
+        {
+          "clicks": 10,
+          "target_mass": 2.1706617225822344e-06,
+          "candidate_mass": 5.145885157636133e-07,
+          "conditional_tvd": 0.0,
+          "goodman_log_cross_entropy": -0.0,
+          "target_entropy": -0.0,
+          "dodd_linear_overlap_ratio": 1.0
+        }
+      ]
+    }
+  }
+]

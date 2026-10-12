@@ -1,0 +1,6 @@
+# Personal Obsidian session history stays on this device.
+.obsidian/workspace*.json
+
+# Local environments and generated detector records.
+.venv/
+/GBS Classical Simulation/samples/

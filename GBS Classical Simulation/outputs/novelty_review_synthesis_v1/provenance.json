@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "reviews": [
+    {
+      "label": "A",
+      "attachment_id": "37b574c3-06c2-44f1-a1c5-4f6cf7d271fe",
+      "sha256": "2a01be4cf00caca441d91281408afdf996d19576ad866142e25aaf2bd9e89da7",
+      "bytes": 21216,
+      "opening": "## Verdict"
+    },
+    {
+      "label": "B",
+      "attachment_id": "d56d0062-0943-4115-8eb7-9bfcf6fb0d8c",
+      "sha256": "4ae640423e5650075af36efbabaec75385d466a5559fc72be03a1dfeb7f3f78d",
+      "bytes": 17299,
+      "opening": "## Bottom line"
+    }
+  ],
+  "assessment_C": {
+    "source": "User inline text beginning The proposed algorithm constructs a bounded-degree directed acyclic graph",
+    "full_text_copied": false
+  },
+  "verification": {
+    "K2": "Original Cooper-Herskovits Springer PDF, Sections 3.1.1-3.1.2 and p.322 pseudocode",
+    "Sparse_Candidate": "Original Friedman-Nachman-Peer PDF, Section 4",
+    "Lee": "Sections II-III and Proposition 1; qubit model and approximate-Markov assumptions",
+    "Villalonga": "Sections II.1-II.2 and IID qualification",
+    "Dodd": "Pinned original CPU source and published algorithm; no new benchmark"
+  },
+  "citation_mismatches_verified": [
+    {
+      "review": "A",
+      "supplied_link": "https://link.springer.com/content/pdf/10.1023/A:1022649401552.pdf",
+      "actual_document": "Cooper and Herskovits, A Bayesian Method for the Induction of Probabilistic Networks from Data, 1992",
+      "misuse": "Repeatedly used to support Friedman attribution"
+    },
+    {
+      "review": "A",
+      "supplied_link": "https://www.jair.org/index.php/jair/article/download/10835/25860/20204",
+      "actual_document": "Yuan and Malone, Learning Optimal Bayesian Networks: A Shortest Path Perspective, JAIR 48, 2013",
+      "misuse": "Presented as pointer for original 1992 K2 construction"
+    },
+    {
+      "review": "A",
+      "misuse": "Dodd discussion linked to arXiv:1301.6696 (Friedman); threshold probability discussion linked to arXiv:2510.06328 (Lee)"
+    }
+  ],
+  "experiment_execution": "None in this synthesis",
+  "scope": "Targeted verification of supplied assessments; not exhaustive novelty clearance or human peer review"
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Publication packaging checks, not a new competitive benchmark",
+  "full_context_six_modes": {
+    "shots": 4096,
+    "exact_induced_law_tvd": 6.285662094984712e-17
+  },
+  "vacuum_six_modes": {
+    "shots": 1024,
+    "all_records_zero": true,
+    "exact_induced_law_tvd": 0.0
+  },
+  "original_algorithm": "Standalone runner calls the measured Context implementation; no probability-model changes.",
+  "clean_staged_snapshot": {
+    "environment": "Fresh Python 3.11 environment with requirements-context.txt only; no vendor baseline DLL, cvxpy, matplotlib, or psutil needed.",
+    "records": 10000,
+    "fixture": "case_2026201471.npz",
+    "parent_cap": 6,
+    "exact_induced_law_tvd": 0.0032628895089896054,
+    "matches_original_saved_TVD_to": 1e-12,
+    "manifest_entries_verified": 70,
+    "pip_check": "passed"
+  }
+}

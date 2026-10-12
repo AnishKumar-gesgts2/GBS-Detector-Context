@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-11",
+  "base_seed": 2026101171,
+  "cases": [
+    {
+      "m": 6,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026161471
+    },
+    {
+      "m": 6,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026161472
+    },
+    {
+      "m": 6,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026161671
+    },
+    {
+      "m": 6,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026161672
+    },
+    {
+      "m": 6,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026162471
+    },
+    {
+      "m": 6,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026162472
+    },
+    {
+      "m": 6,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026162671
+    },
+    {
+      "m": 6,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026162672
+    },
+    {
+      "m": 6,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026163471
+    },
+    {
+      "m": 6,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026163472
+    },
+    {
+      "m": 6,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026163671
+    },
+    {
+      "m": 6,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026163672
+    },
+    {
+      "m": 8,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026181471
+    },
+    {
+      "m": 8,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026181472
+    },
+    {
+      "m": 8,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026181671
+    },
+    {
+      "m": 8,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026181672
+    },
+    {
+      "m": 8,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026182471
+    },
+    {
+      "m": 8,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026182472
+    },
+    {
+      "m": 8,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026182671
+    },
+    {
+      "m": 8,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026182672
+    },
+    {
+      "m": 8,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026183471
+    },
+    {
+      "m": 8,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026183472
+    },
+    {
+      "m": 8,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026183671
+    },
+    {
+      "m": 8,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026183672
+    },
+    {
+      "m": 10,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026201471
+    },
+    {
+      "m": 10,
+      "profile": "heterogeneous",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026201472
+    },
+    {
+      "m": 10,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026201671
+    },
+    {
+      "m": 10,
+      "profile": "heterogeneous",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026201672
+    },
+    {
+      "m": 10,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026202471
+    },
+    {
+      "m": 10,
+      "profile": "flat",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026202472
+    },
+    {
+      "m": 10,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026202671
+    },
+    {
+      "m": 10,
+      "profile": "flat",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026202672
+    },
+    {
+      "m": 10,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026203471
+    },
+    {
+      "m": 10,
+      "profile": "bright",
+      "eta": 0.3,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026203472
+    },
+    {
+      "m": 10,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 0,
+      "structure": "haar",
+      "seed": 2026203671
+    },
+    {
+      "m": 10,
+      "profile": "bright",
+      "eta": 0.5,
+      "rep": 1,
+      "structure": "haar",
+      "seed": 2026203672
+    },
+    {
+      "m": 10,
+      "profile": "heterogeneous",
+      "eta": 0.4,
+      "rep": 0,
+      "structure": "real_orthogonal",
+      "seed": 2026701571
+    },
+    {
+      "m": 10,
+      "profile": "flat",
+      "eta": 0.4,
+      "rep": 0,
+      "structure": "real_orthogonal",
+      "seed": 2026702571
+    },
+    {
+      "m": 10,
+      "profile": "bright",
+      "eta": 0.4,
+      "rep": 0,
+      "structure": "real_orthogonal",
+      "seed": 2026703571
+    }
+  ],
+  "methods": [
+    "dodd3",
+    "dodd5",
+    "goodman_centered",
+    "goodman_literal",
+    "context2",
+    "context4",
+    "context6",
+    "source2",
+    "source4",
+    "blocks2",
+    "blocks4"
+  ],
+  "sample_counts": [
+    1000,
+    10000
+  ],
+  "timing_repeats": 3,
+  "goodman_calibration": 16384,
+  "accuracy": "exact induced distributions except two 32768-point integrations for Goodman",
+  "gate": "candidate error <=1.25 competitor error, throughput >=0.75 competitor; uncertainty and matched-target frontier take precedence",
+  "baseline": "pinned unmodified FrugalGBS CPU generation; Goodman equation ports with frozen independent calibration, two moment interpretations",
+  "not_claimed": "hardware reproduction, production MATLAB speed, rigorous scalable certificate, predicted polished improvement"
+}

@@ -1,0 +1,56 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.3.3",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "blas": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\notso\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\notso\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy.libs\\libscipy_openblas-48c358d105077551cc9cc3ba79387ed5.dll",
+      "version": "0.3.29.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "C:\\Strawberry\\c\\bin\\libgomp-1.dll",
+      "version": null
+    }
+  ],
+  "logical_cpu_count": 32,
+  "checks": [
+    {
+      "frugal_cumulant_max_error": 1.8984813721090177e-14,
+      "frugal_sampling_tvd_to_own_law": 0.002711478908846528,
+      "iid_control_max": 0.0036760992688335604
+    },
+    {
+      "goodman_centered": true,
+      "unprojected_mean_max_error": 7.89705945347663e-06,
+      "target_min_eigenvalue": -0.00647651626747255
+    },
+    {
+      "goodman_centered": false,
+      "unprojected_mean_max_error": 7.89705945347663e-06,
+      "target_min_eigenvalue": -0.006029484484381321
+    }
+  ],
+  "frugal_commit": "fa8b796f2afebd4845a2e335e457735952617ef8",
+  "xqsim_checked_commit": "32609f3644ae18bff872b53a32a3a7f58f883b3b",
+  "dll_sha256": "d50937c9e3c3b5a4ee04b6ce8ff0372b8fa5a204c033f25e195f41953f49b45c"
+}

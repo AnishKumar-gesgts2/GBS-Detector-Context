@@ -1,0 +1,9 @@
+numpy==2.3.3
+scipy==1.16.2
+numba==0.67.0
+llvmlite==0.49.0
+psutil==7.0.0
+threadpoolctl==3.6.0
+matplotlib==3.10.6
+cvxpy==1.9.3
+clarabel==0.11.1

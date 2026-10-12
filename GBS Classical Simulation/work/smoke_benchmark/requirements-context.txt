@@ -1,0 +1,5 @@
+# Minimal dependencies for our context sampler; no vendor C++ build required.
+numpy==2.3.3
+scipy==1.16.2
+numba==0.67.0
+threadpoolctl==3.6.0

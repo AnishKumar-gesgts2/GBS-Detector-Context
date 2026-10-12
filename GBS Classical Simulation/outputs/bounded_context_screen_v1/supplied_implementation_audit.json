@@ -1,0 +1,21 @@
+{
+  "scope": "deterministic limit tests of the supplied function; no corrected implementation or benchmark rerun",
+  "source_basename": "gbs_conditional_cumulant_feasibility.py",
+  "source_sha256_lf": "3a1ea9344676403aa4c588916f8da060425f43a66d78cb0ca9c6278140a2343c",
+  "function_line": 154,
+  "checks": [
+    {
+      "case": "vacuum",
+      "expected_second_no_click": 1.0,
+      "implemented_second_no_click": 0.5,
+      "absolute_error": 0.5
+    },
+    {
+      "case": "independent",
+      "expected_second_no_click": 0.7,
+      "implemented_second_no_click": 0.19999999999999996,
+      "absolute_error": 0.5
+    }
+  ],
+  "decision": "the supplied implementation fails vacuum and independent limits; published-baseline fidelity and method rejection are unsupported"
+}

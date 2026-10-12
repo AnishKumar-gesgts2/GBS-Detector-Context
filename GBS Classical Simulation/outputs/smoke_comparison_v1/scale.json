@@ -1,0 +1,551 @@
+[
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "dodd3",
+    "shots": 1000,
+    "setup_seconds": 0.003799600002821535,
+    "sample_seconds": [
+      0.01694819999829633,
+      0.016976300001260825,
+      0.016912999999476597
+    ],
+    "median_sample_seconds": 0.01694819999829633,
+    "median_total_seconds": 0.020747800001117866,
+    "records_per_second": 59003.31599228957
+  },
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "dodd5",
+    "shots": 1000,
+    "setup_seconds": 0.08857569999963744,
+    "sample_seconds": [
+      0.039139000000432134,
+      0.03908110000338638,
+      0.039120900000853
+    ],
+    "median_sample_seconds": 0.039120900000853,
+    "median_total_seconds": 0.12769660000049043,
+    "records_per_second": 25561.78410972641
+  },
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "goodman_centered",
+    "shots": 1000,
+    "setup_seconds": 0.04002279999986058,
+    "sample_seconds": [
+      0.0020772999996552244,
+      0.001575599999341648,
+      0.0015708999999333173
+    ],
+    "median_sample_seconds": 0.001575599999341648,
+    "median_total_seconds": 0.04159839999920223,
+    "records_per_second": 634678.8527658302,
+    "persistent_array_bytes": 50432
+  },
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "goodman_literal",
+    "shots": 1000,
+    "setup_seconds": 0.03744949999963865,
+    "sample_seconds": [
+      0.0016160000013769604,
+      0.001554200003738515,
+      0.0015713000029791147
+    ],
+    "median_sample_seconds": 0.0015713000029791147,
+    "median_total_seconds": 0.03902080000261776,
+    "records_per_second": 636415.7055330266,
+    "persistent_array_bytes": 50432
+  },
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "context4",
+    "shots": 1000,
+    "setup_seconds": 0.009631400003854651,
+    "sample_seconds": [
+      0.00016350000078091398,
+      9.480000153416768e-05,
+      8.910000178730115e-05
+    ],
+    "median_sample_seconds": 9.480000153416768e-05,
+    "median_total_seconds": 0.009726200005388819,
+    "records_per_second": 10548523.036042161,
+    "persistent_array_bytes": 2688
+  },
+  {
+    "m": 16,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026262571,
+    "method": "context6",
+    "shots": 1000,
+    "setup_seconds": 0.019125300001178402,
+    "sample_seconds": [
+      0.00011000000085914508,
+      9.90999978967011e-05,
+      0.00010379999730503187
+    ],
+    "median_sample_seconds": 0.00010379999730503187,
+    "median_total_seconds": 0.019229099998483434,
+    "records_per_second": 9633911.618141472,
+    "persistent_array_bytes": 9088
+  },
+  {
+    "m": 16,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027462571,
+    "method": "dodd5",
+    "shots": 10000,
+    "setup_seconds": 0.08356590000039432,
+    "sample_seconds": [
+      0.3889205999948899,
+      0.3888334000002942,
+      0.387389899995469
+    ],
+    "median_sample_seconds": 0.3888334000002942,
+    "median_total_seconds": 0.4723993000006885,
+    "records_per_second": 25717.955299088077
+  },
+  {
+    "m": 16,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027462571,
+    "method": "goodman_centered",
+    "shots": 10000,
+    "setup_seconds": 0.03694480000558542,
+    "sample_seconds": [
+      0.017300299994531088,
+      0.01617930000065826,
+      0.01668459999928018
+    ],
+    "median_sample_seconds": 0.01668459999928018,
+    "median_total_seconds": 0.0536294000048656,
+    "records_per_second": 599355.093944801,
+    "persistent_array_bytes": 50432
+  },
+  {
+    "m": 16,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027462571,
+    "method": "explicit_product",
+    "shots": 10000,
+    "setup_seconds": 0.0006876000043121167,
+    "sample_seconds": [
+      0.025945899993530475,
+      0.02546079999592621,
+      0.02478479999990668
+    ],
+    "median_sample_seconds": 0.02546079999592621,
+    "median_total_seconds": 0.026148400000238325,
+    "records_per_second": 392760.6360208644,
+    "diagnostics": {
+      "construction": "explicit common-squeezing product core",
+      "added_covariance_noise": 0.0,
+      "target_covariance_max_error": 0.0,
+      "classical_noise_min_eigenvalue": -4.1201806554758844e-17
+    },
+    "persistent_array_bytes": 9344
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "dodd3",
+    "shots": 1000,
+    "setup_seconds": 0.008260900001914706,
+    "sample_seconds": [
+      0.09690910000063013,
+      0.09612650000053691,
+      0.10090420000051381
+    ],
+    "median_sample_seconds": 0.09690910000063013,
+    "median_total_seconds": 0.10517000000254484,
+    "records_per_second": 10318.948375266076
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "dodd5",
+    "shots": 1000,
+    "setup_seconds": 0.8086278999981005,
+    "sample_seconds": [
+      0.27483249999932013,
+      0.2771375000011176,
+      0.27587389999825973
+    ],
+    "median_sample_seconds": 0.27587389999825973,
+    "median_total_seconds": 1.0845017999963602,
+    "records_per_second": 3624.8445395026793
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "goodman_centered",
+    "shots": 1000,
+    "setup_seconds": 0.08070350000343751,
+    "sample_seconds": [
+      0.0028538000042317435,
+      0.002742900003795512,
+      0.0028877000004285946
+    ],
+    "median_sample_seconds": 0.0028538000042317435,
+    "median_total_seconds": 0.08355730000766926,
+    "records_per_second": 350409.9791566174,
+    "persistent_array_bytes": 112512
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "goodman_literal",
+    "shots": 1000,
+    "setup_seconds": 0.0755739000014728,
+    "sample_seconds": [
+      0.0034910000031231903,
+      0.0025851000027614646,
+      0.002612199998111464
+    ],
+    "median_sample_seconds": 0.002612199998111464,
+    "median_total_seconds": 0.07818609999958426,
+    "records_per_second": 382819.0799796982,
+    "persistent_array_bytes": 112512
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "context4",
+    "shots": 1000,
+    "setup_seconds": 0.020939300004101824,
+    "sample_seconds": [
+      0.00014250000094762072,
+      0.00015110000094864517,
+      0.00019109999993816018
+    ],
+    "median_sample_seconds": 0.00015110000094864517,
+    "median_total_seconds": 0.02109040000505047,
+    "records_per_second": 6618133.644750096,
+    "persistent_array_bytes": 4032
+  },
+  {
+    "m": 24,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026342571,
+    "method": "context6",
+    "shots": 1000,
+    "setup_seconds": 0.04203140000026906,
+    "sample_seconds": [
+      0.0001664000010350719,
+      0.00016549999418202788,
+      0.00015420000272570178
+    ],
+    "median_sample_seconds": 0.00016549999418202788,
+    "median_total_seconds": 0.04219689999445109,
+    "records_per_second": 6042296.284917893,
+    "persistent_array_bytes": 13632
+  },
+  {
+    "m": 24,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027542571,
+    "method": "dodd5",
+    "shots": 10000,
+    "setup_seconds": 0.8264275999972597,
+    "sample_seconds": [
+      2.786526199997752,
+      2.766697600003681,
+      2.789788599999156
+    ],
+    "median_sample_seconds": 2.786526199997752,
+    "median_total_seconds": 3.6129537999950117,
+    "records_per_second": 3588.6976408145983
+  },
+  {
+    "m": 24,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027542571,
+    "method": "goodman_centered",
+    "shots": 10000,
+    "setup_seconds": 0.09349939999810886,
+    "sample_seconds": [
+      0.03057709999848157,
+      0.0351301999980933,
+      0.03133929999603424
+    ],
+    "median_sample_seconds": 0.03133929999603424,
+    "median_total_seconds": 0.1248386999941431,
+    "records_per_second": 319088.1736753988,
+    "persistent_array_bytes": 112512
+  },
+  {
+    "m": 24,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027542571,
+    "method": "explicit_product",
+    "shots": 10000,
+    "setup_seconds": 0.0017621000006329268,
+    "sample_seconds": [
+      0.0455634000027203,
+      0.04560689999925671,
+      0.041981999995186925
+    ],
+    "median_sample_seconds": 0.0455634000027203,
+    "median_total_seconds": 0.04732550000335323,
+    "records_per_second": 219474.40268730963,
+    "diagnostics": {
+      "construction": "explicit common-squeezing product core",
+      "added_covariance_noise": 0.0,
+      "target_covariance_max_error": 0.0,
+      "classical_noise_min_eigenvalue": -1.7379162425439186e-17
+    },
+    "persistent_array_bytes": 20160
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "dodd3",
+    "shots": 1000,
+    "setup_seconds": 0.02247949999582488,
+    "sample_seconds": [
+      0.35024970000085887,
+      0.3453114999938407,
+      0.34847849999641767
+    ],
+    "median_sample_seconds": 0.34847849999641767,
+    "median_total_seconds": 0.37095799999224255,
+    "records_per_second": 2869.617494365592
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "dodd5",
+    "shots": 1000,
+    "setup_seconds": 3.901349699997809,
+    "sample_seconds": [
+      1.065869300000486,
+      1.0696714999940014,
+      1.073041399999056
+    ],
+    "median_sample_seconds": 1.0696714999940014,
+    "median_total_seconds": 4.97102119999181,
+    "records_per_second": 934.8664519954098
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "goodman_centered",
+    "shots": 1000,
+    "setup_seconds": 0.13804520000121556,
+    "sample_seconds": [
+      0.006159899996418972,
+      0.005828100001963321,
+      0.00656650000018999
+    ],
+    "median_sample_seconds": 0.006159899996418972,
+    "median_total_seconds": 0.14420509999763453,
+    "records_per_second": 162340.2978264818,
+    "persistent_array_bytes": 199168
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "goodman_literal",
+    "shots": 1000,
+    "setup_seconds": 0.12976099999650614,
+    "sample_seconds": [
+      0.004942300001857802,
+      0.005402099995990284,
+      0.0052787999957217835
+    ],
+    "median_sample_seconds": 0.0052787999957217835,
+    "median_total_seconds": 0.13503979999222793,
+    "records_per_second": 189436.99340957272,
+    "persistent_array_bytes": 199168
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "context4",
+    "shots": 1000,
+    "setup_seconds": 0.034037800003716256,
+    "sample_seconds": [
+      0.00026340000476920977,
+      0.0002576000042608939,
+      0.00024399999529123306
+    ],
+    "median_sample_seconds": 0.0002576000042608939,
+    "median_total_seconds": 0.03429540000797715,
+    "records_per_second": 3881987.513428816,
+    "persistent_array_bytes": 5376
+  },
+  {
+    "m": 32,
+    "profile": "flat",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "haar",
+    "seed": 2026422571,
+    "method": "context6",
+    "shots": 1000,
+    "setup_seconds": 0.05812340000557015,
+    "sample_seconds": [
+      0.00026479999360162765,
+      0.0002592000018921681,
+      0.00025319999986095354
+    ],
+    "median_sample_seconds": 0.0002592000018921681,
+    "median_total_seconds": 0.058382600007462315,
+    "records_per_second": 3858024.6631943244,
+    "persistent_array_bytes": 18176
+  },
+  {
+    "m": 32,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027622571,
+    "method": "dodd5",
+    "shots": 10000,
+    "setup_seconds": 3.994321199999831,
+    "sample_seconds": [
+      10.850188199998229,
+      10.837452400002803,
+      10.852398400005768
+    ],
+    "median_sample_seconds": 10.850188199998229,
+    "median_total_seconds": 14.84450939999806,
+    "records_per_second": 921.6429997040634
+  },
+  {
+    "m": 32,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027622571,
+    "method": "goodman_centered",
+    "shots": 10000,
+    "setup_seconds": 0.1601398999991943,
+    "sample_seconds": [
+      0.04285099999833619,
+      0.043448099997476675,
+      0.042998199998692144
+    ],
+    "median_sample_seconds": 0.042998199998692144,
+    "median_total_seconds": 0.20313809999788646,
+    "records_per_second": 232567.87494137348,
+    "persistent_array_bytes": 199168
+  },
+  {
+    "m": 32,
+    "profile": "moderate_heterogeneous",
+    "eta": 0.4,
+    "rep": 0,
+    "structure": "real_orthogonal",
+    "seed": 2027622571,
+    "method": "explicit_product",
+    "shots": 10000,
+    "setup_seconds": 0.0056860999975469895,
+    "sample_seconds": [
+      0.05982940000103554,
+      0.0602087000006577,
+      0.060666800003673416
+    ],
+    "median_sample_seconds": 0.0602087000006577,
+    "median_total_seconds": 0.06589479999820469,
+    "records_per_second": 166088.9539201272,
+    "diagnostics": {
+      "construction": "explicit common-squeezing product core",
+      "added_covariance_noise": 0.0,
+      "target_covariance_max_error": 0.0,
+      "classical_noise_min_eigenvalue": -4.859798595343153e-18
+    },
+    "persistent_array_bytes": 35072
+  }
+]

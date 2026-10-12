@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-11",
+  "scope": "Bounded synthetic CPU feasibility screen. Main rows are immutable; refinement affects scoring only.",
+  "actual_author_generation": "FrugalGBS original CPU generate_samples, double precision, SSE2 generation bridge; native optimized frontend; no GPU.",
+  "goodman": "Equation ports with centered/literal conventions and 10 iterations. Main frozen independent calibration; separate paper-style per-output-batch correction. Original MATLAB sampler not located/run.",
+  "compiler": "g++ 13.2.0 Strawberry MinGW; CMake MinGW Makefiles",
+  "vendors": {
+    "FrugalGBS": "fa8b796f2afebd4845a2e335e457735952617ef8",
+    "xqsim": "32609f3644ae18bff872b53a32a3a7f58f883b3b",
+    "eigen": "e7248b26a1ed53fa030c5c459f7ea095dfd276ac",
+    "xsimd": "b8df57b3865cbf38576a9c7099180f9bf1efcf73"
+  },
+  "unsuccessful_or_bounded_operations": [
+    {
+      "operation": "Native/AVX2 SIMD generation bridges",
+      "outcome": "Windows access violations; excluded from benchmark. Default SSE2 generation passed physics/sampling checks."
+    },
+    {
+      "operation": "16-mode full-distribution scoring supplement",
+      "outcome": "Halted after approximately 235 CPU seconds to limit resource use. Partial accuracy outputs discarded; scale supplement timing-only."
+    }
+  ],
+  "uninstrumented_fields": {
+    "memory.json Dodd persistent_array_bytes=0": "Missing-value default, not zero native storage. Corrected to null in summary.json."
+  },
+  "supplement_checks_recipe": {
+    "case": "followup.moderate(10,0.4)",
+    "sampler": "ExplicitProduct",
+    "shots": 200000,
+    "sample_seed": 2026101122,
+    "control_seed": 12,
+    "controls": 20,
+    "goodman_batch_vacuum": "6 modes, r=0, U=I, eta=.4, both conventions, 10000 shots seed12"
+  },
+  "publication": "Local changes only; no commit or push as part of this experiment request."
+}

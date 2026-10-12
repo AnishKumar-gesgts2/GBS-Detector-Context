@@ -1,0 +1,12 @@
+{
+  "explicit_product_sampling_tvd_to_exact": 0.011309981291137229,
+  "iid_control_max": 0.011778575057109908,
+  "record_count": 200000,
+  "covariance_diagnostics": {
+    "construction": "explicit common-squeezing product core",
+    "added_covariance_noise": 0.0,
+    "target_covariance_max_error": 0.0,
+    "classical_noise_min_eigenvalue": 5.642467656213962e-18
+  },
+  "goodman_batch_vacuum_both_conventions": "passed"
+}

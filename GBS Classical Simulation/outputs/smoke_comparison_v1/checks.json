@@ -1,0 +1,17 @@
+[
+  {
+    "frugal_cumulant_max_error": 1.8984813721090177e-14,
+    "frugal_sampling_tvd_to_own_law": 0.002711478908846528,
+    "iid_control_max": 0.0036760992688335604
+  },
+  {
+    "goodman_centered": true,
+    "unprojected_mean_max_error": 7.89705945347663e-06,
+    "target_min_eigenvalue": -0.00647651626747255
+  },
+  {
+    "goodman_centered": false,
+    "unprojected_mean_max_error": 7.89705945347663e-06,
+    "target_min_eigenvalue": -0.006029484484381321
+  }
+]

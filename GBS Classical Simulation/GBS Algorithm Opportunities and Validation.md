@@ -1,8 +1,12 @@
 # GBS algorithm opportunities and validation
 
+**Current measured decision:** [[GBS Mechanism Smoke Benchmark]] supersedes the prospective priority ranking below. Positive bounded detector context has a measured small-system speed benefit at moderate allowed error; an exact product-core specialization works in an eligible structured family. The tested source backend and generic block approximation do not pass the competitive gate. These results do not establish a new general algorithm or likely superiority after polishing.
+
 **Date:** October 11, 2026. **Status:** literature search and exploratory mechanism tests completed; no new complete sampler has been shown to outperform a published sampler. This note prioritizes algorithm development while preserving the independent reproduction/stress-test work in [[GBS Classical Simulation Project Description]] and the existing grant specification.
 
 ## Recommendation
+
+**Follow-up decision:** [[GBS Algorithm Review Synthesis]] consolidates four external assessments and a new conditional-cumulant diagnostic. It supersedes this initial priority ranking: adaptive non-Gaussian retention is now a conditional diagnostic, while displacement-conditioned cumulants and backend-integrated source compression are the next feasibility candidates. The original results below remain unchanged.
 
 The strongest prospective algorithm proposal is **adaptive preservation of detection-induced non-Gaussianity**: use a cheap Gaussian description for most of a lossy simulation, but retain a small, exact non-Gaussian component after the detections where replacing it by a Gaussian causes substantial error. The intended niche is accurate threshold-click sampling at finite brightness and 50%–70% total photon loss, where a fast approximation can miss conditional detector correlations.
 
