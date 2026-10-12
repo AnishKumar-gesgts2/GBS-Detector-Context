@@ -1,0 +1,186 @@
+% Standalone, four-page proposal and prototype report for Quantum Flywheel.
+% Form verified 2026-10-12: one PDF, max 4 pages and 10 MB, including references.
+% No external bibliography or figure files are needed to compile this source.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.73in,headheight=15pt,headsep=15pt,footskip=23pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array}
+\usepackage[table]{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\definecolor{ink}{HTML}{233447}
+\definecolor{accent}{HTML}{007C83}
+\definecolor{muted}{HTML}{526273}
+\definecolor{pale}{HTML}{EFF5F5}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,citecolor=accent,
+ pdfauthor={Anish Kumar},
+ pdftitle={Exact-Marginal Detector-Context Compilation for Classical Gaussian Boson Sampling},
+ pdfsubject={Quantum Flywheel proposal and AI-assisted prototype report}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\setlength{\emergencystretch}{1.5em}
+\setlist{nosep,leftmargin=1.35em,topsep=3pt}
+\renewcommand{\arraystretch}{1.13}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\heading}[1]{\vspace{5pt}{\large\bfseries\color{ink}#1}\par\vspace{2pt}}
+\newcommand{\subheading}[1]{{\bfseries\color{ink}#1}\par}
+\newcommand{\panel}[1]{\par\vspace{2pt}\begingroup\setlength{\fboxsep}{8pt}\colorbox{pale}{\parbox{\dimexpr\linewidth-16pt\relax}{#1}}\endgroup\par\vspace{3pt}}
+\newcommand{\repo}{https://github.com/AnishKumar-gesgts2/Quantum-Research}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Classical GBS algorithm development}
+\fancyhead[R]{\small\color{muted}Quantum Flywheel}
+\fancyfoot[L]{\small\color{muted}Anish Kumar \enspace|\enspace October 12, 2026}
+\fancyfoot[R]{\small\color{muted}\thepage\ /\ 4}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+\thispagestyle{fancy}
+{\small\bfseries\color{accent}RESEARCH PROPOSAL AND AI-ASSISTED PROTOTYPE REPORT}\par
+\vspace{4pt}
+{\LARGE\bfseries\color{ink}Exact-Marginal Detector-Context\par
+Compilation for Classical\par
+Gaussian Boson Sampling}\par
+\vspace{5pt}
+{\small Anish Kumar \enspace$\cdot$\enspace Independent researcher\par
+Track: AI for Breaking Quantum Advantage Claims (adversarial classical simulation)}
+
+\heading{1. Project objective and significance}
+Gaussian boson sampling (GBS) sends squeezed light through an interferometer and samples its detector outcomes. Although the Gaussian state has a compact covariance description, its joint photon-detection distribution can be expensive to sample classically~\cite{hamilton,quesada}. Experimental quantum advantage therefore depends on the best classical competitors for the specific noisy sampling task, not only on the difficulty of an idealized calculation.
+
+I propose to develop a classical threshold-GBS sampler that retains selected detector history, compiles exact small-subset conditional probabilities once, and reuses the resulting tables across many records. The aim is a reproducible improvement in the \textbf{accuracy--computational-cost tradeoff}, particularly for many records from a fixed circuit at moderate allowed error. If this improvement survives larger systems and faithful experimental modeling, it could narrow or challenge a specified finite quantum-advantage claim.
+
+\panel{\textbf{Research question.} Can information-selected detector contexts preserve enough output dependence to reduce total sampling cost at a common fidelity target, while keeping the required context width affordable as the circuit grows?}
+
+\subheading{Initial physical scope}
+The target is a zero-mean Gaussian state from squeezed-vacuum inputs and passive linear optics, measured with ideal threshold detectors: one click/no-click variable per output mode. Photon loss is the primary noise investigated and the \emph{only} initial noise model, with 50\%--70\% total loss (transmission $\eta=0.3$--$0.5$). With $\hbar=1$, vacuum covariance is $I/2$ and
+\[
+ V_{\mathrm{loss}}=\eta V_{\mathrm{ideal}}+(1-\eta)I/2.
+\]
+Complex Haar-random circuits, heterogeneous sources, and flat/bright squeezing probe different correlation regimes. This modeling choice does not imply that other imperfections are negligible in every experiment or that total loss alone guarantees easy simulation.
+
+\subheading{Position relative to existing methods}
+Villalonga et al. use accessible GBS marginals in approximate generators~\cite{villalonga}; Oh et al. reduce quantum simulation resources through loss-aware tensor networks~\cite{oh}; Dodd et al. retain truncated cumulant information~\cite{dodd}; Goodman et al. use phase-space sampling and moment correction~\cite{goodman}. Our approximation axis is \emph{selected history variables in local conditionals}. Established Bayesian-network methods are predecessors~\cite{k2,friedman}; the potentially original contribution is a useful GBS-specific construction and measured regime, not invention of the chain rule.
+
+{\small\color{muted}\href{\repo/tree/0a2bc0038d4480ee489649a8982698c786a4d58d/GBS\%20Classical\%20Simulation}{Public source, circuit fixtures, raw results, and verification records}. Evidence snapshot: \texttt{0a2bc00}.}
+
+\newpage
+\heading{2. Algorithm, error mechanism, and implementation}
+Let $P$ denote the target distribution over $M$ binary detector outcomes. For detector $i$, choose a parent set $S_i\subseteq\{1,\ldots,i-1\}$ with $|S_i|\leq b$. The compiled approximate law is
+\begin{equation}
+ Q(x)=\prod_{i=1}^{M}P(x_i\mid x_{S_i}).
+ \label{eq:model}
+\end{equation}
+The directed model has bounded \emph{indegree}, not necessarily bounded outdegree or treewidth. Its retained conditionals are exact; omitted history changes the global law.
+
+\subheading{Compilation and record generation}
+\begin{enumerate}
+\item \textbf{Query Gaussian physics.} For a detector subset $A$, calculate the vacuum/no-click probability
+\[
+ P(\text{no clicks on }A)=\det\!\left(V_A+I_{2|A|}/2\right)^{-1/2}.
+\]
+Here $V_A$ is the retained all-$q$/all-$p$ quadrature covariance. Inclusion--exclusion gives the joint click law on each family of at most $b+1$ modes~\cite{quesada}.
+\item \textbf{Select history.} Rank earlier detectors by pairwise mutual information, with fixed ordering and deterministic ties. Selection uses small Gaussian marginals rather than full-reference information.
+\item \textbf{Compile tables.} Divide joint probabilities by parent probabilities; assert nonnegativity, normalization, and finite entries. Zero-probability parent rows have undefined conditionals and use a no-click convention. Future diagnostics must measure whether these rows are reached.
+\item \textbf{Generate records.} Gather sampled parent bits, look up the next conditional, and draw its outcome. Fresh random numbers yield independent records from fixed $Q$, without global output enumeration.
+\end{enumerate}
+
+For fixed $b$, determinant work is approximately $O\!\left(M(b+1)^3 2^{b+1}\right)$, plus $O(M^2)$ pair queries and selection overhead. Tables use $O(M2^b)$ memory; dense input/pair matrices add $O(M^2)$. Generation costs $O(M(b+1))$ per record. Required width must remain affordable.
+
+\subheading{What determines error}
+For exact supported conditionals, the standard information identity is
+\[
+ D_{\mathrm{KL}}(P\Vert Q)=\sum_i
+ I_P\!\left(X_i;X_{<i}\setminus S_i\mid X_{S_i}\right).
+\]
+This measures discarded dependence. Pair MI can miss conditional or higher-order information, and the full-history terms can be inaccessible. Neither this identity nor noisy-qubit CMI results~\cite{lee} certify fixed-width lossy GBS. Affordable diagnostics and width scaling remain research tasks.
+
+\heading{3. AI-assisted experiment workflow}
+AI assistance explored mechanisms, drafted code, organized runs, and consolidated novelty checks. Source verification and independent probability calculations checked generated claims. The workflow fixes seeds, executes CPU comparisons, saves raw rows and provenance, and separates scoring from timing. Python/NumPy/SciPy computes Gaussian quantities; Numba generates records; a thin bridge calls original Dodd C++ code.
+
+The 429 completed comparisons include physical limits and sample-to-own-law checks. Packaging reproduced saved context TVD on all 39 fixtures. Proposed AI-assisted revisions retain these checks, held-out evaluation, and complete cost records; AI output is not peer review.
+
+\newpage
+\heading{4. Smoke-test evidence: a useful but bounded niche}
+\subheading{Design and accuracy reference}
+The main suite has 39 circuits and 11 methods: 36 complex-Haar circuits at 6/8/10 modes, three squeezing profiles, transmission 0.3/0.5, and two seeds; plus three real-orthogonal controls. Competitive claims use 24 eight-/ten-mode Haar circuits. Six-mode context six is a full-history control; eight-mode context six remains near-global.
+
+Full references use a M\"obius transform of all-subset vacuum probabilities, with an independent Torontonian check. Candidate/Dodd induced laws are scored directly. Frozen Goodman laws use two scrambled Sobol integrations and selected refinements; spread is a numerical sensitivity diagnostic, not certified uncertainty.
+
+Primary error is $\mathrm{TVD}(P,Q)=\tfrac12\sum_x|P(x)-Q(x)|$. A 0.02 limit bounds absolute event-probability differences, not per-outcome relative error. Saved diagnostics include counts, click sectors, cumulants through order five, probability overlap, and cross entropy.
+
+\subheading{Dense ten-mode medians}
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{Yrr}
+\toprule
+\textbf{Method} & \textbf{Full TVD} & \textbf{Setup + 10,000 records (s)}\\
+\midrule
+Dodd order 3 (author CPU code) & 0.01465 & 0.02658\\
+Dodd order 5 (author CPU code) & \textbf{0.00250} & 0.05163\\
+Goodman centered frozen port & 0.03131 & 0.03042\\
+Goodman literal frozen port & 0.03572 & 0.03632\\
+Context 4 & 0.03287 & 0.00571\\
+\rowcolor{pale}Context 6 & 0.01683 & 0.01019\\
+Retain 2 residual sources (our probe) & 0.05792 & 0.21802\\
+Gaussian blocks of 2 (our probe) & 0.25524 & 0.38637\\
+\bottomrule
+\end{tabularx}
+\end{center}
+{\small\color{muted}Medians over 12 dense complex-Haar circuits. One measured setup plus median generation across three repeats; single-thread Ryzen 9 7950X, warm native kernels. Scoring, compilation, installation, and interpreter startup are excluded. Medians alone do not establish matched-accuracy superiority.}
+
+\panel{\textbf{Common-tolerance result.} At TVD $\leq0.02$, context six qualifies on \textbf{21/24} circuits and is faster in all 21 than the fastest qualifying tested Dodd/frozen-Goodman comparator, with median \textbf{1.94$\times$} total-cost speedup. Three circuits fail the accuracy target. On six reused ten-mode circuits at 100,000 records, it qualifies in all six with median \textbf{17.53$\times$} speedup. This demonstrates amortization on those workloads, not independent large-scale fidelity.}
+
+\subheading{Comparator fidelity and limits}
+Dodd's original CPU generator uses a native-optimized frontend but SSE2 generation after faster SIMD bridge builds failed; its best SIMD/GPU performance is unmeasured. Goodman ports are not author MATLAB execution. Calibration is frozen for IID scoring; separate batch-correction ports can beat context setup at 1,000 records, with noisier empirical accuracy. Oh/Villalonga author generators were not run.
+
+Fifth-order Dodd remains substantially more accurate. Context is not the lowest-RSS method, and a 32-mode timing advantage lacks matched-accuracy evidence. Source/block probes were slower or less accurate. An exact real-circuit specialization uses known separability and excludes generic complex mixing. No result establishes large-system fidelity, an advantage disproof, or superiority after polishing.
+
+\newpage
+\heading{5. Proposed development and experimental relevance}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{0.70in}Y@{}}
+\toprule
+\textbf{Weeks} & \textbf{Work and deliverable}\\
+\midrule
+1--2 & Reproduce checks and builds; predeclare targets/workloads; separate tuning from evaluation; publish a protocol.\\
+3--5 & Compare tree, recent/random, and conditional-information parents plus orderings; charge all selection/query costs.\\
+6--8 & Optimize compilation, memory, and bulk generation; add faithful Villalonga and stronger accessible Goodman/Oh controls.\\
+9--10 & Extend exact-scored sizes within budget; measure width and numerical/support problems; separate marginal from global fidelity.\\
+11--12 & If viable, evaluate a published experimental model with its acceptance criteria; release code, results, and a report.\\
+\bottomrule
+\end{tabularx}
+
+\subheading{Decision criteria and link to advantage claims}
+Continue for repeatable lower total cost at a predeclared fidelity target on held-out circuits. Redesign if width, setup, support/numerical problems, or stronger faithful baselines erase the benefit. Report unfavorable cells, cold/warm costs, memory, repairs, and reference sensitivity. Code optimization alone cannot repair omitted-information bias.
+
+Jiuzhang 4.0's 1,024 squeezed inputs and 8,176 modes~\cite{jiuzhang} motivate a concrete target. A challenge must match its circuit, imperfections, detector task, sample volume, fidelity, and resource accounting. Selected count/cumulant agreement is weaker than full-law fidelity. Transfer depends on model/data access and scaling. A hardware-scale disproof is a reach; an evidenced algorithmic contribution is the minimum deliverable.
+
+\subheading{Resources, outputs, and contribution}
+Initial work runs on a desktop CPU. Planning estimates are about 3 million AI output tokens and 20--80 GPU hours over three months; GPU use requires a beneficial pilot. No IBM QPU is needed. Release source, permitted inputs, pinned environments, raw data, and limitations. Novelty remains provisional for the complete GBS construction and useful tradeoff; its generic ingredients are established.
+
+\vspace{2pt}
+{\small\bfseries\color{ink}Selected references and reproducibility}\par
+\begingroup
+\fontsize{9.5}{10.9}\selectfont
+\setlength{\parskip}{0pt}
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{10}
+\setlength{\itemsep}{1pt}
+\bibitem{hamilton} C. S. Hamilton et al. \href{https://arxiv.org/abs/1612.01199}{Gaussian Boson Sampling}. \emph{Phys. Rev. Lett.} 119, 170501 (2017).
+\bibitem{quesada} N. Quesada, J. M. Arrazola, N. Killoran. \href{https://arxiv.org/abs/1807.01639}{Gaussian Boson Sampling using threshold detectors}. \emph{Phys. Rev. A} 98, 062322 (2018).
+\bibitem{villalonga} B. Villalonga et al. \href{https://arxiv.org/abs/2109.11525}{Efficient approximation of experimental Gaussian boson sampling}. arXiv:2109.11525 (2021; revised 2022).
+\bibitem{oh} C. Oh et al. \href{https://arxiv.org/abs/2306.03709}{Classical algorithm for simulating experimental Gaussian boson sampling}. \emph{Nature Physics} 20, 1461--1468 (2024). \href{https://www.youtube.com/watch?v=bHwmuqJxAS8}{Background talk}.
+\bibitem{dodd} T. Dodd et al. \href{https://arxiv.org/abs/2511.14923}{A fast and frugal Gaussian Boson Sampling emulator}. arXiv:2511.14923 (2025). \href{https://github.com/tomdodd4598/FrugalGBS/tree/fa8b796f2afebd4845a2e335e457735952617ef8}{Pinned author code}.
+\bibitem{goodman} N. Goodman et al. \href{https://arxiv.org/abs/2604.12330}{Gaussian boson sampling: Benchmarking quantum advantage}. arXiv:2604.12330 (2026).
+\bibitem{k2} G. F. Cooper, E. Herskovits. \href{https://doi.org/10.1023/A:1022649401552}{A Bayesian Method for the Induction of Probabilistic Networks from Data}. \emph{Machine Learning} 9, 309--347 (1992).
+\bibitem{friedman} N. Friedman, I. Nachman, D. Pe'er. \href{https://arxiv.org/abs/1301.6696}{Learning Bayesian Network Structure from Massive Datasets: The ``Sparse Candidate'' Algorithm}. UAI (1999).
+\bibitem{lee} S.-u. Lee et al. \href{https://arxiv.org/abs/2510.06328}{Classical simulation of noisy random circuits from exponential decay of correlation}. arXiv:2510.06328 (2025).
+\bibitem{jiuzhang} \href{https://www.nature.com/articles/s41586-026-10523-6}{Gaussian boson sampling with 1,024 squeezed states in 8,176 modes}. \emph{Nature} (2026), doi:10.1038/s41586-026-10523-6.
+\end{thebibliography}
+\endgroup
+\end{document}

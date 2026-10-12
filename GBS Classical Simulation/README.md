@@ -4,6 +4,8 @@ We are developing a classical threshold Gaussian boson sampling (GBS) algorithm 
 
 The current implementation is a **smoke prototype**. It shows a useful small-system, many-record tradeoff; it has not disproved quantum advantage or established accurate large-system sampling.
 
+[Four-page submission proposal PDF](proposal/GBS_Algorithm_Proposal.pdf) · [LaTeX source and verified upload requirements](proposal/README.md)
+
 | Document | Purpose |
 | --- | --- |
 | [Project Description](Project%20Description.md) | Objective, mechanism, physical assumptions, and development priorities |

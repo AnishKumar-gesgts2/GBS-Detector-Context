@@ -2,6 +2,8 @@
 
 **Draft research proposal — October 12, 2026.** Existing results are a smoke study; the work below is proposed development.
 
+The complete [four-page LaTeX proposal and prototype report](proposal/GBS_Algorithm_Proposal.pdf) is formatted for the optional BlueQubit upload. [Source and submission requirements](proposal/README.md) accompany it; the verified page limit is four, including our references.
+
 ## Motivation and research question
 
 Experimental Gaussian boson sampling makes classical simulation expensive by generating correlated detector outcomes over a large output space. Existing classical methods compress different parts of this task: low-order marginals and connected correlations, loss-reduced quantum resources, or phase-space representations. The useful question is whether another compression axis can improve the accuracy–cost tradeoff: retaining selected detector history rather than retaining every history variable through a restricted correlation expansion. [Sources](Sources.md) documents these approaches.

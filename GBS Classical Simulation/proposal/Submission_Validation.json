@@ -1,0 +1,37 @@
+{
+  "verified_on": "2026-10-12",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdGwhevKLEn71C9bRBf8eGHCJ3rp4XwiaDayhMuaId5H8rAEQ/viewform",
+  "observed_requirements": {
+    "optional": true,
+    "format": "PDF",
+    "maximum_files": 1,
+    "maximum_pages": 4,
+    "maximum_file_size_MB": 10
+  },
+  "pdf_pages": 4,
+  "pdf_bytes": 234909,
+  "pdf_sha256": "a9e9d348b937d929fd257d1bcfb9bf515a47ebeadc1b30df945b1313354457dc",
+  "source_sha256_lf": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb",
+  "source": "GBS_Algorithm_Proposal.tex",
+  "pdf": "GBS_Algorithm_Proposal.pdf",
+  "evidence_snapshot": "0a2bc0038d4480ee489649a8982698c786a4d58d",
+  "compiler_checks": [
+    "Codex built-in compiler: success on final source",
+    "MiKTeX pdfTeX 1.40.28: success"
+  ],
+  "layout_checks": {
+    "rendered_pages_visually_inspected": 4,
+    "overflow_or_unresolved_reference_warnings": false,
+    "page_headers_and_footers": "checked on all four pages",
+    "character_page_bounds": "passed",
+    "embedded_fonts": "all 14 fonts embedded; pdffonts reports Unicode mapping",
+    "body_font_design_pt": 11,
+    "reference_font_design_pt": 9.5
+  },
+  "active_content": {
+    "encrypted": false,
+    "javascript": false
+  },
+  "application_uploaded_or_submitted": false,
+  "scope": "Proposal publication from existing smoke evidence; no new competitive benchmark."
+}

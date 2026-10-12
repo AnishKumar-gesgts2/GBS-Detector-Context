@@ -1,7 +1,7 @@
 {
   "Code Description.md": {
-    "bytes": 15974,
-    "sha256": "ac9fa80db0682791fe8835e7a1d63bcb5d36a1ee002ecd57202a9e5be15ff279",
+    "bytes": 15889,
+    "sha256": "725462025a143a8405cc9e2dc387b6487c4b3fff8cfe78af3b98a67e0a0df492",
     "sha256_lf": "725462025a143a8405cc9e2dc387b6487c4b3fff8cfe78af3b98a67e0a0df492"
   },
   "Novelty.md": {
@@ -14,15 +14,39 @@
     "sha256": "e24d48d3d3c1d4fbc87c869e8f4609f113071ade1cdef04ba0e2a86ca0286213",
     "sha256_lf": "e24d48d3d3c1d4fbc87c869e8f4609f113071ade1cdef04ba0e2a86ca0286213"
   },
+  "proposal/.gitignore": {
+    "bytes": 64,
+    "sha256": "e782e8d681071242e5498844cac703cf0e3e7d3bd1bd61506013ebc6584f88ee",
+    "sha256_lf": "e782e8d681071242e5498844cac703cf0e3e7d3bd1bd61506013ebc6584f88ee"
+  },
+  "proposal/GBS_Algorithm_Proposal.pdf": {
+    "bytes": 234909,
+    "sha256": "a9e9d348b937d929fd257d1bcfb9bf515a47ebeadc1b30df945b1313354457dc"
+  },
+  "proposal/GBS_Algorithm_Proposal.tex": {
+    "bytes": 16298,
+    "sha256": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb",
+    "sha256_lf": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb"
+  },
+  "proposal/README.md": {
+    "bytes": 2995,
+    "sha256": "7e54fb0fbc339ffa69daf39b7fddb167328ed42d2b0b13ca2907b21b0805e7ad",
+    "sha256_lf": "7e54fb0fbc339ffa69daf39b7fddb167328ed42d2b0b13ca2907b21b0805e7ad"
+  },
+  "proposal/Submission_Validation.json": {
+    "bytes": 1418,
+    "sha256": "63427e6a9cc2c8766b56c5f90bbffddfc8abc17bd1a98f095faba229bcc5481a",
+    "sha256_lf": "9c1beeb50dfb66899837fff982baacb202bc30d1586dd6f3964ca11c926b9a1c"
+  },
   "Proposal.md": {
-    "bytes": 8174,
-    "sha256": "798780f08c9d71de76d8c518ae62874d1f7b062f5edef960ccc9a2615214a2cf",
-    "sha256_lf": "798780f08c9d71de76d8c518ae62874d1f7b062f5edef960ccc9a2615214a2cf"
+    "bytes": 8451,
+    "sha256": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3",
+    "sha256_lf": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3"
   },
   "README.md": {
-    "bytes": 1507,
-    "sha256": "5a3d35361d960aca5321194977925a6539dce54ac38490aa05826d3843c8c61b",
-    "sha256_lf": "5a3d35361d960aca5321194977925a6539dce54ac38490aa05826d3843c8c61b"
+    "bytes": 1652,
+    "sha256": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417",
+    "sha256_lf": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417"
   },
   "results/smoke_v1/accuracy_refinement.json": {
     "bytes": 116734,
