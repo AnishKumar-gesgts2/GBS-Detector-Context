@@ -1,0 +1,158 @@
+{
+  "status": "exploratory; none is a matched end-to-end win against published samplers",
+  "compression_comparisons": 216,
+  "rank_kernel_cells": 27,
+  "qmc_cells": 16,
+  "block_cells": 12,
+  "decomposition_cells": 12,
+  "reset_one_mode_cells": 18,
+  "reset_two_mode_cells": 10,
+  "compression": {
+    "heterogeneous_rank0": {
+      "tvd": {
+        "min": 0.0338882808006884,
+        "median": 0.0526388011607552,
+        "max": 0.07532658925622093
+      },
+      "bound": {
+        "min": 0.13368401000883162,
+        "median": 0.18837695801790733,
+        "max": 0.24867899388303694
+      }
+    },
+    "heterogeneous_rank2": {
+      "tvd": {
+        "min": 0.0032765386800620577,
+        "median": 0.008031613074037991,
+        "max": 0.015087762467352106
+      },
+      "bound": {
+        "min": 0.033764611452248405,
+        "median": 0.05517946205898785,
+        "max": 0.08002752936413858
+      }
+    },
+    "flat_rank0": {
+      "tvd": {
+        "min": 0.05533167595027993,
+        "median": 0.10756957203467273,
+        "max": 0.15070080662324808
+      },
+      "bound": {
+        "min": 0.2188901668940561,
+        "median": 0.34652778972750403,
+        "max": 0.49170909346777214
+      }
+    },
+    "flat_rank2": {
+      "tvd": {
+        "min": 0.04088442906993638,
+        "median": 0.07962514362188192,
+        "max": 0.12287789624108109
+      },
+      "bound": {
+        "min": 0.17945082083723993,
+        "median": 0.3024658040030832,
+        "max": 0.4456707658086332
+      }
+    }
+  },
+  "rank_speedup": {
+    "min": 0.288415255970018,
+    "median": 3.4851838897749556,
+    "max": 95.53444835102262
+  },
+  "rank_max_log_probability_error": 6.217248937900877e-15,
+  "qmc_vacuum_rmse_improvement": {
+    "min": 1.5568429145915748,
+    "median": 8.195103820491754,
+    "max": 70.86904609759567
+  },
+  "qmc_derivative_rmse_improvement": {
+    "min": 1.2468444819607445,
+    "median": 3.714492222915988,
+    "max": 65.02477756630955
+  },
+  "reset_initial_ensemble": [
+    {
+      "r": 0.8,
+      "eta": 0.3,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.1,
+      "fraction_initial_detections_retained": 0.18344382407522083,
+      "rate_weighted_local_error_all_resets": 0.032112717354971274,
+      "rate_weighted_local_error_after_exact_retention": 0.005304172526805579,
+      "fraction_local_error_removed": 0.8348264188242401,
+      "quadrature_reported_error": 2.3340678649112496e-10,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    },
+    {
+      "r": 0.8,
+      "eta": 0.3,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.2,
+      "fraction_initial_detections_retained": 0.08030558048167324,
+      "rate_weighted_local_error_all_resets": 0.032112717354971274,
+      "rate_weighted_local_error_after_exact_retention": 0.00970544069541146,
+      "fraction_local_error_removed": 0.6977695600117444,
+      "quadrature_reported_error": 7.386422918659965e-10,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    },
+    {
+      "r": 0.8,
+      "eta": 0.3,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.4,
+      "fraction_initial_detections_retained": 0.03341597136606071,
+      "rate_weighted_local_error_all_resets": 0.032112717354971274,
+      "rate_weighted_local_error_after_exact_retention": 0.01571712512097145,
+      "fraction_local_error_removed": 0.5105638383935039,
+      "quadrature_reported_error": 1.1256950673785179e-10,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    },
+    {
+      "r": 0.8,
+      "eta": 0.5,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.1,
+      "fraction_initial_detections_retained": 0.46160329381703374,
+      "rate_weighted_local_error_all_resets": 0.08426121874420783,
+      "rate_weighted_local_error_after_exact_retention": 0.0060429370111733305,
+      "fraction_local_error_removed": 0.9282832944831014,
+      "quadrature_reported_error": 2.5166788568664564e-08,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    },
+    {
+      "r": 0.8,
+      "eta": 0.5,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.2,
+      "fraction_initial_detections_retained": 0.23278072226719154,
+      "rate_weighted_local_error_all_resets": 0.08426121874420783,
+      "rate_weighted_local_error_after_exact_retention": 0.01605585807660068,
+      "fraction_local_error_removed": 0.8094513903799383,
+      "quadrature_reported_error": 1.4203771011623015e-08,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    },
+    {
+      "r": 0.8,
+      "eta": 0.5,
+      "integration": "adaptive quadrature of even normal integrand, |z|<=8; retained fraction analytic",
+      "risk_threshold": 0.4,
+      "fraction_initial_detections_retained": 0.1039016922523318,
+      "rate_weighted_local_error_all_resets": 0.08426121874420783,
+      "rate_weighted_local_error_after_exact_retention": 0.03280592301152679,
+      "fraction_local_error_removed": 0.6106640338170769,
+      "quadrature_reported_error": 1.1100061173455129e-08,
+      "scope": "initial displacement ensemble, jump-rate weighted; not full trajectories or global TVD"
+    }
+  ],
+  "sparse_failed_repeats": 7,
+  "sparse_complete_speedups": [
+    {
+      "m": 32,
+      "sources": 2,
+      "speedup": 7.776651279251521
+    }
+  ]
+}

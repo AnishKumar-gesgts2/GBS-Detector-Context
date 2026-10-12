@@ -1,0 +1,924 @@
+{
+  "scope": "exact no-click marginal kernel, 12 subsets and 21 loss settings; includes cache construction; excludes common isometry generation; not full sampling",
+  "rows": [
+    {
+      "m": 64,
+      "sources": 2,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.0014055999999982305,
+      "rank_total_seconds": 0.0010824999990290962,
+      "speedup": 1.298475751740347,
+      "dense_query_seconds": [
+        0.001401000001351349,
+        0.0013565999979618937,
+        0.0013523999987228308
+      ],
+      "rank_query_seconds": [
+        0.0010411999974166974,
+        0.0010285999996995088,
+        0.0010385999994468875
+      ],
+      "dense_prep_seconds": [
+        6.600000051548705e-05,
+        4.900000203633681e-05,
+        5.1700000767596066e-05
+      ],
+      "rank_prep_seconds": [
+        5.430000237538479e-05,
+        5.160000000614673e-05,
+        4.389999958220869e-05
+      ],
+      "max_log_probability_error": 5.967448757360216e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 64,
+      "sources": 2,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.0050037999972119,
+      "rank_total_seconds": 0.0010886999989452306,
+      "speedup": 4.596123819288831,
+      "dense_query_seconds": [
+        0.005004200000257697,
+        0.0049165999989781994,
+        0.004857600000832463
+      ],
+      "rank_query_seconds": [
+        0.0010307000011380296,
+        0.0010527999984333292,
+        0.0010217000017291866
+      ],
+      "dense_prep_seconds": [
+        9.930000305757858e-05,
+        8.719999823370017e-05,
+        8.470000102533959e-05
+      ],
+      "rank_prep_seconds": [
+        5.7999997807201e-05,
+        5.370000144466758e-05,
+        5.3599997045239434e-05
+      ],
+      "max_log_probability_error": 1.6653345369377348e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 64,
+      "sources": 2,
+      "subset_modes": 64,
+      "queries": 252,
+      "dense_matrix_dimension": 128,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.019540399996913038,
+      "rank_total_seconds": 0.0010915999991993885,
+      "speedup": 17.90069623602468,
+      "dense_query_seconds": [
+        0.019224699997721473,
+        0.019240399997215718,
+        0.019105500003206544
+      ],
+      "rank_query_seconds": [
+        0.0010302000009687617,
+        0.0010129000002052635,
+        0.0010189999993599486
+      ],
+      "dense_prep_seconds": [
+        0.00031569999919156544,
+        0.00042079999911948107,
+        0.00016789999790489674
+      ],
+      "rank_prep_seconds": [
+        9.639999916544184e-05,
+        7.869999899412505e-05,
+        6.369999755406752e-05
+      ],
+      "max_log_probability_error": 2.0816681711721685e-15,
+      "dense_cached_matrix_bytes": 1572864,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 64,
+      "sources": 8,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.0014100999978836626,
+      "rank_total_seconds": 0.00141290000101435,
+      "speedup": 0.9980182581012972,
+      "dense_query_seconds": [
+        0.0013787999996566214,
+        0.0013586999994004145,
+        0.0013579000005847774
+      ],
+      "rank_query_seconds": [
+        0.0013632000009238254,
+        0.001359900001261849,
+        0.0013643000020238105
+      ],
+      "dense_prep_seconds": [
+        7.91000020399224e-05,
+        5.1399998483248055e-05,
+        4.999999873689376e-05
+      ],
+      "rank_prep_seconds": [
+        4.9700000090524554e-05,
+        4.70000013592653e-05,
+        5.089999831398018e-05
+      ],
+      "max_log_probability_error": 7.771561172376096e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 64,
+      "sources": 8,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.004975100000592647,
+      "rank_total_seconds": 0.0014274999994086102,
+      "speedup": 3.4851838897749556,
+      "dense_query_seconds": [
+        0.004968899997038534,
+        0.004850799999985611,
+        0.004872199999226723
+      ],
+      "rank_query_seconds": [
+        0.0013648000021930784,
+        0.001358600002276944,
+        0.0013657000017701648
+      ],
+      "dense_prep_seconds": [
+        0.00012430000060703605,
+        0.00011490000179037452,
+        0.00010290000136592425
+      ],
+      "rank_prep_seconds": [
+        6.98000003467314e-05,
+        6.160000339150429e-05,
+        6.179999763844535e-05
+      ],
+      "max_log_probability_error": 1.6653345369377348e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 64,
+      "sources": 8,
+      "subset_modes": 64,
+      "queries": 252,
+      "dense_matrix_dimension": 128,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.01961960000335239,
+      "rank_total_seconds": 0.0014343000002554618,
+      "speedup": 13.678867740262122,
+      "dense_query_seconds": [
+        0.019366900000022724,
+        0.01910219999990659,
+        0.02075180000247201
+      ],
+      "rank_query_seconds": [
+        0.0013432999985525385,
+        0.0013400999996520113,
+        0.001338699999905657
+      ],
+      "dense_prep_seconds": [
+        0.00025270000332966447,
+        0.00024090000079013407,
+        0.0002734000008786097
+      ],
+      "rank_prep_seconds": [
+        0.00011720000111381523,
+        9.420000060345046e-05,
+        8.449999950244091e-05
+      ],
+      "max_log_probability_error": 2.1094237467877974e-15,
+      "dense_cached_matrix_bytes": 1572864,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 64,
+      "sources": 32,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.0014344999981403816,
+      "rank_total_seconds": 0.0049695999987307005,
+      "speedup": 0.2886550222365525,
+      "dense_query_seconds": [
+        0.0013908000000810716,
+        0.0013770000005024485,
+        0.0013680000010936055
+      ],
+      "rank_query_seconds": [
+        0.004899200001091231,
+        0.004827299999305978,
+        0.004869899999903282
+      ],
+      "dense_prep_seconds": [
+        9.729999874252826e-05,
+        5.749999763793312e-05,
+        5.650000093737617e-05
+      ],
+      "rank_prep_seconds": [
+        0.00011910000102943741,
+        0.00011269999959040433,
+        9.969999882741831e-05
+      ],
+      "max_log_probability_error": 1.5543122344752192e-15,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 64,
+      "sources": 32,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.005165299997315742,
+      "rank_total_seconds": 0.005004899998311885,
+      "speedup": 1.0320485921912443,
+      "dense_query_seconds": [
+        0.005139599998074118,
+        0.004882299999735551,
+        0.004799700000148732
+      ],
+      "rank_query_seconds": [
+        0.004897400001937058,
+        0.004769099999975879,
+        0.004825899999559624
+      ],
+      "dense_prep_seconds": [
+        0.0002099999983329326,
+        0.0002829999975801911,
+        0.00022760000138077885
+      ],
+      "rank_prep_seconds": [
+        0.00018080000154441223,
+        0.0001823999991756864,
+        0.00017899999875226058
+      ],
+      "max_log_probability_error": 2.6645352591003757e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 64,
+      "sources": 32,
+      "subset_modes": 64,
+      "queries": 252,
+      "dense_matrix_dimension": 128,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.019916699999157572,
+      "rank_total_seconds": 0.005039899995608721,
+      "speedup": 3.951804602573672,
+      "dense_query_seconds": [
+        0.01908259999981965,
+        0.019006300000910414,
+        0.02028299999801675
+      ],
+      "rank_query_seconds": [
+        0.004880200001935009,
+        0.004752899996674387,
+        0.0047403999997186475
+      ],
+      "dense_prep_seconds": [
+        0.0008340999993379228,
+        0.000792799997725524,
+        0.000576900001760805
+      ],
+      "rank_prep_seconds": [
+        0.00037900000097579323,
+        0.00028699999893433414,
+        0.0002973000009660609
+      ],
+      "max_log_probability_error": 4.440892098500626e-15,
+      "dense_cached_matrix_bytes": 1572864,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 128,
+      "sources": 2,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.0014047999975446146,
+      "rank_total_seconds": 0.0010873999999603257,
+      "speedup": 1.2918889071140973,
+      "dense_query_seconds": [
+        0.0014000999981362838,
+        0.0013570999981311616,
+        0.001354600000922801
+      ],
+      "rank_query_seconds": [
+        0.0010449999972479418,
+        0.001041100000293227,
+        0.0010340999979234766
+      ],
+      "dense_prep_seconds": [
+        7.249999907799065e-05,
+        4.769999941345304e-05,
+        4.4600001274375245e-05
+      ],
+      "rank_prep_seconds": [
+        4.819999958272092e-05,
+        4.6299999667098746e-05,
+        4.6799999836366624e-05
+      ],
+      "max_log_probability_error": 5.620504062164855e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 128,
+      "sources": 2,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.004974900002707727,
+      "rank_total_seconds": 0.0010917999970843084,
+      "speedup": 4.55660378823354,
+      "dense_query_seconds": [
+        0.0048749999987194315,
+        0.004887400002189679,
+        0.004850599998462712
+      ],
+      "rank_query_seconds": [
+        0.0010438999997859355,
+        0.0010339999971620273,
+        0.0010366000024077948
+      ],
+      "dense_prep_seconds": [
+        0.0001171000003523659,
+        8.750000051804818e-05,
+        8.330000127898529e-05
+      ],
+      "rank_prep_seconds": [
+        5.919999966863543e-05,
+        5.779999992228113e-05,
+        5.310000051395036e-05
+      ],
+      "max_log_probability_error": 1.6237011735142914e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 128,
+      "sources": 2,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.10510699999940698,
+      "rank_total_seconds": 0.001100199999200413,
+      "speedup": 95.53444835102262,
+      "dense_query_seconds": [
+        0.10433509999711532,
+        0.10397699999884935,
+        0.10436079999999492
+      ],
+      "rank_query_seconds": [
+        0.001051200000802055,
+        0.0010116000012203585,
+        0.0010163000006286893
+      ],
+      "dense_prep_seconds": [
+        0.001033699998515658,
+        0.0008489000028930604,
+        0.0007461999994120561
+      ],
+      "rank_prep_seconds": [
+        0.00044039999920642003,
+        8.859999798005447e-05,
+        8.370000068680383e-05
+      ],
+      "max_log_probability_error": 1.9984014443252818e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 128,
+      "sources": 8,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.0014055999999982305,
+      "rank_total_seconds": 0.0014002999996591825,
+      "speedup": 1.0037849034780675,
+      "dense_query_seconds": [
+        0.0014116999991529156,
+        0.0013548000024456996,
+        0.0013512000004993752
+      ],
+      "rank_query_seconds": [
+        0.0013883999999961816,
+        0.0013470999983837828,
+        0.0013442999988910742
+      ],
+      "dense_prep_seconds": [
+        7.340000229305588e-05,
+        5.079999755253084e-05,
+        5.310000051395036e-05
+      ],
+      "rank_prep_seconds": [
+        4.8800000513438135e-05,
+        5.32000012753997e-05,
+        5.439999949885532e-05
+      ],
+      "max_log_probability_error": 8.465450562766819e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 128,
+      "sources": 8,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.00491880000117817,
+      "rank_total_seconds": 0.001421100001607556,
+      "speedup": 3.461262399278022,
+      "dense_query_seconds": [
+        0.0048773999988043215,
+        0.00480980000065756,
+        0.0048141000006580725
+      ],
+      "rank_query_seconds": [
+        0.00135749999753898,
+        0.0013486999996530358,
+        0.001356200002192054
+      ],
+      "dense_prep_seconds": [
+        0.00011530000119819306,
+        0.00010900000052060932,
+        0.00010329999713576399
+      ],
+      "rank_prep_seconds": [
+        6.809999831602909e-05,
+        6.500000017695129e-05,
+        6.489999941550195e-05
+      ],
+      "max_log_probability_error": 1.3877787807814457e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 128,
+      "sources": 8,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.10530689999723108,
+      "rank_total_seconds": 0.0014794999988225754,
+      "speedup": 71.1773572700487,
+      "dense_query_seconds": [
+        0.10410649999903399,
+        0.10421919999862439,
+        0.1042239000016707
+      ],
+      "rank_query_seconds": [
+        0.0016482999999425374,
+        0.0013476999993145,
+        0.0013633999988087453
+      ],
+      "dense_prep_seconds": [
+        0.0009480999979132321,
+        0.0010876999986066949,
+        0.001219199999468401
+      ],
+      "rank_prep_seconds": [
+        0.0002289000003656838,
+        0.00012400000196066685,
+        0.00011610000001383014
+      ],
+      "max_log_probability_error": 2.55351295663786e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 128,
+      "sources": 32,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.0014140999992378056,
+      "rank_total_seconds": 0.004902999997284496,
+      "speedup": 0.288415255970018,
+      "dense_query_seconds": [
+        0.0013770000005024485,
+        0.001357500001176959,
+        0.0013573999967775308
+      ],
+      "rank_query_seconds": [
+        0.004846499999985099,
+        0.004762199998367578,
+        0.004804699998203432
+      ],
+      "dense_prep_seconds": [
+        8.95000011951197e-05,
+        5.65999980608467e-05,
+        5.5199998314492404e-05
+      ],
+      "rank_prep_seconds": [
+        0.00011240000094403513,
+        0.00011180000001331791,
+        9.829999908106402e-05
+      ],
+      "max_log_probability_error": 1.304512053934559e-15,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 128,
+      "sources": 32,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.005019899999751942,
+      "rank_total_seconds": 0.004985699997632764,
+      "speedup": 1.0068596189372438,
+      "dense_query_seconds": [
+        0.004809099998965394,
+        0.004858000000240281,
+        0.004803899999387795
+      ],
+      "rank_query_seconds": [
+        0.0048223000012512784,
+        0.004793299998709699,
+        0.0048166999986278825
+      ],
+      "dense_prep_seconds": [
+        0.00021080000078654848,
+        0.00019700000120792538,
+        0.0002021000000240747
+      ],
+      "rank_prep_seconds": [
+        0.00017319999824394472,
+        0.00016740000137360767,
+        0.00016899999900488183
+      ],
+      "max_log_probability_error": 2.220446049250313e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 128,
+      "sources": 32,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.10864009999932023,
+      "rank_total_seconds": 0.005599999996775296,
+      "speedup": 19.400017868192776,
+      "dense_query_seconds": [
+        0.1048620999972627,
+        0.1064855999975407,
+        0.10641129999930854
+      ],
+      "rank_query_seconds": [
+        0.004973999999492662,
+        0.004896599999483442,
+        0.004927900001348462
+      ],
+      "dense_prep_seconds": [
+        0.002342399999179179,
+        0.0022046000012778677,
+        0.002228800000011688
+      ],
+      "rank_prep_seconds": [
+        0.0010791000022436492,
+        0.0007033999972918537,
+        0.0005657000001519918
+      ],
+      "max_log_probability_error": 4.884981308350689e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 256,
+      "sources": 2,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.0014216999989002943,
+      "rank_total_seconds": 0.0010988000030920375,
+      "speedup": 1.293866031033502,
+      "dense_query_seconds": [
+        0.0014649000004283153,
+        0.0013671999986399896,
+        0.0013528999988920987
+      ],
+      "rank_query_seconds": [
+        0.0010508000013942365,
+        0.001063100000465056,
+        0.0010405000030004885
+      ],
+      "dense_prep_seconds": [
+        5.5900000006658956e-05,
+        5.450000026030466e-05,
+        4.86999997519888e-05
+      ],
+      "rank_prep_seconds": [
+        4.8000001697801054e-05,
+        5.0999999075429514e-05,
+        5.5800002883188426e-05
+      ],
+      "max_log_probability_error": 5.204170427930421e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 256,
+      "sources": 2,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.00503240000034566,
+      "rank_total_seconds": 0.0010968999995384365,
+      "speedup": 4.587838456070051,
+      "dense_query_seconds": [
+        0.0050639000000956,
+        0.004945500000758329,
+        0.004918900001939619
+      ],
+      "rank_query_seconds": [
+        0.0010569000005489215,
+        0.0010419999998703133,
+        0.0010326000010536518
+      ],
+      "dense_prep_seconds": [
+        8.679999882588163e-05,
+        8.689999958733097e-05,
+        7.869999899412505e-05
+      ],
+      "rank_prep_seconds": [
+        5.949999831500463e-05,
+        5.48999996681232e-05,
+        5.249999958323315e-05
+      ],
+      "max_log_probability_error": 1.4918621893400541e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 256,
+      "sources": 2,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 4,
+      "dense_total_seconds": 0.1068617000055383,
+      "rank_total_seconds": 0.0011326999992888886,
+      "speedup": 94.3424561425146,
+      "dense_query_seconds": [
+        0.10713699999905657,
+        0.10596540000187815,
+        0.10638120000294293
+      ],
+      "rank_query_seconds": [
+        0.0010407000008854084,
+        0.0010457999997015577,
+        0.0010363000001234468
+      ],
+      "dense_prep_seconds": [
+        0.0006030999975337181,
+        0.0007999000008567236,
+        0.0004805000025953632
+      ],
+      "rank_prep_seconds": [
+        0.0006156999988888856,
+        8.689999958733097e-05,
+        8.929999967222102e-05
+      ],
+      "max_log_probability_error": 2.3037127760972e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 1536
+    },
+    {
+      "m": 256,
+      "sources": 8,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.0014493999988189898,
+      "rank_total_seconds": 0.0014016000022820663,
+      "speedup": 1.034103878752209,
+      "dense_query_seconds": [
+        0.0013949999993201345,
+        0.0014235999988159165,
+        0.001365200001600897
+      ],
+      "rank_query_seconds": [
+        0.0013637999982165638,
+        0.0013526000002457295,
+        0.0013536000005842652
+      ],
+      "dense_prep_seconds": [
+        5.439999949885532e-05,
+        5.1700000767596066e-05,
+        5.740000051446259e-05
+      ],
+      "rank_prep_seconds": [
+        5.109999983687885e-05,
+        4.859999899053946e-05,
+        4.8000001697801054e-05
+      ],
+      "max_log_probability_error": 7.494005416219807e-16,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 256,
+      "sources": 8,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.005109500001708511,
+      "rank_total_seconds": 0.0014400999971257988,
+      "speedup": 3.548017507052446,
+      "dense_query_seconds": [
+        0.0049719999988155905,
+        0.005000100001780083,
+        0.004935299999488052
+      ],
+      "rank_query_seconds": [
+        0.0013684999976248946,
+        0.0013827999973727856,
+        0.0013642000012623612
+      ],
+      "dense_prep_seconds": [
+        0.00014060000103199854,
+        0.00010939999992842786,
+        0.00010409999958937988
+      ],
+      "rank_prep_seconds": [
+        7.159999950090423e-05,
+        6.25000029685907e-05,
+        6.360000043059699e-05
+      ],
+      "max_log_probability_error": 1.7208456881689926e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 256,
+      "sources": 8,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 16,
+      "dense_total_seconds": 0.10788570000295294,
+      "rank_total_seconds": 0.0014974000041547697,
+      "speedup": 72.04868418833128,
+      "dense_query_seconds": [
+        0.10602109999672393,
+        0.10745239999960177,
+        0.10709110000243527
+      ],
+      "rank_query_seconds": [
+        0.0014104000001680106,
+        0.0013711000028706621,
+        0.0013564999972004443
+      ],
+      "dense_prep_seconds": [
+        0.0011221000022487715,
+        0.0010531999978411477,
+        0.0007946000005176757
+      ],
+      "rank_prep_seconds": [
+        0.0009726999996928498,
+        0.00012630000128410757,
+        0.00011829999857582152
+      ],
+      "max_log_probability_error": 3.6637359812630166e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 24576
+    },
+    {
+      "m": 256,
+      "sources": 32,
+      "subset_modes": 8,
+      "queries": 252,
+      "dense_matrix_dimension": 16,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.0014812000008532777,
+      "rank_total_seconds": 0.005074699998658616,
+      "speedup": 0.2918793231609356,
+      "dense_query_seconds": [
+        0.0014134000011836179,
+        0.001454999997804407,
+        0.001364399999147281
+      ],
+      "rank_query_seconds": [
+        0.004965199997968739,
+        0.0048777000010886695,
+        0.00506649999806541
+      ],
+      "dense_prep_seconds": [
+        6.779999966965988e-05,
+        6.08000009378884e-05,
+        6.799999755457975e-05
+      ],
+      "rank_prep_seconds": [
+        0.0001095000006898772,
+        0.00013590000162366778,
+        9.560000034980476e-05
+      ],
+      "max_log_probability_error": 1.3322676295501878e-15,
+      "dense_cached_matrix_bytes": 24576,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 256,
+      "sources": 32,
+      "subset_modes": 32,
+      "queries": 252,
+      "dense_matrix_dimension": 64,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.005096900000353344,
+      "rank_total_seconds": 0.005099699999846052,
+      "speedup": 0.9994509481944441,
+      "dense_query_seconds": [
+        0.004889399999228772,
+        0.004878899999312125,
+        0.004996300001948839
+      ],
+      "rank_query_seconds": [
+        0.004913799999485491,
+        0.004864099999394966,
+        0.004931700001179706
+      ],
+      "dense_prep_seconds": [
+        0.000207500001124572,
+        0.000207199998840224,
+        0.000207500001124572
+      ],
+      "rank_prep_seconds": [
+        0.00018590000036056153,
+        0.00017609999849810265,
+        0.00017190000289701857
+      ],
+      "max_log_probability_error": 2.1094237467877974e-15,
+      "dense_cached_matrix_bytes": 393216,
+      "rank_cached_matrix_bytes": 393216
+    },
+    {
+      "m": 256,
+      "sources": 32,
+      "subset_modes": 128,
+      "queries": 252,
+      "dense_matrix_dimension": 256,
+      "rank_matrix_dimension": 64,
+      "dense_total_seconds": 0.10837390000233427,
+      "rank_total_seconds": 0.0056574999980512075,
+      "speedup": 19.155793201885096,
+      "dense_query_seconds": [
+        0.1065232000000833,
+        0.10612350000155857,
+        0.10651359999974375
+      ],
+      "rank_query_seconds": [
+        0.005400500001996988,
+        0.0049307000008411705,
+        0.004957100001774961
+      ],
+      "dense_prep_seconds": [
+        0.0022336999973049387,
+        0.0022504000007756986,
+        0.0018406999988656025
+      ],
+      "rank_prep_seconds": [
+        0.0009279000005335547,
+        0.000726799997210037,
+        0.0005848000000696629
+      ],
+      "max_log_probability_error": 6.217248937900877e-15,
+      "dense_cached_matrix_bytes": 6291456,
+      "rank_cached_matrix_bytes": 393216
+    }
+  ],
+  "wall_seconds": 2.5009078000002773
+}
