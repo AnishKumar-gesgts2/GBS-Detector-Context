@@ -23,9 +23,9 @@ This update creates a submission file; it does not upload or submit the applicat
 The source is standalone: bibliography and tables are included, with no external figures or data files required. It uses standard LaTeX packages and compiles with pdfLaTeX. The built-in Codex LaTeX compiler and local MiKTeX both confirmed compilation. To export a fresh PDF from this directory:
 
 ```powershell
-New-Item -ItemType Directory -Force -Path build | Out-Null
-pdflatex -interaction=nonstopmode -halt-on-error -no-shell-escape -output-directory=build GBS_Algorithm_Proposal.tex
-pdflatex -interaction=nonstopmode -halt-on-error -no-shell-escape -output-directory=build GBS_Algorithm_Proposal.tex
+New-Item -ItemType Directory -Force -Path ../../temp/gbs-proposal | Out-Null
+pdflatex -interaction=nonstopmode -halt-on-error -no-shell-escape -output-directory=../../temp/gbs-proposal GBS_Algorithm_Proposal.tex
+pdflatex -interaction=nonstopmode -halt-on-error -no-shell-escape -output-directory=../../temp/gbs-proposal GBS_Algorithm_Proposal.tex
 ```
 
-Check that both commands succeed, the PDF remains within four pages/10 MB, references resolve, and the pages render correctly before replacing the published PDF. Build files are ignored. The source links the immutable `0a2bc00` evidence snapshot so its claims can be checked even after later algorithm changes.
+Check that both commands succeed, the PDF remains within four pages/10 MB, references resolve, and the pages render correctly. After verification, move the new PDF from `../../temp/gbs-proposal/` to this directory to replace the published `GBS_Algorithm_Proposal.pdf`. Temporary build files and page renders remain locally in the repository's ignored `temp/gbs-proposal/` folder; the finished PDF remains tracked here in `proposal/`. The source links the immutable `0a2bc00` evidence snapshot so its claims can be checked even after later algorithm changes.

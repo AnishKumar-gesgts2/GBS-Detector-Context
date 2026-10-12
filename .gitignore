@@ -8,3 +8,6 @@
 
 # Local grant drafts are not published.
 Answers to grant questions.md
+
+# Local build and render intermediates.
+/temp/
