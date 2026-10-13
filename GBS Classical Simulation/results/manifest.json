@@ -1,8 +1,8 @@
 {
   "Code Description.md": {
-    "bytes": 15889,
-    "sha256": "725462025a143a8405cc9e2dc387b6487c4b3fff8cfe78af3b98a67e0a0df492",
-    "sha256_lf": "725462025a143a8405cc9e2dc387b6487c4b3fff8cfe78af3b98a67e0a0df492"
+    "bytes": 15890,
+    "sha256": "e4a983758cece772ff02a933fd51d189742e68a4643a4187d81cb23c5fad225c",
+    "sha256_lf": "e4a983758cece772ff02a933fd51d189742e68a4643a4187d81cb23c5fad225c"
   },
   "Novelty.md": {
     "bytes": 4225,
@@ -10,14 +10,39 @@
     "sha256_lf": "c4b51164a715239471601b0a70037acb0680ad08cb5ac03cdfb52abc81608c4b"
   },
   "Project Description.md": {
-    "bytes": 5741,
-    "sha256": "e24d48d3d3c1d4fbc87c869e8f4609f113071ade1cdef04ba0e2a86ca0286213",
-    "sha256_lf": "e24d48d3d3c1d4fbc87c869e8f4609f113071ade1cdef04ba0e2a86ca0286213"
+    "bytes": 5778,
+    "sha256": "f5c74df7c6c4111948e300e5f4bba3833023019a6176476e78ece1ca7ddde84a",
+    "sha256_lf": "f5c74df7c6c4111948e300e5f4bba3833023019a6176476e78ece1ca7ddde84a"
+  },
+  "Proposal.md": {
+    "bytes": 8451,
+    "sha256": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3",
+    "sha256_lf": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3"
+  },
+  "README.md": {
+    "bytes": 1652,
+    "sha256": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417",
+    "sha256_lf": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417"
+  },
+  "Results.md": {
+    "bytes": 13146,
+    "sha256": "06a1c679245ed60005806a5c92d2e4b905069104f22658734ab355676e238492",
+    "sha256_lf": "06a1c679245ed60005806a5c92d2e4b905069104f22658734ab355676e238492"
+  },
+  "Sources.md": {
+    "bytes": 7356,
+    "sha256": "c60b2e2aecbafd471e028bcf01e38c18a4e856438a886d6a79869c86e66707b6",
+    "sha256_lf": "c60b2e2aecbafd471e028bcf01e38c18a4e856438a886d6a79869c86e66707b6"
   },
   "proposal/.gitignore": {
     "bytes": 64,
     "sha256": "e782e8d681071242e5498844cac703cf0e3e7d3bd1bd61506013ebc6584f88ee",
     "sha256_lf": "e782e8d681071242e5498844cac703cf0e3e7d3bd1bd61506013ebc6584f88ee"
+  },
+  "proposal/Final_Audit.md": {
+    "bytes": 2807,
+    "sha256": "1c4b6e064e7e2883f0b32d76f9772dad30b7aaf79551d9f20a808e13521acc74",
+    "sha256_lf": "1c4b6e064e7e2883f0b32d76f9772dad30b7aaf79551d9f20a808e13521acc74"
   },
   "proposal/GBS_Algorithm_Proposal.pdf": {
     "bytes": 234909,
@@ -29,24 +54,14 @@
     "sha256_lf": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb"
   },
   "proposal/README.md": {
-    "bytes": 3296,
-    "sha256": "bb8265c6eeee63e003b7cd82631dff77667fcb9b2d02dc652cce3a0e897c530e",
-    "sha256_lf": "bb8265c6eeee63e003b7cd82631dff77667fcb9b2d02dc652cce3a0e897c530e"
+    "bytes": 3489,
+    "sha256": "62557404b255a5b5b189bfe56077b7797747bffb0b640b20824c9557aca6f717",
+    "sha256_lf": "62557404b255a5b5b189bfe56077b7797747bffb0b640b20824c9557aca6f717"
   },
   "proposal/Submission_Validation.json": {
-    "bytes": 1418,
-    "sha256": "63427e6a9cc2c8766b56c5f90bbffddfc8abc17bd1a98f095faba229bcc5481a",
-    "sha256_lf": "9c1beeb50dfb66899837fff982baacb202bc30d1586dd6f3964ca11c926b9a1c"
-  },
-  "Proposal.md": {
-    "bytes": 8451,
-    "sha256": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3",
-    "sha256_lf": "6e3338fc51787b76859d8882a3a2c4738a5c10629e4a45eb43452cf6bb69a2d3"
-  },
-  "README.md": {
-    "bytes": 1652,
-    "sha256": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417",
-    "sha256_lf": "9d3bd85c24af504abae5ab73a28eb17139dc47e0725989f6481bd29a267c9417"
+    "bytes": 1596,
+    "sha256": "7738bc2ee561ebb28cc8f56bce79398c7dfd4ca016c11fe07af918c6ff285831",
+    "sha256_lf": "1fac36ee7da0651953aedc739244512827606e01c99597ab6bc85365c33dfbba"
   },
   "results/smoke_v1/accuracy_refinement.json": {
     "bytes": 116734,
@@ -282,16 +297,6 @@
     "bytes": 433,
     "sha256": "bc1e1e671839df3c6bf66c0ffa9db4baef0b29487ff589ba538fda503cc938a1",
     "sha256_lf": "65aa2533d04c40ffc50233b46974bb747439d6bd955414a40ebfc97c359fe60d"
-  },
-  "Results.md": {
-    "bytes": 13146,
-    "sha256": "06a1c679245ed60005806a5c92d2e4b905069104f22658734ab355676e238492",
-    "sha256_lf": "06a1c679245ed60005806a5c92d2e4b905069104f22658734ab355676e238492"
-  },
-  "Sources.md": {
-    "bytes": 7356,
-    "sha256": "c60b2e2aecbafd471e028bcf01e38c18a4e856438a886d6a79869c86e66707b6",
-    "sha256_lf": "c60b2e2aecbafd471e028bcf01e38c18a4e856438a886d6a79869c86e66707b6"
   },
   "src/.gitignore": {
     "bytes": 35,

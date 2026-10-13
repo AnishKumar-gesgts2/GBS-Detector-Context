@@ -48,6 +48,7 @@ Numba cache files, personal environments, generated samples, and vendor binaries
 ## Running and reproducing
 
 The following instructions distinguish the portable candidate from the separate measured Windows baseline build. Read [Results](Results.md) before interpreting any timing ratio. Python dependencies are pinned; the measured environment is in [environment.json](results/smoke_v1/environment.json).
+
 ## Run our algorithm on another device
 
 The context sampler needs Python 3.11 or a compatible newer Python, and the minimal dependencies below. It does **not** need FrugalGBS, a compiler, MATLAB, or the comparison DLL. From the repository root, create a Python environment and run:

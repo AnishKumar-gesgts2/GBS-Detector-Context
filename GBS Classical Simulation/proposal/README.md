@@ -16,7 +16,9 @@ The form links an [AI-agents tutorial](https://app.bluequbit.io/tutorial/ai-agen
 
 The proposal is **four pages including references**, about 235 KB, with an 11-point body font, embedded fonts, and clickable citations. The PDF is not encrypted and contains no JavaScript. The final pages were rendered and visually inspected. [Validation details](Submission_Validation.json) record the exact final size and hashes.
 
-This update creates a submission file; it does not upload or submit the application. Personal form-answer drafts remain ignored by Git.
+This folder contains the public submission artifact. Live application status and personal form answers are recorded locally in an ignored file. Publishing these artifacts does not submit the application.
+
+The [final audit](Final_Audit.md) records the artifact checks and repeated prototype controls performed before publication.
 
 ## Rebuild
 

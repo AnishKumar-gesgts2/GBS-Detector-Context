@@ -18,7 +18,7 @@ The prototype selects earlier detectors by pairwise mutual information, a measur
 
 The computational saving comes from replacing repeated full-history work with a one-time compilation and a small number of lookups per record. The approximation error comes from omitted history. Exact local conditionals do not make the resulting global distribution exact or guarantee preservation of all family marginals.
 
-The graph has bounded **indegree**. Its outdegree and global treewidth need not be bounded. For fixed $b$, table storage is $O(M2^b)$, with additional $O(M^2)$ covariance and pair-score storage. Local determinant work scales approximately as $O(M(b+1)^3 2^{b+1})$, plus pair screening and bookkeeping. Record generation costs $O(Mb)$. These estimates are useful only if the width required for the desired accuracy remains affordable.
+The graph has bounded **indegree**. Its outdegree and global treewidth need not be bounded. For fixed $b$, table storage is $O(M2^b)$, with additional $O(M^2)$ covariance and pair-score storage. Local determinant work scales approximately as $O(M(b+1)^3 2^{b+1})$, plus pair screening and bookkeeping. Record generation costs $O(M(b+1))$, including the zero-parent case. These estimates are useful only if the width required for the desired accuracy remains affordable.
 
 ## Physical scope
 
@@ -37,7 +37,7 @@ Loss is a physical motivation for seeking simpler approximations. Total loss alo
 
 ## What is established
 
-The smoke implementation is a normalized, nonnegative ancestral sampler for its approximate model, subject to its numerical checks and documented zero-support convention. In the measured eight- and ten-mode comparison, a six-parent model meets a full-distribution TVD limit of 0.02 on 21 of 24 circuits and is faster than the fastest qualifying tested comparator in those 21 cases. The five-order Dodd comparator remains substantially more accurate on dense circuits. See [Results](Results.md) for the workload, comparator qualifications, and failures.
+The smoke implementation is a normalized, nonnegative ancestral sampler for its approximate model, subject to its numerical checks and documented zero-support convention. In the measured eight- and ten-mode comparison, a six-parent model meets a full-distribution TVD limit of 0.02 on 21 of 24 circuits and is faster than the fastest qualifying tested comparator in those 21 cases. The fifth-order Dodd comparator remains substantially more accurate on dense circuits. See [Results](Results.md) for the workload, comparator qualifications, and failures.
 
 ## Development priorities
 

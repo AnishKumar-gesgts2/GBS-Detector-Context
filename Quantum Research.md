@@ -20,10 +20,6 @@ Simulation code is in `GBS Classical Simulation/src/`; measurements are in `GBS 
 - [[Fusion Hypergraph Decoder Test Plan|Fusion-Hypergraph Decoder]] — research study in `Hypergraph/`.
 - [[Photonic Decoder Evaluations|Photonic decoder evaluations]]
 
-## Prior decoder concepts
-
-- [[Hybrid MCMC Correlated Random-Walk Decoder|Hybrid MCMC Correlated Random-Walk Decoder]] — earlier proposal in `Prior Decoder Concepts/HybridMCMC-CRW/`.
-
 ## Repository guide
 
 - [[README|README and project setup]]

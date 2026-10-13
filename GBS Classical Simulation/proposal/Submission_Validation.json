@@ -32,6 +32,7 @@
     "encrypted": false,
     "javascript": false
   },
-  "application_uploaded_or_submitted": false,
+  "application_state_scope": "This file validates the public PDF artifact. Live draft and upload status is maintained in the ignored local application record.",
+  "form_submission_performed_by_artifact_publication": false,
   "scope": "Proposal publication from existing smoke evidence; no new competitive benchmark."
 }
