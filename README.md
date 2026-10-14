@@ -107,10 +107,10 @@ Read the [full results and limitations](GBS%20Classical%20Simulation/Results.md)
 The primary project is in [`GBS Classical Simulation/`](GBS%20Classical%20Simulation/README.md). Its initial physical model uses squeezed-vacuum inputs, passive interferometers, ideal threshold detection, and photon loss as the only modeled noise.
 
 <details>
-<summary>Local vault, previous links, and related research</summary>
+<summary>Local vault and previous links</summary>
 
 The local Obsidian vault and folder remain named `Quantum Research`. Previous `Quantum-Research` repository URLs redirect here, including the immutable evidence links in the existing proposal PDF.
 
-Separate photonic error-correction material remains available in the [Hypergraph project](Hypergraph/Fusion%20Hypergraph%20Decoder%20Test%20Plan.md), [decoder evaluations](Photonic%20Decoder%20Evaluations.md), and [vault index](Quantum%20Research.md).
+The [vault index](Quantum%20Research.md) provides navigation for the GBS project notes.
 
 </details>

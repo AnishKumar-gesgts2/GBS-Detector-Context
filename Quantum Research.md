@@ -1,6 +1,6 @@
 # Quantum Research
 
-This vault contains separate projects in quantum information and quantum photonics. Each project's results and claims stand on its own evidence.
+This vault contains the GBS Detector Context project: its research proposal, simulation code, measured evidence, and supporting sources.
 
 ## Classical GBS algorithm development
 
@@ -14,11 +14,6 @@ Develop a classical threshold-GBS sampler with a better accuracy–cost tradeoff
 - [[GBS Classical Simulation/Novelty|Novelty and prior-work boundaries]]
 
 Simulation code is in `GBS Classical Simulation/src/`; measurements are in `GBS Classical Simulation/results/smoke_v1/`.
-
-## Photonic error correction
-
-- [[Fusion Hypergraph Decoder Test Plan|Fusion-Hypergraph Decoder]] — research study in `Hypergraph/`.
-- [[Photonic Decoder Evaluations|Photonic decoder evaluations]]
 
 ## Repository guide
 
