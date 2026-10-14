@@ -109,7 +109,7 @@ The primary project is in [`GBS Classical Simulation/`](GBS%20Classical%20Simula
 <details>
 <summary>Local vault and previous links</summary>
 
-The local Obsidian vault and folder remain named `Quantum Research`. Previous `Quantum-Research` repository URLs redirect here, including the immutable evidence links in the existing proposal PDF.
+The local Obsidian vault and folder remain named `Quantum Research`. Previous `Quantum-Research` repository URLs redirect here. The current proposal PDF uses this canonical repository URL and preserves its immutable evidence snapshot.
 
 The [vault index](Quantum%20Research.md) provides navigation for the GBS project notes.
 

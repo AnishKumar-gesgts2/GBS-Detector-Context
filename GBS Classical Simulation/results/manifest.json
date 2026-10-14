@@ -40,28 +40,28 @@
     "sha256_lf": "e782e8d681071242e5498844cac703cf0e3e7d3bd1bd61506013ebc6584f88ee"
   },
   "proposal/Final_Audit.md": {
-    "bytes": 2807,
-    "sha256": "1c4b6e064e7e2883f0b32d76f9772dad30b7aaf79551d9f20a808e13521acc74",
-    "sha256_lf": "1c4b6e064e7e2883f0b32d76f9772dad30b7aaf79551d9f20a808e13521acc74"
+    "bytes": 3165,
+    "sha256": "579d968f866a47b265df4e4ea66fac82161bfd93064ef1f466993f410d08a6c9",
+    "sha256_lf": "59e946ad469d4caf1efcfbaf3f77fb185ae7070959db5a96dc1a77e4fd07bb2f"
   },
   "proposal/GBS_Algorithm_Proposal.pdf": {
-    "bytes": 234909,
-    "sha256": "a9e9d348b937d929fd257d1bcfb9bf515a47ebeadc1b30df945b1313354457dc"
+    "bytes": 234913,
+    "sha256": "e0a3a7086fdaa52229d28a7b734dc6b3d7692978852ec25e5c8749b8926f522f"
   },
   "proposal/GBS_Algorithm_Proposal.tex": {
-    "bytes": 16298,
-    "sha256": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb",
-    "sha256_lf": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb"
+    "bytes": 16302,
+    "sha256": "89612fe1a044bc4082dd0176ae14b0eb7c416bafd1d14fef798ee0749478e2de",
+    "sha256_lf": "89612fe1a044bc4082dd0176ae14b0eb7c416bafd1d14fef798ee0749478e2de"
   },
   "proposal/README.md": {
-    "bytes": 3489,
-    "sha256": "62557404b255a5b5b189bfe56077b7797747bffb0b640b20824c9557aca6f717",
-    "sha256_lf": "62557404b255a5b5b189bfe56077b7797747bffb0b640b20824c9557aca6f717"
+    "bytes": 3668,
+    "sha256": "68018604adf7fb1b9cd1b83c51260e34cd584b47795a2ed61a26fff23e142c90",
+    "sha256_lf": "7f7acf9fb9536f2f1605bfa42fad649faae00505b8fa2953802e702e205ca9e3"
   },
   "proposal/Submission_Validation.json": {
-    "bytes": 1596,
-    "sha256": "7738bc2ee561ebb28cc8f56bce79398c7dfd4ca016c11fe07af918c6ff285831",
-    "sha256_lf": "1fac36ee7da0651953aedc739244512827606e01c99597ab6bc85365c33dfbba"
+    "bytes": 1885,
+    "sha256": "2c39098e232b370a47d58d2bf16efe6c26e456c95a759921d872192ee5c6cdd0",
+    "sha256_lf": "42f5afd7f5b7eee63306fe4e951d9ccef0a7b9b637a86c49174cce8e2bede860"
   },
   "results/smoke_v1/accuracy_refinement.json": {
     "bytes": 116734,

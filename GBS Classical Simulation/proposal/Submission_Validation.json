@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-10-12",
+  "verified_on": "2026-10-13",
   "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdGwhevKLEn71C9bRBf8eGHCJ3rp4XwiaDayhMuaId5H8rAEQ/viewform",
   "observed_requirements": {
     "optional": true,
@@ -9,9 +9,9 @@
     "maximum_file_size_MB": 10
   },
   "pdf_pages": 4,
-  "pdf_bytes": 234909,
-  "pdf_sha256": "a9e9d348b937d929fd257d1bcfb9bf515a47ebeadc1b30df945b1313354457dc",
-  "source_sha256_lf": "0556f836219b9b99f3475100d915c85c87b2701278d4ed8107eeabfa47ce87fb",
+  "pdf_bytes": 234913,
+  "pdf_sha256": "e0a3a7086fdaa52229d28a7b734dc6b3d7692978852ec25e5c8749b8926f522f",
+  "source_sha256_lf": "89612fe1a044bc4082dd0176ae14b0eb7c416bafd1d14fef798ee0749478e2de",
   "source": "GBS_Algorithm_Proposal.tex",
   "pdf": "GBS_Algorithm_Proposal.pdf",
   "evidence_snapshot": "0a2bc0038d4480ee489649a8982698c786a4d58d",
@@ -34,5 +34,12 @@
   },
   "application_state_scope": "This file validates the public PDF artifact. Live draft and upload status is maintained in the ignored local application record.",
   "form_submission_performed_by_artifact_publication": false,
-  "scope": "Proposal publication from existing smoke evidence; no new competitive benchmark."
+  "scope": "Proposal publication from existing smoke evidence; no new competitive benchmark.",
+  "repository_url": "https://github.com/AnishKumar-gesgts2/GBS-Detector-Context",
+  "repository_link_checks": {
+    "canonical_repository_links": 1,
+    "obsolete_repository_links": 0,
+    "evidence_snapshot_preserved": true,
+    "text_and_character_positions_unchanged": true
+  }
 }

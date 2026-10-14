@@ -1,6 +1,6 @@
 # Final artifact and repository audit
 
-Checked October 12, 2026. This is a readiness audit of the published proposal, prototype, and saved evidence. It is not a new competitive benchmark or a guarantee of large-system fidelity.
+Scientific readiness checks performed October 12, 2026; repository-link and PDF artifact checks updated October 13, 2026. This is a readiness audit of the published proposal, prototype, and saved evidence. It is not a new competitive benchmark or a guarantee of large-system fidelity.
 
 ## Corrections
 
@@ -10,7 +10,7 @@ Checked October 12, 2026. This is a readiness audit of the published proposal, p
 
 ## Proposal artifact
 
-The [PDF](GBS_Algorithm_Proposal.pdf) remains the previously rendered and visually inspected artifact: **four pages including references, 234,909 bytes**. Its SHA-256 is `a9e9d348b937d929fd257d1bcfb9bf515a47ebeadc1b30df945b1313354457dc`. The current source and PDF hashes match [Submission_Validation.json](Submission_Validation.json). All 14 fonts are embedded; the PDF is unencrypted and contains no JavaScript.
+The [PDF](GBS_Algorithm_Proposal.pdf) was rebuilt on October 13, 2026 to use the canonical `GBS-Detector-Context` repository URL while retaining the immutable evidence snapshot. It has **four pages including references, 234,913 bytes**. Its SHA-256 is `e0a3a7086fdaa52229d28a7b734dc6b3d7692978852ec25e5c8749b8926f522f`. Extracted text and character positions are unchanged from the October 12 artifact; all four rebuilt pages were rendered and visually inspected. The current source and PDF hashes match [Submission_Validation.json](Submission_Validation.json). All 14 fonts are embedded; the PDF is unencrypted and contains no JavaScript.
 
 The live optional upload section specifies one PDF, at most four pages and 10 MB. The artifact satisfies those limits. Publishing a PDF or this audit does not submit an application.
 
