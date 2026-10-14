@@ -30,7 +30,7 @@ The research question is whether this compilation can improve the **accuracy–c
 The approximate sampling law is
 
 $$
-Q(x)=\prod_{i=1}^{M}P(x_i\mid x_{S_i}),\qquad S_i\subseteq\{1,\ldots,i-1\},\quad |S_i|\leq b.
+Q(x)=\prod_{i=1}^{M}P(x_i\mid x_{S_i}),\qquad S_i\subseteq\lbrace1,\ldots,i-1\rbrace,\quad |S_i|\leq b.
 $$
 
 The approximation discards some detector history. Exact retained conditionals do not guarantee an exact global distribution. See the [method and assumptions](GBS%20Classical%20Simulation/Project%20Description.md) and [implementation guide](GBS%20Classical%20Simulation/Code%20Description.md).
