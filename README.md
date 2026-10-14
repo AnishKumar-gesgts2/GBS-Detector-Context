@@ -1,6 +1,10 @@
-# Quantum Research
+# GBS Detector Context
 
-This Obsidian vault contains separate projects in classical Gaussian boson sampling and photonic quantum error correction.
+Classical threshold Gaussian boson sampling with exact local marginals, bounded detector history, and reusable conditional-probability tables. This repository contains a smoke prototype and reproducible accuracy–cost comparisons.
+
+Canonical repository: [GBS-Detector-Context](https://github.com/AnishKumar-gesgts2/GBS-Detector-Context). The local Obsidian vault and folder remain named `Quantum Research`; related photonic error-correction work is retained separately below.
+
+The previous `Quantum-Research` URLs redirect here, including the project and immutable evidence links in the existing proposal PDF.
 
 - [Quantum Research index](Quantum%20Research.md)
 - [GBS algorithm-development project](GBS%20Classical%20Simulation/README.md)

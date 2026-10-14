@@ -1,4 +1,6 @@
-# Classical GBS Algorithm Development
+# GBS Detector Context
+
+[Public repository](https://github.com/AnishKumar-gesgts2/GBS-Detector-Context)
 
 We are developing a classical threshold Gaussian boson sampling (GBS) algorithm that compiles exact small-subset probabilities into a bounded-parent detector model. The goal is to improve the accuracy–cost tradeoff of classical sampling and, eventually, assess a specific experimental quantum-advantage claim under its stated conditions.
 
